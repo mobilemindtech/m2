@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.nitgen</groupId>
+  <artifactId>nbio-bsp-jni</artifactId>
+  <version>1.0</version>
+  <versioning>
+    <versions>
+      <version>1.0</version>
+    </versions>
+    <lastUpdated>20170308194717</lastUpdated>
+  </versioning>
+</metadata>
