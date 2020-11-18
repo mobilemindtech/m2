@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>plugin-config</artifactId>
+  <packaging>zip</packaging>
+  <version>0.1.8</version>
+  <name>Grails Plugin Config Plugin</name>
+  <description>Simplifies plugin configuration tasks</description>
+  <url>http://grails.org/plugin/plugin-config</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Daniel Henrique Alves Lima</name>
+      <email>email_daniel_h@yahoo.com.br</email>
+    </developer>
+    <developer>
+      <name>Joanna Dabal</name>
+      <email>joanna@9ci.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GitHub</system>
+    <url>https://github.com/jdabal/grails-plugin-config-plugin/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/jdabal/grails-plugin-config-plugin</url>
+  </scm>
+  <dependencies />
+</project>

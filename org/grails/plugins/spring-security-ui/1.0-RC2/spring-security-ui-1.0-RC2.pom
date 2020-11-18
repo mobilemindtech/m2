@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>spring-security-ui</artifactId>
+  <packaging>zip</packaging>
+  <version>1.0-RC2</version>
+  <name>Spring Security UI</name>
+  <description>User interface extensions for the Spring Security plugin</description>
+  <url>http://grails-plugins.github.io/grails-spring-security-ui/</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <organization>
+    <name>SpringSource</name>
+    <url>http://www.springsource.org/</url>
+  </organization>
+  <developers>
+    <developer>
+      <name>Burt Beckwith</name>
+      <email>burt@burtbeckwith.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>JIRA</system>
+    <url>http://jira.grails.org/browse/GPSPRINGSECURITYUI</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/grails-plugins/grails-spring-security-ui/</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.grails.plugins</groupId>
+      <artifactId>spring-security-core</artifactId>
+      <version>2.0-RC3</version>
+      <type>zip</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.grails.plugins</groupId>
+      <artifactId>mail</artifactId>
+      <version>1.0.5</version>
+      <type>zip</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.grails.plugins</groupId>
+      <artifactId>jquery</artifactId>
+      <version>1.11.1</version>
+      <type>zip</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.grails.plugins</groupId>
+      <artifactId>jquery-ui</artifactId>
+      <version>1.10.3</version>
+      <type>zip</type>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.grails.plugins</groupId>
+      <artifactId>famfamfam</artifactId>
+      <version>1.0.1</version>
+      <type>zip</type>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

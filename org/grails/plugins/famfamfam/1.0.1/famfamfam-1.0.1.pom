@@ -1,0 +1,17 @@
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>famfamfam</artifactId>
+  <packaging>zip</packaging>
+  <version>1.0.1</version>
+  <name>Silk icons from famfamfam.com</name>
+  <description>1000 free icons from famfamfam.com - see http://www.famfamfam.com/lab/icons/silk/ for details</description>
+  <url>http://grails.org/plugin/famfamfam</url>
+  <developers>
+    <developer>
+      <name>Burt Beckwith</name>
+      <email>burt@burtbeckwith.com</email>
+    </developer>
+  </developers>
+  <dependencies />
+</project>

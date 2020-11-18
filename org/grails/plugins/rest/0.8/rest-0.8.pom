@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>rest</artifactId>
+  <packaging>zip</packaging>
+  <version>0.8</version>
+  <name>Grails REST Plugin</name>
+  <description>Adds REST client capabilities to your Grails application.</description>
+  <url>http://grails.org/plugin/rest</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Andres Almiray</name>
+      <email>aalmiray@users.sourceforge.net</email>
+    </developer>
+    <developer>
+      <name>Bernardo Gomez-Palacio</name>
+      <email>bernardo.gomezpalacio@gmail.com</email>
+    </developer>
+    <developer>
+      <name>Marco Vermeulen</name>
+      <email>vermeulen.mp@gmail.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>JIRA</system>
+    <url>http://jira.grails.org/browse/GPREST</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/berngp/grails-rest</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.codehaus.groovy.modules.http-builder</groupId>
+      <artifactId>http-builder</artifactId>
+      <version>0.6</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>xml-apis</groupId>
+          <artifactId>xml-apis</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>xml-apis</groupId>
+          <artifactId>xmlParserAPIs</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>xerces</groupId>
+          <artifactId>xmlParserAPIs</artifactId>
+        </exclusion>
+        <exclusion>
+          <artifactId>commons-logging</artifactId>
+        </exclusion>
+        <exclusion>
+          <artifactId>xml-apis</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.codehaus.groovy</groupId>
+          <artifactId>groovy</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

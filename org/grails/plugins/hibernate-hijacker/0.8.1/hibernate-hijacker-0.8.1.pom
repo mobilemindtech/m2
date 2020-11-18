@@ -1,0 +1,30 @@
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>hibernate-hijacker</artifactId>
+  <packaging>zip</packaging>
+  <version>0.8.1</version>
+  <name>Hibernate Hijacker</name>
+  <description>\
+This plugins are a part of the re-engineering efforts going into the Multi-Tenant plugin.
+It is very difficult to intercept new Hibernate sessions in a non-intrusive way.
+Multiple plugins trying to archive this are likely to step on each others feet.
+This plugin publishes intercepted Session instances to a lightweight event broker. 
+</description>
+  <url>http://grails.org/plugin/hibernate-hijacker</url>
+  <developers>
+    <developer>
+      <name>Kim A. Betti</name>
+      <email>kim.betti@gmail.com</email>
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>org.grails.plugins</groupId>
+      <artifactId>svn</artifactId>
+      <version>1.0.0.M1</version>
+      <type>zip</type>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
