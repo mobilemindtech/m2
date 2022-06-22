@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jun 22 17:57:59 EDT 2022
+flyway-core-5.2.5.jar>=
+flyway-core-5.2.5.pom>=
+flyway-core-5.2.5-sources.jar>=
