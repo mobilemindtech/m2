@@ -3,11 +3,13 @@
   <groupId>org.flywaydb</groupId>
   <artifactId>flyway-core</artifactId>
   <versioning>
-    <release>5.2.5</release>
+    <release>5.2.7-graalvm</release>
     <versions>
       <version>0-SNAPSHOT</version>
       <version>5.2.5</version>
+      <version>5.2.6</version>
+      <version>5.2.7-graalvm</version>
     </versions>
-    <lastUpdated>20220622222307</lastUpdated>
+    <lastUpdated>20220630042146</lastUpdated>
   </versioning>
 </metadata>
