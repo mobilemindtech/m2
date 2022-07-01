@@ -27,11 +27,11 @@
         {
           "name": "flyway-core5-1.0.jar",
           "url": "flyway-core5-1.0.jar",
-          "size": 51733,
-          "sha512": "f090a1cb302bc401f39bf6793cb8619c92146aea5e05dee7158968a93e13a1ed48348da7b9814ede3b360029447926b917b4c4b00c8c799cb6ed3817ce302566",
-          "sha256": "12b09eade27edc686a393a07c927e90cb39f62303980115d8040cf4d2b3c59bd",
-          "sha1": "a30b5f29f827906ddb6336c48adafbb18fa335a7",
-          "md5": "e7dee6b03c68fe98e76787a999ed8833"
+          "size": 49847,
+          "sha512": "db3fbb06f32d63ca4a2302d008a6beb987e99c11befc4021c29e7816d32342c67f69d9f316893e349f64aebbcaa9d4f82249d098ca000ccb33557c47962e8d08",
+          "sha256": "d29bd14a385b571539aa7b2dcbb10dd129f8bd26e070ac4d7e8c4258ea76af3d",
+          "sha1": "66ce7434488a9cdf4b4aec4f557e44f707f2074b",
+          "md5": "c5282a705b18f99e0d577dd7fe2acc36"
         }
       ]
     },
@@ -88,11 +88,11 @@
         {
           "name": "flyway-core5-1.0.jar",
           "url": "flyway-core5-1.0.jar",
-          "size": 51733,
-          "sha512": "f090a1cb302bc401f39bf6793cb8619c92146aea5e05dee7158968a93e13a1ed48348da7b9814ede3b360029447926b917b4c4b00c8c799cb6ed3817ce302566",
-          "sha256": "12b09eade27edc686a393a07c927e90cb39f62303980115d8040cf4d2b3c59bd",
-          "sha1": "a30b5f29f827906ddb6336c48adafbb18fa335a7",
-          "md5": "e7dee6b03c68fe98e76787a999ed8833"
+          "size": 49847,
+          "sha512": "db3fbb06f32d63ca4a2302d008a6beb987e99c11befc4021c29e7816d32342c67f69d9f316893e349f64aebbcaa9d4f82249d098ca000ccb33557c47962e8d08",
+          "sha256": "d29bd14a385b571539aa7b2dcbb10dd129f8bd26e070ac4d7e8c4258ea76af3d",
+          "sha1": "66ce7434488a9cdf4b4aec4f557e44f707f2074b",
+          "md5": "c5282a705b18f99e0d577dd7fe2acc36"
         }
       ]
     }
