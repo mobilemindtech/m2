@@ -27,11 +27,11 @@
         {
           "name": "flyway-core5-1.0.jar",
           "url": "flyway-core5-1.0.jar",
-          "size": 49847,
-          "sha512": "d659e1bd80ca5bfd79ac1e4323c0728759a7af623196c5ea560c844bd1d657a3797ba674f07313aa6b32719e7a34679411a957ab4398442132cbdbf8014c3317",
-          "sha256": "8e078e4d50726e6798d1e9bdbecba4063c39e58b47cc80c3384364dda18e377e",
-          "sha1": "409c3460f56f8ffdcfb7b3f9b8161e479885c0b2",
-          "md5": "1324a1a70d9634450b545b478804670f"
+          "size": 51733,
+          "sha512": "f090a1cb302bc401f39bf6793cb8619c92146aea5e05dee7158968a93e13a1ed48348da7b9814ede3b360029447926b917b4c4b00c8c799cb6ed3817ce302566",
+          "sha256": "12b09eade27edc686a393a07c927e90cb39f62303980115d8040cf4d2b3c59bd",
+          "sha1": "a30b5f29f827906ddb6336c48adafbb18fa335a7",
+          "md5": "e7dee6b03c68fe98e76787a999ed8833"
         }
       ]
     },
@@ -82,24 +82,17 @@
             "org.gradle.category": "platform"
           },
           "endorseStrictVersions": true
-        },
-        {
-          "group": "mysql",
-          "module": "mysql-connector-java",
-          "version": {
-            "requires": "5.1.49"
-          }
         }
       ],
       "files": [
         {
           "name": "flyway-core5-1.0.jar",
           "url": "flyway-core5-1.0.jar",
-          "size": 49847,
-          "sha512": "d659e1bd80ca5bfd79ac1e4323c0728759a7af623196c5ea560c844bd1d657a3797ba674f07313aa6b32719e7a34679411a957ab4398442132cbdbf8014c3317",
-          "sha256": "8e078e4d50726e6798d1e9bdbecba4063c39e58b47cc80c3384364dda18e377e",
-          "sha1": "409c3460f56f8ffdcfb7b3f9b8161e479885c0b2",
-          "md5": "1324a1a70d9634450b545b478804670f"
+          "size": 51733,
+          "sha512": "f090a1cb302bc401f39bf6793cb8619c92146aea5e05dee7158968a93e13a1ed48348da7b9814ede3b360029447926b917b4c4b00c8c799cb6ed3817ce302566",
+          "sha256": "12b09eade27edc686a393a07c927e90cb39f62303980115d8040cf4d2b3c59bd",
+          "sha1": "a30b5f29f827906ddb6336c48adafbb18fa335a7",
+          "md5": "e7dee6b03c68fe98e76787a999ed8833"
         }
       ]
     }
