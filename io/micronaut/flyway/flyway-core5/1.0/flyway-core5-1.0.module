@@ -1,0 +1,107 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.micronaut.flyway",
+    "module": "flyway-core5",
+    "version": "1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "flyway-core5-1.0.jar",
+          "url": "flyway-core5-1.0.jar",
+          "size": 49847,
+          "sha512": "d659e1bd80ca5bfd79ac1e4323c0728759a7af623196c5ea560c844bd1d657a3797ba674f07313aa6b32719e7a34679411a957ab4398442132cbdbf8014c3317",
+          "sha256": "8e078e4d50726e6798d1e9bdbecba4063c39e58b47cc80c3384364dda18e377e",
+          "sha1": "409c3460f56f8ffdcfb7b3f9b8161e479885c0b2",
+          "md5": "1324a1a70d9634450b545b478804670f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-runtime"
+        },
+        {
+          "group": "jakarta.annotation",
+          "module": "jakarta.annotation-api"
+        },
+        {
+          "group": "io.micronaut.data",
+          "module": "micronaut-data-jdbc"
+        },
+        {
+          "group": "io.micronaut.sql",
+          "module": "micronaut-jdbc-hikari"
+        },
+        {
+          "group": "org.flywaydb",
+          "module": "flyway-core",
+          "version": {
+            "requires": "5.2.8-graalvm"
+          }
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject"
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-bom",
+          "version": {
+            "requires": "3.5.2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "mysql",
+          "module": "mysql-connector-java",
+          "version": {
+            "requires": "5.1.49"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "flyway-core5-1.0.jar",
+          "url": "flyway-core5-1.0.jar",
+          "size": 49847,
+          "sha512": "d659e1bd80ca5bfd79ac1e4323c0728759a7af623196c5ea560c844bd1d657a3797ba674f07313aa6b32719e7a34679411a957ab4398442132cbdbf8014c3317",
+          "sha256": "8e078e4d50726e6798d1e9bdbecba4063c39e58b47cc80c3384364dda18e377e",
+          "sha1": "409c3460f56f8ffdcfb7b3f9b8161e479885c0b2",
+          "md5": "1324a1a70d9634450b545b478804670f"
+        }
+      ]
+    }
+  ]
+}
