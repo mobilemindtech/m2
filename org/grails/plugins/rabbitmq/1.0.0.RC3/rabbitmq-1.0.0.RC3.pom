@@ -4,7 +4,7 @@
   <groupId>org.grails.plugins</groupId>
   <artifactId>rabbitmq</artifactId>
   <packaging>zip</packaging>
-  <version>1.0.0.RC2</version>
+  <version>1.0.0.RC3</version>
   <name>RabbitMQ Plugin</name>
   <description>The RabbitMQ plugin provides integration with the RabbitMQ Messaging System.</description>
   <url>http://grails-plugins.github.com/grails-rabbitmq/</url>

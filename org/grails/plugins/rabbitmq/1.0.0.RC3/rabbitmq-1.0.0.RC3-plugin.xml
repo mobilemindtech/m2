@@ -1,4 +1,4 @@
-<plugin name='rabbitmq' version='1.0.0.RC2' grailsVersion='1.2 &gt; *'>
+<plugin name='rabbitmq' version='1.0.0.RC3' grailsVersion='1.2 &gt; *'>
   <author>Jeff Brown</author>
   <authorEmail>jeff.brown@springsource.com</authorEmail>
   <title>RabbitMQ Plugin</title>
