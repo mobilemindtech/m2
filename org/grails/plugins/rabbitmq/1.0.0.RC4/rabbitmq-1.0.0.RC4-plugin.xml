@@ -1,0 +1,35 @@
+<plugin name='rabbitmq' version='1.0.0.RC3' grailsVersion='1.2 &gt; *'>
+  <author>Jeff Brown</author>
+  <authorEmail>jeff.brown@springsource.com</authorEmail>
+  <title>RabbitMQ Plugin</title>
+  <description>The RabbitMQ plugin provides integration with the RabbitMQ Messaging System.</description>
+  <documentation>http://grails-plugins.github.com/grails-rabbitmq/</documentation>
+  <type>RabbitmqGrailsPlugin</type>
+  <resources />
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='https://mvnrepository.com/artifact/org.grails.plugins/qrcode' url='https://mvnrepository.com/artifact/org.grails.plugins/qrcode/' />
+    <repository name='https://repo1.maven.org/maven2' url='https://repo1.maven.org/maven2/' />
+    <repository name='https://download.java.net/maven/2/' url='https://download.java.net/maven/2/' />
+    <repository name='https://oss.sonatype.org/content/repositories/snapshots' url='https://oss.sonatype.org/content/repositories/snapshots/' />
+    <repository name='https://repo.springsource.org/libs-snapshot/' url='https://repo.springsource.org/libs-snapshot/' />
+    <repository name='https://github.com/mobilemindtec/m2/raw/master' url='https://github.com/mobilemindtec/m2/raw/master/' />
+    <repository name='https://maven.springframework.org/milestone/' url='https://maven.springframework.org/milestone/' />
+    <repository name='https://repo.grails.org/grails/plugins/' url='https://repo.grails.org/grails/plugins/' />
+    <repository name='https://repo.grails.org/ui/native/plugins/' url='https://repo.grails.org/ui/native/plugins/' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <runtime>
+      <dependency group='org.springframework.retry' name='spring-retry' version='1.0.3.RELEASE' />
+      <dependency group='org.springframework.amqp' name='spring-rabbit' version='1.1.4.RELEASE' />
+    </runtime>
+  </dependencies>
+  <plugins>
+    <build>
+      <plugin group='org.grails.plugins' name='release' version='2.0.3' />
+    </build>
+  </plugins>
+  <runtimePluginRequirements />
+  <behavior />
+</plugin>
