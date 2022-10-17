@@ -1,0 +1,20 @@
+<plugin name='background-thread' version='1.6' grailsVersion='1.2.0 &gt; *'>
+  <author>Robert Fischer</author>
+  <authorEmail>robert.fischer@smokejumperit.com</authorEmail>
+  <title>Background Thread Plugin</title>
+  <description>Provides the ability to launch background threads by passing closures into a service method.
+</description>
+  <documentation>http://grails.org/BackgroundThread+Plugin</documentation>
+  <resources>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>Person</resource>
+    <resource>BackgroundService</resource>
+  </resources>
+  <dependencies>
+    <resolvers>
+      <resolver type='grailsPlugins' name='grailsPlugins' />
+    </resolvers>
+  </dependencies>
+  <behavior />
+</plugin>
