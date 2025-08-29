@@ -1,0 +1,78 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.mobilemind.api",
+    "module": "gym-internal-api",
+    "version": "2.5.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-all",
+          "version": {
+            "requires": "3.0.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gym-internal-api-2.5.2.jar",
+          "url": "gym-internal-api-2.5.2.jar",
+          "size": 21625,
+          "sha512": "06ec5b4fa0a1537340616625366b31867c4b7200ef08c7b42c5943b98342d17bf83cf72be42fe6a9b7e2a097f33cd83aa3388d364b56c0ce76da2b8fc805c0b8",
+          "sha256": "a448176c64205507cc62a81403d573ac21951bef5ca541e6279351825eac8103",
+          "sha1": "8df4d92dd7fa8529ef018a12fc34dee6f1636be5",
+          "md5": "cc597f22a1ae6be8f7ce2abc687f79e9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-all",
+          "version": {
+            "requires": "3.0.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gym-internal-api-2.5.2.jar",
+          "url": "gym-internal-api-2.5.2.jar",
+          "size": 21625,
+          "sha512": "06ec5b4fa0a1537340616625366b31867c4b7200ef08c7b42c5943b98342d17bf83cf72be42fe6a9b7e2a097f33cd83aa3388d364b56c0ce76da2b8fc805c0b8",
+          "sha256": "a448176c64205507cc62a81403d573ac21951bef5ca541e6279351825eac8103",
+          "sha1": "8df4d92dd7fa8529ef018a12fc34dee6f1636be5",
+          "md5": "cc597f22a1ae6be8f7ce2abc687f79e9"
+        }
+      ]
+    }
+  ]
+}
