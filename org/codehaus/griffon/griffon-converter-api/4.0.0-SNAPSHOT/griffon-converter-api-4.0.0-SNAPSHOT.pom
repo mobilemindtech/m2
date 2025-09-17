@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.codehaus.griffon</groupId>
+  <artifactId>griffon-converter-api</artifactId>
+  <version>4.0.0-SNAPSHOT</version>
+  <name>griffon-converter-api</name>
+  <description>Griffon Converter API</description>
+  <url>https://griffon-framework.org</url>
+  <inceptionYear>2008</inceptionYear>
+  <licenses>
+    <license>
+      <name>Apache-2.0</name>
+      <url>https://spdx.org/licenses/Apache-2.0.html</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>aalmiray</id>
+      <name>Andres Almiray</name>
+      <url>https://andresalmiray.com/</url>
+      <roles>
+        <role>developer</role>
+      </roles>
+      <properties>
+        <twitter>aalmiray</twitter>
+        <github>aalmiray</github>
+      </properties>
+    </developer>
+    <developer>
+      <id>shemnon</id>
+      <name>Danno Ferrin</name>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>jwill</id>
+      <name>James Williams</name>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>aklein</id>
+      <name>Alexander Klein</name>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+    <developer>
+      <id>rgroeschke</id>
+      <name>Rene Groeschke</name>
+      <roles>
+        <role>Developer</role>
+      </roles>
+    </developer>
+  </developers>
+  <contributors>
+    <contributor>
+      <name>Dierk Koenig</name>
+      <roles>
+        <role>Contributor</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>Guillaume Laforge</name>
+      <roles>
+        <role>Contributor</role>
+      </roles>
+    </contributor>
+    <contributor>
+      <name>Dean Iverson</name>
+      <roles>
+        <role>Contributor</role>
+      </roles>
+    </contributor>
+  </contributors>
+  <scm>
+    <connection>scm:git:https://github.com/griffon/griffon.git</connection>
+    <developerConnection>scm:git:git@github.com:griffon/griffon.git</developerConnection>
+    <url>https://github.com/griffon/griffon</url>
+  </scm>
+  <properties/>
+  <dependencies>
+    <dependency>
+      <groupId>org.codehaus.griffon</groupId>
+      <artifactId>griffon-annotations-core</artifactId>
+      <version>4.0.0-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+</project>
