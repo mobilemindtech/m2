@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "nl.martijndwars",
+    "module": "web-push",
+    "version": "5.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "web-push-5.2.0.jar",
+          "url": "web-push-5.2.0.jar",
+          "size": 34419,
+          "sha512": "db17e5a40fc69a16e3218520dd651b598863143101a40ffb9101ee31446fbd72b6d547cdcfd9d01ce50610167ee70167713210f0f485f770a40b7e64a6edd657",
+          "sha256": "1ea6cd788be6f93151dd0e9156d343095340eca73cd26bfc0cdf7f5f7f4f63b1",
+          "sha1": "beaadfed4be6abc763240b465c23982692513fc0",
+          "md5": "996f084581533ed567a99f8f4137531e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.beust",
+          "module": "jcommander",
+          "version": {
+            "requires": "1.81"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpasyncclient",
+          "version": {
+            "requires": "4.1.5"
+          }
+        },
+        {
+          "group": "org.asynchttpclient",
+          "module": "async-http-client",
+          "version": {
+            "requires": "2.12.4"
+          }
+        },
+        {
+          "group": "org.bitbucket.b_c",
+          "module": "jose4j",
+          "version": {
+            "requires": "0.9.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "web-push-5.2.0.jar",
+          "url": "web-push-5.2.0.jar",
+          "size": 34419,
+          "sha512": "db17e5a40fc69a16e3218520dd651b598863143101a40ffb9101ee31446fbd72b6d547cdcfd9d01ce50610167ee70167713210f0f485f770a40b7e64a6edd657",
+          "sha256": "1ea6cd788be6f93151dd0e9156d343095340eca73cd26bfc0cdf7f5f7f4f63b1",
+          "sha1": "beaadfed4be6abc763240b465c23982692513fc0",
+          "md5": "996f084581533ed567a99f8f4137531e"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.70"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "web-push-5.2.0-all.jar",
+          "url": "web-push-5.2.0-all.jar",
+          "size": 6305893,
+          "sha512": "167d1addb1943b5ea58d3fee30a0f92966e3e0186dc2bdb815673457bac3034e522a7f168a48933641ed2de104c8d74a8243d333839cf7723e883fc7ae5eb154",
+          "sha256": "55cd374aa8934a8db6a6f592ff70b3bf51f1ee8f64654d51366b3c7cf5bedd83",
+          "sha1": "e194775ae3ebb1e472b837bfe43fdd13ab1beb63",
+          "md5": "a9f0502b6e9916f913756fefd646d189"
+        }
+      ]
+    }
+  ]
+}
