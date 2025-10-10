@@ -1,0 +1,224 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-logging",
+    "version": "7.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.22"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "commons-cli"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-core",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-logging-7.0.0-SNAPSHOT.jar",
+          "url": "grails-logging-7.0.0-SNAPSHOT.jar",
+          "size": 2609,
+          "sha512": "4cf1e779c51316c981a7099df096da536a44f9783c7269c41d727eaec93bb2f4705d91057f80b36b0cc6f547f060e24682bfa58ba0a319a0a80ec88cf6e577a0",
+          "sha256": "e0ddd14aaf7d3b79c95630ac846d881a5e137f5efd4ec2873f31f2adc6eba0f8",
+          "sha1": "67888bed2e7d3c2ae1a5fb8777b9cca9275bb1b4",
+          "md5": "2c0eb99716c8c74c80d2bd46c78c3e39"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.22"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "commons-cli"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-core",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-logging-7.0.0-SNAPSHOT.jar",
+          "url": "grails-logging-7.0.0-SNAPSHOT.jar",
+          "size": 2609,
+          "sha512": "4cf1e779c51316c981a7099df096da536a44f9783c7269c41d727eaec93bb2f4705d91057f80b36b0cc6f547f060e24682bfa58ba0a319a0a80ec88cf6e577a0",
+          "sha256": "e0ddd14aaf7d3b79c95630ac846d881a5e137f5efd4ec2873f31f2adc6eba0f8",
+          "sha1": "67888bed2e7d3c2ae1a5fb8777b9cca9275bb1b4",
+          "md5": "2c0eb99716c8c74c80d2bd46c78c3e39"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-logging-7.0.0-SNAPSHOT-javadoc.jar",
+          "url": "grails-logging-7.0.0-SNAPSHOT-javadoc.jar",
+          "size": 75357,
+          "sha512": "9f8e2ce5ff2dca4d694b6bd7396d5c97bdc4e8f2a158337053e0928a7886ba446f3a4a7aed7699acae01067dde3ac53889d23038c2bf16b1f86568a85295f83c",
+          "sha256": "04c5a5ba899307ab3ef17c17772faf1d893aa7c9c97621775718401778649eb1",
+          "sha1": "7c19a70a77fa7c9c6cefdc55aa6f6cd3ef062596",
+          "md5": "58c5916cceb38775b92fb349ed9b508d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-logging-7.0.0-SNAPSHOT-sources.jar",
+          "url": "grails-logging-7.0.0-SNAPSHOT-sources.jar",
+          "size": 2009,
+          "sha512": "2ffe9993133652c47d76b9d6915100f030914aac180bff00f6269c5dca2c8f3f54bc3304c9481529c7975144752e647e77de0a9efadf43b7ef9014e59f685ae1",
+          "sha256": "77546c11805357a5dca6d02f848fd730349ed2bc9e1f6eca5035a0c5e423cb30",
+          "sha1": "068116568707bbbf7c908d05b7df0e2e01adf347",
+          "md5": "66c53e25982ccd13ecd4d4377c8a90a3"
+        }
+      ]
+    }
+  ]
+}

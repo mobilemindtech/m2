@@ -1,0 +1,170 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.grails",
+    "module": "grails-spring-security-rest-redis",
+    "version": "7.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-spring-security-rest",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-redis",
+          "version": {
+            "requires": "5.0.0-M5"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core"
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-spring-security-rest-redis-7.0.0-SNAPSHOT.jar",
+          "url": "grails-spring-security-rest-redis-7.0.0-SNAPSHOT.jar",
+          "size": 20790,
+          "sha512": "4739e8ff6bbcc50f3b7740846d8af11a6b66170ffadb7203c9f159b222b84d414b0865119060a4c93904d22d5c9309a06c6ef4eda408818577c16fa22c367fbf",
+          "sha256": "73ae187f0058c04cb28059d7f966f031ecc0b886670b7d1a742e4585c5eda2d3",
+          "sha1": "258e42805a7e2ba9680419b02011733c123fc4c9",
+          "md5": "37dc37c1c4713f19f6b1f7846a3cc126"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-bom",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-spring-security",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "redis.clients",
+          "module": "jedis"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-spring-security-rest",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-redis",
+          "version": {
+            "requires": "5.0.0-M5"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core"
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-spring-security-rest-redis-7.0.0-SNAPSHOT.jar",
+          "url": "grails-spring-security-rest-redis-7.0.0-SNAPSHOT.jar",
+          "size": 20790,
+          "sha512": "4739e8ff6bbcc50f3b7740846d8af11a6b66170ffadb7203c9f159b222b84d414b0865119060a4c93904d22d5c9309a06c6ef4eda408818577c16fa22c367fbf",
+          "sha256": "73ae187f0058c04cb28059d7f966f031ecc0b886670b7d1a742e4585c5eda2d3",
+          "sha1": "258e42805a7e2ba9680419b02011733c123fc4c9",
+          "md5": "37dc37c1c4713f19f6b1f7846a3cc126"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-spring-security-rest-redis-7.0.0-SNAPSHOT-javadoc.jar",
+          "url": "grails-spring-security-rest-redis-7.0.0-SNAPSHOT-javadoc.jar",
+          "size": 42685,
+          "sha512": "5d6d5051db673ba4a10dcda2f1dc063e32d05a162954e8b9f6c030ed60002cdec9f15741f83474d75143ef06a2e862dd821e651487ef0ea4e2a3d7a073c733c1",
+          "sha256": "064fa9cf39fc2b9d6f649054bd17028d5d4ebb50e9ef560df1911d6c8574c8d9",
+          "sha1": "bb9bbee04a624bb24ffe455507369bd5e0f8e54a",
+          "md5": "295ef0f8dcba3833748094c45c18a340"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-spring-security-rest-redis-7.0.0-SNAPSHOT-sources.jar",
+          "url": "grails-spring-security-rest-redis-7.0.0-SNAPSHOT-sources.jar",
+          "size": 5846,
+          "sha512": "4a25d573cf153f3bb7911947ff7e1ca641fc777cc8a11e1d2e1b165ea81afaccc1adb2aeedeed91aac1a546312da0bb9607cd7a1e5800f80aa599b9a1b4d4499",
+          "sha256": "4d22c47c222c6a3a9c3df0a13ceca3577a4c1eb6c971c17cd7beecc5178e96bf",
+          "sha1": "587eee6cc2d6e1cd251b5ca41d602b2b9ca2e569",
+          "md5": "485c0427aef549547ab78906b6483d01"
+        }
+      ]
+    }
+  ]
+}

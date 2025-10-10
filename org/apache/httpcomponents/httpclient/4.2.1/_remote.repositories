@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue May 07 10:51:37 BRT 2024
+httpclient-4.2.1.jar>central=
+httpclient-4.2.1.pom>central=
+httpclient-4.2.1.pom>repo1_maven_org_maven2=

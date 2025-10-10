@@ -1,0 +1,224 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-codecs",
+    "version": "7.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.22"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "commons-cli"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.16.1"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-codecs-7.0.0-SNAPSHOT.jar",
+          "url": "grails-codecs-7.0.0-SNAPSHOT.jar",
+          "size": 20675,
+          "sha512": "d60a6ad46732e9d65202ae6f319038082c4d14a8053dbb3c3bdbb3620870e6ea21b4e6ce4b0995f34c9ee4e94598a015ccc73885201c7372c22dae1575d38b39",
+          "sha256": "7df5479ad6dca0815de0c804238bd6655ad48a5ec4b173c4ef8fe2d5838426c2",
+          "sha1": "d436c3b817c708f35350471d00538ec2c17a7435",
+          "md5": "3d0feada5b4dbe9e5d7d6fe2893d4e93"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.22"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "commons-cli"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.16.1"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-codecs-7.0.0-SNAPSHOT.jar",
+          "url": "grails-codecs-7.0.0-SNAPSHOT.jar",
+          "size": 20675,
+          "sha512": "d60a6ad46732e9d65202ae6f319038082c4d14a8053dbb3c3bdbb3620870e6ea21b4e6ce4b0995f34c9ee4e94598a015ccc73885201c7372c22dae1575d38b39",
+          "sha256": "7df5479ad6dca0815de0c804238bd6655ad48a5ec4b173c4ef8fe2d5838426c2",
+          "sha1": "d436c3b817c708f35350471d00538ec2c17a7435",
+          "md5": "3d0feada5b4dbe9e5d7d6fe2893d4e93"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-codecs-7.0.0-SNAPSHOT-javadoc.jar",
+          "url": "grails-codecs-7.0.0-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "614272a463aba7e8e148cc96be51f8c08ab45b165d25673823b0bb94c5b1fd3964288a8b9f63523a0abeebc580c180778d26ca6db1db50f68ff19a8ce325517d",
+          "sha256": "b96180d3851e31f3a7d1ded726ca6191ce7a78459b7df3d6a5b1fa35a800441a",
+          "sha1": "dcaba34b450eb4db9efc660220413ec03b726881",
+          "md5": "053949af266de228a37f339e7b02625d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-codecs-7.0.0-SNAPSHOT-sources.jar",
+          "url": "grails-codecs-7.0.0-SNAPSHOT-sources.jar",
+          "size": 8923,
+          "sha512": "596178526e03da7de3a1e8897281ef60e752bc268d0cc1bcae189781cf79539a82686f80b5d2ff41507e5a0d44fa8fdd3da0d4268eb95c6190a55a2a8f3900ea",
+          "sha256": "34e48aefb89bf4ce6b580b9fb15ea4b4e4f7df62b5503ec670bf867c57424875",
+          "sha1": "e84622c2d300ca0781d055244a25a1690c272ab7",
+          "md5": "aba6c7cdf7a92df62c832ab0114e8290"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.apache.grails</groupId>
+  <artifactId>grails-spring-security-ui</artifactId>
+  <version>7.0.0-SNAPSHOT</version>
+  <name>Grails Spring Security UI</name>
+  <description>The Spring Security UI plugin provides CRUD screens and other user management workflows.</description>
+  <url>https://github.com/grails/grails-spring-security</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>burtbeckwith</id>
+      <name>Burt Beckwith</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:grails/grails-spring-security.git</connection>
+    <developerConnection>scm:git@github.com:grails/grails-spring-security.git</developerConnection>
+    <url>https://github.com/grails/grails-spring-security</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/grails/grails-spring-security/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.grails</groupId>
+      <artifactId>grails-converters</artifactId>
+      <scope>compile</scope>
+      <version>7.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.grails</groupId>
+      <artifactId>grails-spring-security</artifactId>
+      <version>7.0.0-SNAPSHOT</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.grails</groupId>
+      <artifactId>grails-controllers</artifactId>
+      <scope>runtime</scope>
+      <version>7.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.grails</groupId>
+      <artifactId>grails-gsp</artifactId>
+      <scope>runtime</scope>
+      <version>7.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.grails</groupId>
+      <artifactId>grails-layout</artifactId>
+      <scope>runtime</scope>
+      <version>7.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.security</groupId>
+      <artifactId>spring-security-core</artifactId>
+      <scope>runtime</scope>
+      <version>6.5.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.security</groupId>
+      <artifactId>spring-security-web</artifactId>
+      <scope>runtime</scope>
+      <version>6.5.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>datatables</artifactId>
+      <version>1.10.25</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>jquery</artifactId>
+      <version>2.1.4</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>jquery-form</artifactId>
+      <version>3.51</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>jquery-ui</artifactId>
+      <version>1.10.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars</groupId>
+      <artifactId>jquery-ui-themes</artifactId>
+      <version>1.10.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.bower</groupId>
+      <artifactId>bgiframe</artifactId>
+      <version>3.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.webjars.bower</groupId>
+      <artifactId>jgrowl</artifactId>
+      <version>1.4.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>cloud.wondrify</groupId>
+      <artifactId>asset-pipeline-grails</artifactId>
+      <scope>runtime</scope>
+      <version>5.0.14</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.grails</groupId>
+      <artifactId>grails-i18n</artifactId>
+      <scope>runtime</scope>
+      <version>7.0.0-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+</project>

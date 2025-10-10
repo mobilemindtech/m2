@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.grails",
+    "module": "grails-redis",
+    "version": "5.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "redis.clients",
+          "module": "jedis"
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson"
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-redis-5.0.0-SNAPSHOT.jar",
+          "url": "grails-redis-5.0.0-SNAPSHOT.jar",
+          "size": 138728,
+          "sha512": "0e2e555a700b8caba4f721bb66564fa050c7cefee28093e5e40ad32fbf45ede2a219ee37f4af475317c9d30d6cf0439bae676a88808a7ebaa5ac8cc99cfe92f4",
+          "sha256": "dca810d47287507b8c8a02d4ba5630de1476a65e1b8048d507392136e411bd44",
+          "sha1": "c593d245deaa2108bbb90e86413efe9dc77e7c0b",
+          "md5": "096f380b1d3338acaa30118be58b5258"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-bom",
+          "version": {
+            "requires": "7.0.0-RC2"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "redis.clients",
+          "module": "jedis"
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson"
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-redis-5.0.0-SNAPSHOT.jar",
+          "url": "grails-redis-5.0.0-SNAPSHOT.jar",
+          "size": 138728,
+          "sha512": "0e2e555a700b8caba4f721bb66564fa050c7cefee28093e5e40ad32fbf45ede2a219ee37f4af475317c9d30d6cf0439bae676a88808a7ebaa5ac8cc99cfe92f4",
+          "sha256": "dca810d47287507b8c8a02d4ba5630de1476a65e1b8048d507392136e411bd44",
+          "sha1": "c593d245deaa2108bbb90e86413efe9dc77e7c0b",
+          "md5": "096f380b1d3338acaa30118be58b5258"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-redis-5.0.0-SNAPSHOT-javadoc.jar",
+          "url": "grails-redis-5.0.0-SNAPSHOT-javadoc.jar",
+          "size": 111510,
+          "sha512": "2b7f23cd02a2231ccebe04ba48148b1d2f225b2805c80ba66f0197db1d76b4bcfd59128e5bb0320b5eaef9072a46d351164d1226e989a5fefd8b54fcf9095cf3",
+          "sha256": "8f23b91e86bd092913c3dfc196a1e68c4e59b3e7d08d931ee9483d215214d62a",
+          "sha1": "f81c2b2d5fd2ab570a43943da89de1a708ca2f09",
+          "md5": "76afdfe75718d0ed93e200d320e80d96"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-redis-5.0.0-SNAPSHOT-sources.jar",
+          "url": "grails-redis-5.0.0-SNAPSHOT-sources.jar",
+          "size": 36981,
+          "sha512": "28765f9c0eef5886647e9ac15fc0d379a0fdf50e60b720a326e802db921c0bdda9a6261333b1671effd5e4a4bce0c76c0218396bfbf7ed3293c0f3d84873dca9",
+          "sha256": "4ef106ebdceb78aa8b74907776c6bd13a8b7f2fc00f4d2f883fd7d50e5906857",
+          "sha1": "99622b24964696029faa6c8216758c2233c9a254",
+          "md5": "73f925e31825a1dc4516bacb01c7113f"
+        }
+      ]
+    }
+  ]
+}

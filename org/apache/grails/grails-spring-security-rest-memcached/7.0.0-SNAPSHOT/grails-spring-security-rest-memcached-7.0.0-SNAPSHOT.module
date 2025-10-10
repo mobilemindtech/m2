@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.grails",
+    "module": "grails-spring-security-rest-memcached",
+    "version": "7.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-spring-security-rest",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.spy",
+          "module": "spymemcached",
+          "version": {
+            "requires": "2.12.3"
+          }
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-spring-security-rest-memcached-7.0.0-SNAPSHOT.jar",
+          "url": "grails-spring-security-rest-memcached-7.0.0-SNAPSHOT.jar",
+          "size": 21454,
+          "sha512": "5754182587249096f3ca6864cd4b100b3c0943e3a808117eb289909efe02002dc2f41c79409a7507b64c9ec31771c3f422cceb06f6242095cc83836c685a84e9",
+          "sha256": "4c5d0ade8a6b14274237272cddc7b5ed84ef83ecd9e9c793c69ba3514f5f8480",
+          "sha1": "5b511df2a6fd16e85cac8c6074b55d4d4cfa74f2",
+          "md5": "f3e8e3bc494c209c7bc2444ea89253a5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-bom",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-spring-security",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-spring-security-rest",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.spy",
+          "module": "spymemcached",
+          "version": {
+            "requires": "2.12.3"
+          }
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-spring-security-rest-memcached-7.0.0-SNAPSHOT.jar",
+          "url": "grails-spring-security-rest-memcached-7.0.0-SNAPSHOT.jar",
+          "size": 21454,
+          "sha512": "5754182587249096f3ca6864cd4b100b3c0943e3a808117eb289909efe02002dc2f41c79409a7507b64c9ec31771c3f422cceb06f6242095cc83836c685a84e9",
+          "sha256": "4c5d0ade8a6b14274237272cddc7b5ed84ef83ecd9e9c793c69ba3514f5f8480",
+          "sha1": "5b511df2a6fd16e85cac8c6074b55d4d4cfa74f2",
+          "md5": "f3e8e3bc494c209c7bc2444ea89253a5"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-spring-security-rest-memcached-7.0.0-SNAPSHOT-javadoc.jar",
+          "url": "grails-spring-security-rest-memcached-7.0.0-SNAPSHOT-javadoc.jar",
+          "size": 49901,
+          "sha512": "4d8d8ff4f19a32ae47d4d4e4ef9462895a123aae8a0050843ae59b836d4be0a8bd03b31e4dfd3a0f98ac5d8ceb120c9eeebf73d00fa20b4c452b16894b01b7ea",
+          "sha256": "9dba32b0c9b7f2d99d448e0c85838e28fa105c3429aa758ccf81513b9384ad3e",
+          "sha1": "9e2d350b0c73e5c05fc8164f94428924c2190e53",
+          "md5": "439455127dfabcaf678cc388486ea0a0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-spring-security-rest-memcached-7.0.0-SNAPSHOT-sources.jar",
+          "url": "grails-spring-security-rest-memcached-7.0.0-SNAPSHOT-sources.jar",
+          "size": 7519,
+          "sha512": "612addfc2f670d4706b1a78061d5059fe81b6405dc54e900abcfd8627a2792a8a2a870fc0f0df1bb3b68daca7a6fd3377b1ce75b0e8ca6ff9b11a581fbe992d0",
+          "sha256": "def74939f1dbb3c39d2e9f491559d4626a406214e06cbc70a40ab3df9d384e69",
+          "sha1": "10fdcc405db7463b648a0116081aa656efe1a278",
+          "md5": "5ef2e97c96db0d3295012c1ace9abec2"
+        }
+      ]
+    }
+  ]
+}

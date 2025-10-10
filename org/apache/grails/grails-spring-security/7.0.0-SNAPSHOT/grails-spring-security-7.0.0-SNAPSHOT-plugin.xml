@@ -1,0 +1,24 @@
+<plugin name='springSecurityCore' version='7.0.0-SNAPSHOT' grailsVersion='7.0.0 &gt; *'>
+  <type>grails.plugin.springsecurity.SpringSecurityCoreGrailsPlugin</type>
+  <authorEmail></authorEmail>
+  <author>Burt Beckwith</author>
+  <documentation>https://apache.github.io/grails-spring-security</documentation>
+  <profiles>[web]</profiles>
+  <description>Spring Security Core plugin</description>
+  <title>Spring Security Core Plugin</title>
+  <version />
+  <observe>[controllers]</observe>
+  <grailsVersion>7.0.0 &gt; *</grailsVersion>
+  <loadAfter>[controllers, hibernate, hibernate4, hibernate5, services]</loadAfter>
+  <license>APACHE</license>
+  <issueManagement url='https://github.com/apache/grails-spring-security/issues' />
+  <organization name='Grails' url='https://www.grails.org' />
+  <name>spring-security-core</name>
+  <scm url='https://github.com/apache/grails-spring-security' />
+  <resources>
+    <resource>grails.plugin.springsecurity.LoginController</resource>
+    <resource>grails.plugin.springsecurity.LogoutController</resource>
+    <resource>grails.plugin.springsecurity.SpringSecurityService</resource>
+    <resource>grails.plugin.springsecurity.SecurityTagLib</resource>
+  </resources>
+</plugin>

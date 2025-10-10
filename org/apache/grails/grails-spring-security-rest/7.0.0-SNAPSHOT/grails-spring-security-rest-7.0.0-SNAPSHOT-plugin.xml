@@ -1,0 +1,24 @@
+<plugin name='springSecurityRest' version='7.0.0-SNAPSHOT' grailsVersion='7.0.0 &gt; *'>
+  <type>grails.plugin.springsecurity.rest.SpringSecurityRestGrailsPlugin</type>
+  <authorEmail></authorEmail>
+  <author>Alvaro Sanchez-Mariscal</author>
+  <documentation>https://apache.github.io/grails-spring-security</documentation>
+  <profiles>[web]</profiles>
+  <description>Implements authentication for REST APIs based on Spring Security. It uses a token-based workflow</description>
+  <title>Spring Security REST Plugin</title>
+  <version />
+  <grailsVersion>7.0.0 &gt; *</grailsVersion>
+  <loadAfter>[springSecurityCore]</loadAfter>
+  <license>APACHE</license>
+  <pluginExcludes>[grails-app/views/**]</pluginExcludes>
+  <issueManagement system='GitHub' url='https://github.com/apache/grails-spring-security/issues' />
+  <organization name='Grails' url='https://www.grails.org' />
+  <name>spring-security-rest</name>
+  <scm url='https://github.com/apache/grails-spring-security' />
+  <resources>
+    <resource>grails.plugin.springsecurity.rest.RestOauthController</resource>
+    <resource>grails.plugin.springsecurity.rest.RestOauthUrlMappings</resource>
+    <resource>grails.plugin.springsecurity.rest.JwtService</resource>
+    <resource>grails.plugin.springsecurity.rest.RestOauthService</resource>
+  </resources>
+</plugin>

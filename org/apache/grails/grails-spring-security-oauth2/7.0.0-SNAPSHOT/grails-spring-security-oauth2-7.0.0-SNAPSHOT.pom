@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.apache.grails</groupId>
+  <artifactId>grails-spring-security-oauth2</artifactId>
+  <version>7.0.0-SNAPSHOT</version>
+  <name>Grails Spring Security OAuth2 Plugin</name>
+  <description>This plugin provides the capability to authenticate via oauth and depends on grails-spring-security.</description>
+  <url>https://github.com/grails/grails-spring-security</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>MatrixCrawler</id>
+      <name>Johannes Brunswicker</name>
+    </developer>
+    <developer>
+      <id>aitmanas</id>
+      <name>aitmanas</name>
+    </developer>
+    <developer>
+      <id>rvanderwerf</id>
+      <name>Ryan Vanderwerf</name>
+    </developer>
+    <developer>
+      <id>puneetbehl</id>
+      <name>Puneet Behl</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:grails/grails-spring-security.git</connection>
+    <developerConnection>scm:git@github.com:grails/grails-spring-security.git</developerConnection>
+    <url>https://github.com/grails/grails-spring-security</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/grails/grails-spring-security/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.grails</groupId>
+      <artifactId>grails-spring-security</artifactId>
+      <version>7.0.0-SNAPSHOT</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.github.scribejava</groupId>
+      <artifactId>scribejava-core</artifactId>
+      <version>8.3.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.grails.bootstrap</groupId>
+      <artifactId>grails-bootstrap</artifactId>
+      <scope>compile</scope>
+      <version>7.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.security</groupId>
+      <artifactId>spring-security-core</artifactId>
+      <scope>compile</scope>
+      <version>6.5.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.grails.views</groupId>
+      <artifactId>grails-taglib</artifactId>
+      <scope>compile</scope>
+      <version>7.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-validator</groupId>
+      <artifactId>commons-validator</artifactId>
+      <scope>runtime</scope>
+      <version>1.9.0</version>
+    </dependency>
+    <dependency>
+      <groupId>commons-lang</groupId>
+      <artifactId>commons-lang</artifactId>
+      <version>2.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>jline</groupId>
+      <artifactId>jline</artifactId>
+      <scope>runtime</scope>
+      <version>2.14.6</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.grails.data</groupId>
+      <artifactId>grails-datamapping-core</artifactId>
+      <scope>runtime</scope>
+      <version>7.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.grails</groupId>
+      <artifactId>grails-controllers</artifactId>
+      <scope>runtime</scope>
+      <version>7.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.grails</groupId>
+      <artifactId>grails-converters</artifactId>
+      <scope>runtime</scope>
+      <version>7.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+      <scope>runtime</scope>
+      <version>6.2.9</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.grails</groupId>
+      <artifactId>grails-i18n</artifactId>
+      <scope>runtime</scope>
+      <version>7.0.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.grails</groupId>
+      <artifactId>grails-services</artifactId>
+      <scope>runtime</scope>
+      <version>7.0.0-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+</project>

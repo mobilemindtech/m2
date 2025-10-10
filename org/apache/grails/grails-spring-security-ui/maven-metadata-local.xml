@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.grails</groupId>
+  <artifactId>grails-spring-security-ui</artifactId>
+  <versioning>
+    <latest>7.0.0-SNAPSHOT</latest>
+    <versions>
+      <version>7.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20250815204616</lastUpdated>
+  </versioning>
+</metadata>

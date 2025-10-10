@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.grails</groupId>
+  <artifactId>grails-redis</artifactId>
+  <versioning>
+    <latest>5.0.0-SNAPSHOT</latest>
+    <versions>
+      <version>5.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20250924182913</lastUpdated>
+  </versioning>
+</metadata>

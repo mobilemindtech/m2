@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>hibernate-filter</artifactId>
+  <packaging>zip</packaging>
+  <version>0.3.2</version>
+  <name>Hibernate Filter plugin</name>
+  <description>Integrates Hibernate filtering into Grails</description>
+  <url>http://grails.org/plugin/hibernate-filter</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Scott Burch</name>
+      <email>scott@bulldoginfo.com</email>
+    </developer>
+    <developer>
+      <name>Burt Beckwith</name>
+      <email>beckwithb@vmware.com</email>
+    </developer>
+    <developer>
+      <name>Alex Shneyderman</name>
+      <email>a.shneyderman@gmail.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>JIRA</system>
+    <url>http://jira.grails.org/browse/GPHIBERNATEFILTER</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/burtbeckwith/grails-hibernate-filter</url>
+  </scm>
+  <dependencies />
+</project>

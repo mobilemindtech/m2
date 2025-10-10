@@ -1,0 +1,17 @@
+<plugin name='springSecurityCas' version='7.0.0-SNAPSHOT' grailsVersion='7.0.0 &gt; *'>
+  <type>grails.plugin.springsecurity.cas.SpringSecurityCasGrailsPlugin</type>
+  <authorEmail></authorEmail>
+  <author>Burt Beckwith</author>
+  <documentation>https://apache.github.io/grails-spring-security</documentation>
+  <profiles>[web]</profiles>
+  <description>Jasig CAS support for the Spring Security plugin.</description>
+  <title>Jasig CAS support for the Spring Security plugin.</title>
+  <version />
+  <grailsVersion>7.0.0 &gt; *</grailsVersion>
+  <loadAfter>[springSecurityCore]</loadAfter>
+  <license>APACHE</license>
+  <issueManagement url='https://github.com/apache/grails-spring-security/issues' />
+  <organization name='Grails' url='https://www.grails.org' />
+  <name>spring-security-cas</name>
+  <scm url='https://github.com/apache/grails-spring-security' />
+</plugin>

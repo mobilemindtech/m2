@@ -1,0 +1,302 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-plugin-interceptors",
+    "version": "6.2.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "4.0.1"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-test",
+          "version": {
+            "requires": "5.3.37"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.21"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "commons-cli"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-controllers",
+          "version": {
+            "requires": "6.2.1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-url-mappings",
+          "version": {
+            "requires": "6.2.1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-plugin-interceptors-6.2.1-SNAPSHOT.jar",
+          "url": "grails-plugin-interceptors-6.2.1-SNAPSHOT.jar",
+          "size": 37085,
+          "sha512": "a76a59559831a7f9449b0cd187a12ffca753bbc4a99bae2125cc9732f063c7521aa0ea4c2fdc4ce7f9d8f20c121c21b2e870fbacac1be8d593d22e8473eb3c55",
+          "sha256": "3174a2f199d76bc889bcb214cd1a2d390086624ed22bde5c62e99a2b0c979ebd",
+          "sha1": "85eea92f497bcc83a45f902f5ed5126586475764",
+          "md5": "7c19918cad4635b4e9ddebce6110c70b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "javax.servlet",
+          "module": "javax.servlet-api",
+          "version": {
+            "requires": "4.0.1"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-test",
+          "version": {
+            "requires": "5.3.37"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.21"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "commons-cli"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-controllers",
+          "version": {
+            "requires": "6.2.1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-plugin-url-mappings",
+          "version": {
+            "requires": "6.2.1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-plugin-interceptors-6.2.1-SNAPSHOT.jar",
+          "url": "grails-plugin-interceptors-6.2.1-SNAPSHOT.jar",
+          "size": 37085,
+          "sha512": "a76a59559831a7f9449b0cd187a12ffca753bbc4a99bae2125cc9732f063c7521aa0ea4c2fdc4ce7f9d8f20c121c21b2e870fbacac1be8d593d22e8473eb3c55",
+          "sha256": "3174a2f199d76bc889bcb214cd1a2d390086624ed22bde5c62e99a2b0c979ebd",
+          "sha1": "85eea92f497bcc83a45f902f5ed5126586475764",
+          "md5": "7c19918cad4635b4e9ddebce6110c70b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-plugin-interceptors-6.2.1-SNAPSHOT-javadoc.jar",
+          "url": "grails-plugin-interceptors-6.2.1-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "87773a6ceb404cd64e2f19cefac3188d52164a9920ec3fdb265a71126a38f2324865d2c8a3c6a76ea224e6ed26e49717e284f0935ee6c91ce9c97840b057741f",
+          "sha256": "2d770dd8a4330d93103e2b4375085ceb09937516d6671558378a1ad7b721a479",
+          "sha1": "a3c1b76897b3d65b0398bc6c1cb67d466cb50ca0",
+          "md5": "d6f8ee6069a5b0ce9e12541c711e8b18"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-plugin-interceptors-6.2.1-SNAPSHOT-sources.jar",
+          "url": "grails-plugin-interceptors-6.2.1-SNAPSHOT-sources.jar",
+          "size": 12369,
+          "sha512": "9d05d01ddde3ca4a5199d6cd330fb5e9236eb66f7b8c281484dc6aff7b851c4121c0b83b36ede2d97a867d2d994458f130b3ac8253e2f43e65f5e4e1d9979b7c",
+          "sha256": "517b6c8621b8bb1189f6ae05750aaeb23ad5cc8a9dd59adc410f8d15340833ee",
+          "sha1": "71b409af53083689f7b20ea62b4226e406186852",
+          "md5": "037e6c8198bb626c8ecd6fdee8692237"
+        }
+      ]
+    }
+  ]
+}

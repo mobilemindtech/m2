@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>funky-spock</artifactId>
+  <packaging>zip</packaging>
+  <version>0.2.1</version>
+  <name>Funky Spock Plugin</name>
+  <description>Adds spock test type to functional testing phase.</description>
+  <url>http://grails.org/plugin/grails-funky-spock</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Shane Riddell</name>
+      <email>riddell.shane@gmail.com</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>GITHUB</system>
+    <url>https://github.com/sriddell/grails-funky-spock/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/sriddell/grails-funky-spock</url>
+  </scm>
+  <dependencies />
+</project>

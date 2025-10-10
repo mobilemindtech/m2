@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.grails.gradle",
+    "module": "grails-publish",
+    "version": "0.0.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "3.0.24"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-publish-0.0.2-SNAPSHOT.jar",
+          "url": "grails-publish-0.0.2-SNAPSHOT.jar",
+          "size": 137487,
+          "sha512": "99a55b6c9d536596c7f6d48a42aa2816dcd29c70ed55e662ab171fd4afe3a6faf0669171b08fa3cd0f4e8c3999b10c29fd07a6e04a14ec8ce83c31f999741364",
+          "sha256": "a6001410a37f149798efbbf883cca7737a2d431e38f85da9d5a49424c661c944",
+          "sha1": "c795298a4ebefd49ec815993bc4c2604a87f7279",
+          "md5": "a047f6f93b4bcebdcb2dee9ad16ef5b7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.github.gradle-nexus",
+          "module": "publish-plugin",
+          "version": {
+            "requires": "2.0.0"
+          }
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-bom",
+          "version": {
+            "requires": "3.0.24"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-publish-0.0.2-SNAPSHOT.jar",
+          "url": "grails-publish-0.0.2-SNAPSHOT.jar",
+          "size": 137487,
+          "sha512": "99a55b6c9d536596c7f6d48a42aa2816dcd29c70ed55e662ab171fd4afe3a6faf0669171b08fa3cd0f4e8c3999b10c29fd07a6e04a14ec8ce83c31f999741364",
+          "sha256": "a6001410a37f149798efbbf883cca7737a2d431e38f85da9d5a49424c661c944",
+          "sha1": "c795298a4ebefd49ec815993bc4c2604a87f7279",
+          "md5": "a047f6f93b4bcebdcb2dee9ad16ef5b7"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-publish-0.0.2-SNAPSHOT-javadoc.jar",
+          "url": "grails-publish-0.0.2-SNAPSHOT-javadoc.jar",
+          "size": 42183,
+          "sha512": "0cec746f2447c8decc9b0c2e7bb61b8e3eb6f63e89b2f55393b50c171515aec862816eaaae0fcf06649331ee5f3b7e6fe8712960f32916887d79c762b1119ed4",
+          "sha256": "f6b3cd71a130ececb9a677da1456473360cd351f0c07da1663e54dc37e761b82",
+          "sha1": "955f2ec16f4f84c4b4b1516cc3ea93b0d50bb933",
+          "md5": "872d46d45d3b947d11616f208c725bd4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-publish-0.0.2-SNAPSHOT-sources.jar",
+          "url": "grails-publish-0.0.2-SNAPSHOT-sources.jar",
+          "size": 186340,
+          "sha512": "c5becf9241dbc154d605985aa355df8a2129d134de7ac10a1d5379f5df662761502ebfd31a08b7afaac1497e523af55937ec54fdcdedf5fb587f73bcb9575de6",
+          "sha256": "2c206e71cba2757beb61657db7c4c386b662de3d526cb21d26e71f6cc6840a24",
+          "sha1": "0751302469094ec2248aa4b35af443fee5f56f63",
+          "md5": "b6b3239fe2f051a5e53a586fda8f59a4"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.apache.grails.gradle.grails-publish</groupId>
+  <artifactId>org.apache.grails.gradle.grails-publish.gradle.plugin</artifactId>
+  <version>0.0.2-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <name>Grails Publish Gradle Plugin</name>
+  <description>A plugin to assist in publishing Grails related artifacts to different repository types</description>
+  <dependencies>
+    <dependency>
+      <groupId>org.apache.grails.gradle</groupId>
+      <artifactId>grails-publish</artifactId>
+      <version>0.0.2-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+</project>

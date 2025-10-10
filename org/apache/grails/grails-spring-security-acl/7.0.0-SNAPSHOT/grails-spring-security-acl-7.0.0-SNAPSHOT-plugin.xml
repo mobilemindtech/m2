@@ -1,0 +1,30 @@
+<plugin name='springSecurityAcl' version='7.0.0-SNAPSHOT' grailsVersion='7.0.0 &gt; *'>
+  <type>grails.plugin.springsecurity.acl.SpringSecurityAclGrailsPlugin</type>
+  <authorEmail></authorEmail>
+  <author>Burt Beckwith</author>
+  <documentation>https://apache.github.io/grails-spring-security</documentation>
+  <profiles>[web]</profiles>
+  <description>ACL support for the Spring Security plugin</description>
+  <title>Spring Security ACL plugin</title>
+  <version />
+  <grailsVersion>7.0.0 &gt; *</grailsVersion>
+  <loadAfter>[springSecurityCore]</loadAfter>
+  <license>APACHE</license>
+  <issueManagement url='https://github.com/apache/grails-spring-security/issues' />
+  <organization name='Grails' url='https://www.grails.org' />
+  <name>spring-security-acl</name>
+  <scm url='https://github.com/apache/grails-spring-security' />
+  <resources>
+    <resource>grails.plugin.springsecurity.acl.AclClass</resource>
+    <resource>grails.plugin.springsecurity.acl.AclEntry</resource>
+    <resource>grails.plugin.springsecurity.acl.AclObjectIdentity</resource>
+    <resource>grails.plugin.springsecurity.acl.AclSid</resource>
+    <resource>grails.plugin.springsecurity.acl.AclClassGormService</resource>
+    <resource>grails.plugin.springsecurity.acl.AclEntryGormService</resource>
+    <resource>grails.plugin.springsecurity.acl.AclObjectIdentityGormService</resource>
+    <resource>grails.plugin.springsecurity.acl.AclService</resource>
+    <resource>grails.plugin.springsecurity.acl.AclSidGormService</resource>
+    <resource>grails.plugin.springsecurity.acl.AclUtilService</resource>
+    <resource>grails.plugin.springsecurity.acl.SecurityAclTagLib</resource>
+  </resources>
+</plugin>

@@ -1,0 +1,24 @@
+<plugin name='webConsole' version='7.0.0-M4' grailsVersion='7.0.0-SNAPSHOT &gt; *'>
+  <type>org.grails.plugins.console.WebConsoleGrailsPlugin</type>
+  <authorEmail></authorEmail>
+  <developers>[[name:Siegfried Puchbauer, email:siegfried.puchbauer@gmail.com], [name:Mingfai Ma, email:mingfai.ma@gmail.com], [name:Burt Beckwith, email:burt@burtbeckwith.com], [name:Matt Sheehan, email:mr.sheehan@gmail.com], [name:Sachin Verma, email:v.sachin.v@gmail.com]]</developers>
+  <author>Your name</author>
+  <documentation>https://github.com/grails-plugins/grails-web-console/blob/6.0.x/README.md</documentation>
+  <profiles>[web]</profiles>
+  <description>A web-based Groovy console for interactive runtime application management and debugging</description>
+  <title>Web Console Plugin</title>
+  <version />
+  <grailsVersion>7.0.0-SNAPSHOT &gt; *</grailsVersion>
+  <license>APACHE</license>
+  <pluginExcludes>[grails-app/views/error.gsp]</pluginExcludes>
+  <issueManagement system='github' url='https://github.com/grails-plugins/grails-web-console/issues' />
+  <name>web-console</name>
+  <scm url='https://github.com/grails-plugins/grails-web-console' />
+  <resources>
+    <resource>org.grails.plugins.console.ConsoleController</resource>
+    <resource>org.grails.plugins.console.EnabledInterceptor</resource>
+    <resource>org.grails.plugins.console.TokenInterceptor</resource>
+    <resource>grailsconsole.Application</resource>
+    <resource>org.grails.plugins.console.ConsoleService</resource>
+  </resources>
+</plugin>

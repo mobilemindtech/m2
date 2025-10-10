@@ -1,0 +1,205 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.grails",
+    "module": "grails-spring-security-acl",
+    "version": "7.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-spring-security",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-acl"
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-spring-security-acl-7.0.0-SNAPSHOT.jar",
+          "url": "grails-spring-security-acl-7.0.0-SNAPSHOT.jar",
+          "size": 301870,
+          "sha512": "b0f2c43d44ae7e8e75ed291cc2c03d60cf8234794d5654cc52135c93d22bcbafec8b9781fa0629d6eeb7c9a47a7a8e056f174317f060a5ae5a1e9bcc810e7ef8",
+          "sha256": "2f22a9692cba1d4eaca2fae307b7a6c15100ae79c670cd3d85e1ff8ff79716dc",
+          "sha1": "17b2b6f8b03046f6fc7c6a3b94177c98c5020691",
+          "md5": "32c54bd6b12e1bc842df72f8cacd653f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-bom",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-logging"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-core"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-actuator"
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-tomcat"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-web-boot"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-logging"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-rest-transforms"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-databinding"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-i18n"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-services"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-url-mappings"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-interceptors"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-gsp"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-layout"
+        },
+        {
+          "group": "org.ehcache",
+          "module": "ehcache"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-spring-security",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-acl"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-domain-class"
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-spring-security-acl-7.0.0-SNAPSHOT.jar",
+          "url": "grails-spring-security-acl-7.0.0-SNAPSHOT.jar",
+          "size": 301870,
+          "sha512": "b0f2c43d44ae7e8e75ed291cc2c03d60cf8234794d5654cc52135c93d22bcbafec8b9781fa0629d6eeb7c9a47a7a8e056f174317f060a5ae5a1e9bcc810e7ef8",
+          "sha256": "2f22a9692cba1d4eaca2fae307b7a6c15100ae79c670cd3d85e1ff8ff79716dc",
+          "sha1": "17b2b6f8b03046f6fc7c6a3b94177c98c5020691",
+          "md5": "32c54bd6b12e1bc842df72f8cacd653f"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-spring-security-acl-7.0.0-SNAPSHOT-javadoc.jar",
+          "url": "grails-spring-security-acl-7.0.0-SNAPSHOT-javadoc.jar",
+          "size": 157247,
+          "sha512": "69e3bb11f57d16f227c2d47ab4b5ca571769ed9797cae2d8fec701cd9e7b3b6f49590f037fc615dfff538cdfbb0d9b470aa0c6db488774e814df4091344bd664",
+          "sha256": "cd91de32bfb385d4e65e4b36f52007ad9c8688814a514d5f0706a1a435c91a1a",
+          "sha1": "abaedddd955b410dc4444f68cc3584c41e7dfe1b",
+          "md5": "632ee88034df18a9cdd26718f1943b4d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-spring-security-acl-7.0.0-SNAPSHOT-sources.jar",
+          "url": "grails-spring-security-acl-7.0.0-SNAPSHOT-sources.jar",
+          "size": 46596,
+          "sha512": "f875940e68481fbe8b03678d17d8aa0a07d41347de839259114a069d18209bdba674b079491f9caf7751335721ca223d5a3ae9f7044f0b969c3c493ffae60f16",
+          "sha256": "3b93b20efa428c6e7184d45df2d7799787d311773fb3f1600cbdfab282b81452",
+          "sha1": "dceb6710cf651f17c3be000b5116ca5e4ebc4526",
+          "md5": "422a6751eeb3c7ac7f1b7eebea92b105"
+        }
+      ]
+    }
+  ]
+}

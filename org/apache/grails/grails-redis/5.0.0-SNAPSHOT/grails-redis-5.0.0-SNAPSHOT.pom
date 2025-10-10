@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.apache.grails</groupId>
+  <artifactId>grails-redis</artifactId>
+  <version>5.0.0-SNAPSHOT</version>
+  <name>Grails Redis Plugin</name>
+  <description>This Plugin provides access to Redis and various utilities (service, annotations, etc) for caching.</description>
+  <url>https://github.com/apache/grails-redis</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>tednaleid</id>
+      <name>Ted Naleid</name>
+    </developer>
+    <developer>
+      <id>burtbeckwith</id>
+      <name>Burt Beckwith</name>
+    </developer>
+    <developer>
+      <id>christianoestreich</id>
+      <name>Christian Oestreich</name>
+    </developer>
+    <developer>
+      <id>briancoles</id>
+      <name>Brian Coles</name>
+    </developer>
+    <developer>
+      <id>michaelcameron</id>
+      <name>Michael Cameron</name>
+    </developer>
+    <developer>
+      <id>johnengelman</id>
+      <name>John Engelman</name>
+    </developer>
+    <developer>
+      <id>davidseiler</id>
+      <name>David Seiler</name>
+    </developer>
+    <developer>
+      <id>jordonsaardchit</id>
+      <name>Jordon Saardchit</name>
+    </developer>
+    <developer>
+      <id>florianlangenhahn</id>
+      <name>Florian Langenhahn</name>
+    </developer>
+    <developer>
+      <id>germansancho</id>
+      <name>German Sancho</name>
+    </developer>
+    <developer>
+      <id>johnmulhern</id>
+      <name>John Mulhern</name>
+    </developer>
+    <developer>
+      <id>shaunjurgemeyer</id>
+      <name>Shaun Jurgemeyer</name>
+    </developer>
+    <developer>
+      <id>puneetbehl</id>
+      <name>Puneet Behl</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:apache/grails-redis.git</connection>
+    <developerConnection>scm:git@github.com:apache/grails-redis.git</developerConnection>
+    <url>https://github.com/apache/grails-redis</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/apache/grails-redis/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>redis.clients</groupId>
+      <artifactId>jedis</artifactId>
+      <scope>compile</scope>
+      <version>6.0.0</version>
+    </dependency>
+    <dependency>
+      <groupId>com.google.code.gson</groupId>
+      <artifactId>gson</artifactId>
+      <scope>compile</scope>
+      <version>2.13.1</version>
+    </dependency>
+  </dependencies>
+</project>

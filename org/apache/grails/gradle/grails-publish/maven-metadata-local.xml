@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.grails.gradle</groupId>
+  <artifactId>grails-publish</artifactId>
+  <versioning>
+    <latest>0.0.2-SNAPSHOT</latest>
+    <versions>
+      <version>0.0.2-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20250925023918</lastUpdated>
+  </versioning>
+</metadata>

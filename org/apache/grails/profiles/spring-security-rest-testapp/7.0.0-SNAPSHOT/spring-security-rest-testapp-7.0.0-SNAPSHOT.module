@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.grails.profiles",
+    "module": "spring-security-rest-testapp",
+    "version": "7.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "spring-security-rest-testapp-7.0.0-SNAPSHOT.jar",
+          "url": "spring-security-rest-testapp-7.0.0-SNAPSHOT.jar",
+          "size": 66699,
+          "sha512": "7dad163cfd665a58f6562a619aac7103602eaefd0bdb32e72974fc12caab8fba8b7c85bf4b1e92502d500d29c54db25027fbdfe10cb9267cac2c33b24e744ade",
+          "sha256": "a1f9a041112cc7491bf65dfd17f2fe6fae22cea8fec252a00f5f28bf59645211",
+          "sha1": "f2933bd63628abba6230389f4a4da35a2d6a0944",
+          "md5": "39f706398b6becface08908fc34df980"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-security-rest-testapp-7.0.0-SNAPSHOT.jar",
+          "url": "spring-security-rest-testapp-7.0.0-SNAPSHOT.jar",
+          "size": 66699,
+          "sha512": "7dad163cfd665a58f6562a619aac7103602eaefd0bdb32e72974fc12caab8fba8b7c85bf4b1e92502d500d29c54db25027fbdfe10cb9267cac2c33b24e744ade",
+          "sha256": "a1f9a041112cc7491bf65dfd17f2fe6fae22cea8fec252a00f5f28bf59645211",
+          "sha1": "f2933bd63628abba6230389f4a4da35a2d6a0944",
+          "md5": "39f706398b6becface08908fc34df980"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-security-rest-testapp-7.0.0-SNAPSHOT-javadoc.jar",
+          "url": "spring-security-rest-testapp-7.0.0-SNAPSHOT-javadoc.jar",
+          "size": 403,
+          "sha512": "a110a2c8b8a30351d67ed262da1cccc884d9b265bc3a35660e7f72a80c8d395018e98055e14f465e35bbadad3441ae8c0d6c1e5dd27f354241d0e71243a00ba2",
+          "sha256": "51caa5476a6cb7699796a31bc42e7572daa14f875c97739cc1342455503682b6",
+          "sha1": "f5ef1499c76acdb8da71ecd8a0e10f7e18207097",
+          "md5": "b3449e88fb06a46f9a645f1ca71a3efe"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "spring-security-rest-testapp-7.0.0-SNAPSHOT-sources.jar",
+          "url": "spring-security-rest-testapp-7.0.0-SNAPSHOT-sources.jar",
+          "size": 18678,
+          "sha512": "faa8336dd13324242c2b02b256c0f751b664786973c01d88cb33ac09445dcccb193beb118825713808d4403f49e57ae93bf7d9304daeedd37e519cedf54bf246",
+          "sha256": "0ca0496d7df8b6299d608d2d57e34805415dae67e815b453cd10d6583f18c68c",
+          "sha1": "063f11aa29036e50dfb4a0e0c4f317cc7fb44ce6",
+          "md5": "5ea5a96d37d2adec1cba9feb2886b834"
+        }
+      ]
+    }
+  ]
+}

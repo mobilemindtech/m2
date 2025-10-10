@@ -1,0 +1,137 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.grails",
+    "module": "grails-spring-security-rest-datamapping",
+    "version": "7.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-spring-security-rest-datamapping-7.0.0-SNAPSHOT.jar",
+          "url": "grails-spring-security-rest-datamapping-7.0.0-SNAPSHOT.jar",
+          "size": 18685,
+          "sha512": "102d055871b48497e6912b85eab432f2994a007a25ac29f02b36d0f147b4206fd3cc68a85cc7f0c1058f2106a67219abf95ec9db4795577d3a3a6ae4817e9b8d",
+          "sha256": "3286f15096fc4df9589315594abb891ca0bc3c99899c09a05702e610ec0577bd",
+          "sha1": "ab119aa4e67daa313ec3d129c2a5b48e5e90eec6",
+          "md5": "95bdc90fdaff0004f0961ce59e3b3f32"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-bom",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-spring-security",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-spring-security-rest",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-core"
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-spring-security-rest-datamapping-7.0.0-SNAPSHOT.jar",
+          "url": "grails-spring-security-rest-datamapping-7.0.0-SNAPSHOT.jar",
+          "size": 18685,
+          "sha512": "102d055871b48497e6912b85eab432f2994a007a25ac29f02b36d0f147b4206fd3cc68a85cc7f0c1058f2106a67219abf95ec9db4795577d3a3a6ae4817e9b8d",
+          "sha256": "3286f15096fc4df9589315594abb891ca0bc3c99899c09a05702e610ec0577bd",
+          "sha1": "ab119aa4e67daa313ec3d129c2a5b48e5e90eec6",
+          "md5": "95bdc90fdaff0004f0961ce59e3b3f32"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-spring-security-rest-datamapping-7.0.0-SNAPSHOT-javadoc.jar",
+          "url": "grails-spring-security-rest-datamapping-7.0.0-SNAPSHOT-javadoc.jar",
+          "size": 42631,
+          "sha512": "6f1782ae04ae647186b0a98b8e8e64900d89e8885b658a66e4641a8c6c27ff1c66f07712529af54d323f73aab6d597aaed73435545ee5f76dd5ca67b568b09b0",
+          "sha256": "6dab2bc6572b7d649739aaf5ea72772c14c89d7de9915905fe22c370f07b5705",
+          "sha1": "40b00741a74de97ac98684eeca7bc85afcbc32d6",
+          "md5": "1b611ddba467dfccba89b68877310b94"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-spring-security-rest-datamapping-7.0.0-SNAPSHOT-sources.jar",
+          "url": "grails-spring-security-rest-datamapping-7.0.0-SNAPSHOT-sources.jar",
+          "size": 5931,
+          "sha512": "1f82f6ede4801444bdc1fb6be3e2270e122b9ade1225af112fbf623e289bd56e33733b408b074cf6d47581b5458b5f2f2305dbe7298758cf8909ca2cdbff65bf",
+          "sha256": "1a5eee395ca73b7095c7ce2b2148748a5777a8e13c3848512d718f349f6646bb",
+          "sha1": "6f6bf30243d4ff8147e5ffd2e2f19d8805361b90",
+          "md5": "b2d2a15ab685f2f07ba3cedef31c24b1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+<plugin name='springSecurityRestRedis' version='7.0.0-SNAPSHOT' grailsVersion='7.0.0 &gt; *'>
+  <type>grails.plugin.springsecurity.rest.SpringSecurityRestRedisGrailsPlugin</type>
+  <authorEmail></authorEmail>
+  <author>Alvaro Sanchez-Mariscal</author>
+  <documentation>https://apache.github.io/grails-spring-security</documentation>
+  <profiles>[web]</profiles>
+  <description>Implements authentication for REST APIs based on Spring Security. It uses a token-based workflow</description>
+  <title>Spring Security REST Plugin - Redis support</title>
+  <version />
+  <grailsVersion>7.0.0 &gt; *</grailsVersion>
+  <loadAfter>[springSecurityRest]</loadAfter>
+  <license>APACHE</license>
+  <pluginExcludes>[grails-app/views/**]</pluginExcludes>
+  <issueManagement system='GitHub' url='https://github.com/apache/grails-spring-security/issues' />
+  <organization name='Grails' url='https://www.grails.org' />
+  <name>spring-security-rest-redis</name>
+  <scm url='https://github.com/apache/grails-spring-security' />
+</plugin>

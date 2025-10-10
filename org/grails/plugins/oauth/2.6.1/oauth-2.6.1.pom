@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>oauth</artifactId>
+  <packaging>zip</packaging>
+  <version>2.6.1</version>
+  <name>Oauth Plugin</name>
+  <description>Provides oAuth integration for Grails, using the Scribe framework</description>
+  <url>http://aiten.github.com/grails-oauth-scribe/</url>
+  <developers>
+    <developer>
+      <name>Antony Jones, Peter Ledbrook</name>
+      <email>aj@desirableobjects.co.uk</email>
+    </developer>
+  </developers>
+  <scm>
+    <url>https://github.com/aiten/grails-oauth-scribe</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.scribe</groupId>
+      <artifactId>scribe</artifactId>
+      <version>1.3.6</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

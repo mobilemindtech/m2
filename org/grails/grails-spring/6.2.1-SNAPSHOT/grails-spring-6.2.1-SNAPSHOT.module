@@ -1,0 +1,374 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-spring",
+    "version": "6.2.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.21"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "commons-cli"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.37"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web",
+          "version": {
+            "requires": "5.3.37"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.37"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-bootstrap",
+          "version": {
+            "requires": "6.2.1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant-junit"
+            },
+            {
+              "group": "org.fusesource.jansi",
+              "module": "jansi"
+            },
+            {
+              "group": "org.apache.ivy",
+              "module": "ivy"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant-trax"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant"
+            },
+            {
+              "group": "net.java.dev.jna",
+              "module": "jna"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant-launcher"
+            },
+            {
+              "group": "org.codehaus.gant",
+              "module": "gant_groovy1.8"
+            },
+            {
+              "group": "jline",
+              "module": "jline"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-spring-6.2.1-SNAPSHOT.jar",
+          "url": "grails-spring-6.2.1-SNAPSHOT.jar",
+          "size": 40179,
+          "sha512": "d80394240443e18b6e4f793e3ba01422c4b9c086f1010a45814160075e4dcb9710cfb19a09f7f1e4b4ac28db207fb9c1c83e745d748471235f7ad125fe585f57",
+          "sha256": "7a50d3a9c51650416c3a7ebe15da1ed5dbd8a7af00210263a9f6803b71e6b4e2",
+          "sha1": "e84d62717f2c5cfb10f77927a13a215c1ccac3e7",
+          "md5": "78299ce8b67b2ff441560066453263c0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.21"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "commons-cli"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-tx",
+          "version": {
+            "requires": "5.3.37"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web",
+          "version": {
+            "requires": "5.3.37"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "5.3.37"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-bootstrap",
+          "version": {
+            "requires": "6.2.1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant-junit"
+            },
+            {
+              "group": "org.fusesource.jansi",
+              "module": "jansi"
+            },
+            {
+              "group": "org.apache.ivy",
+              "module": "ivy"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant-trax"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant"
+            },
+            {
+              "group": "net.java.dev.jna",
+              "module": "jna"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant-launcher"
+            },
+            {
+              "group": "org.codehaus.gant",
+              "module": "gant_groovy1.8"
+            },
+            {
+              "group": "jline",
+              "module": "jline"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-spring-6.2.1-SNAPSHOT.jar",
+          "url": "grails-spring-6.2.1-SNAPSHOT.jar",
+          "size": 40179,
+          "sha512": "d80394240443e18b6e4f793e3ba01422c4b9c086f1010a45814160075e4dcb9710cfb19a09f7f1e4b4ac28db207fb9c1c83e745d748471235f7ad125fe585f57",
+          "sha256": "7a50d3a9c51650416c3a7ebe15da1ed5dbd8a7af00210263a9f6803b71e6b4e2",
+          "sha1": "e84d62717f2c5cfb10f77927a13a215c1ccac3e7",
+          "md5": "78299ce8b67b2ff441560066453263c0"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-spring-6.2.1-SNAPSHOT-javadoc.jar",
+          "url": "grails-spring-6.2.1-SNAPSHOT-javadoc.jar",
+          "size": 126547,
+          "sha512": "6d4b738727c293c90aff40f78c6072335d1268229ccc68bed133e176163c9851ff3e0818c191b5ab44a752f6b8e7d306d53511e4459a892f31125f3a14888899",
+          "sha256": "73e86dc53617f08ce0e29829168ba249fbdb10b6304092922170d7b3b78d6437",
+          "sha1": "e10f5913d054cdcf412e70756af9c199b232f137",
+          "md5": "dd73b97434d3886ce782165c2e206198"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-spring-6.2.1-SNAPSHOT-sources.jar",
+          "url": "grails-spring-6.2.1-SNAPSHOT-sources.jar",
+          "size": 23475,
+          "sha512": "fd9ec2c1ae27906c554c54d002f9adeec206222e33c220c79fb4b9316e5b2ccd83f140dd5b9cb49a51142eba0dce561edf880ff4c3b34d638c9976bc706ef369",
+          "sha256": "665a1837909c44b6f1464a3a1789b275d1af2eafadc4943cf50efcad2cac3d1e",
+          "sha1": "6230e55b86c44674f1c5e462999692ec2cc460e7",
+          "md5": "1e088c2859eb0f54fceefc83c985fb23"
+        }
+      ]
+    }
+  ]
+}

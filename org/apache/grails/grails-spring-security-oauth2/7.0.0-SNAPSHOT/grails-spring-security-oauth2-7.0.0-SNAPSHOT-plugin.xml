@@ -1,0 +1,20 @@
+<plugin name='springSecurityOauth2' version='7.0.0-SNAPSHOT' grailsVersion='7.0.0 &gt; *'>
+  <type>grails.plugin.springsecurity.oauth2.SpringSecurityOauth2GrailsPlugin</type>
+  <grailsVersion>7.0.0 &gt; *</grailsVersion>
+  <loadAfter>[spring-security-core]</loadAfter>
+  <authorEmail></authorEmail>
+  <license>APACHE</license>
+  <author>Johannes Brunswicker</author>
+  <profiles>[web]</profiles>
+  <name>spring-security-oauth2</name>
+  <description>This plugin provides the capability to authenticate via oauth. Depends on grails-spring-security.
+</description>
+  <title>Spring Security Oauth2</title>
+  <version />
+  <resources>
+    <resource>grails.plugin.springsecurity.oauth2.SpringSecurityOAuth2Controller</resource>
+    <resource>grails.plugin.springsecurity.oauth2.SpringSecurityOauth2UrlMappings</resource>
+    <resource>grails.plugin.springsecurity.oauth2.SpringSecurityOauth2BaseService</resource>
+    <resource>grails.plugin.springsecurity.oauth2.OAuth2TagLib</resource>
+  </resources>
+</plugin>

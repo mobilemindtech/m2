@@ -1,0 +1,156 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-gradle-model",
+    "version": "7.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-gradle-model-7.0.0-SNAPSHOT.jar",
+          "url": "grails-gradle-model-7.0.0-SNAPSHOT.jar",
+          "size": 2658,
+          "sha512": "8e73393724d946932821fad8da9999365f2c8eeb45edbab83b6c5c5094c087edaa0084952a3677ecd2cbe9f319607c2f8fecfec4471edc6c8374bee3a5eb5703",
+          "sha256": "02580c5cf3f1d5afe9ef763833f791c907c606161e21dd7d101f0742304923b2",
+          "sha1": "b7fcb00440c4cf67713d2437feec65fab2d8068e",
+          "md5": "30198ab0d0cd3519cb7eaa5a56f0c48c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-gradle-model-7.0.0-SNAPSHOT.jar",
+          "url": "grails-gradle-model-7.0.0-SNAPSHOT.jar",
+          "size": 2658,
+          "sha512": "8e73393724d946932821fad8da9999365f2c8eeb45edbab83b6c5c5094c087edaa0084952a3677ecd2cbe9f319607c2f8fecfec4471edc6c8374bee3a5eb5703",
+          "sha256": "02580c5cf3f1d5afe9ef763833f791c907c606161e21dd7d101f0742304923b2",
+          "sha1": "b7fcb00440c4cf67713d2437feec65fab2d8068e",
+          "md5": "30198ab0d0cd3519cb7eaa5a56f0c48c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-gradle-model-7.0.0-SNAPSHOT-javadoc.jar",
+          "url": "grails-gradle-model-7.0.0-SNAPSHOT-javadoc.jar",
+          "size": 261,
+          "sha512": "b0956699f41d4e3f039c68dcfaf8240c09ada9a29fb843dbf875ef7f65e2edc3a09d0016386f496ed27ab8f7ac50a1f2eb061d64095e4f50816e96b0cc80d99c",
+          "sha256": "ca4551eb20520b37ee368ebf345ab25c9a4239de6bd25f3729005400558905b8",
+          "sha1": "296b109cac44c8be04bf74ff5fdb78d506edf634",
+          "md5": "224b7afb34a0711d415649fe424ff1af"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-gradle-model-7.0.0-SNAPSHOT-sources.jar",
+          "url": "grails-gradle-model-7.0.0-SNAPSHOT-sources.jar",
+          "size": 2380,
+          "sha512": "d6f5ead78ea1d898087960c803aab5a28e631d87239fc6347b66d94473b6921cfae71dcdc1120089a0ad5fed275223930f3538ee847cbf733deed04af29a5d17",
+          "sha256": "dc80c09dbcb4645367674a581e16eb1321fbc3c7d3d8f1b595ab45e7d50da56c",
+          "sha1": "d162f1a66fc221d9bef3ed13300c95f378b36095",
+          "md5": "0fd803d873f41794af8dd66b3847dc88"
+        }
+      ]
+    }
+  ]
+}

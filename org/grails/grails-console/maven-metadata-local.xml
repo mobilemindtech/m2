@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.grails</groupId>
+  <artifactId>grails-console</artifactId>
+  <versioning>
+    <latest>7.0.0-SNAPSHOT</latest>
+    <versions>
+      <version>6.2.1-SNAPSHOT</version>
+      <version>7.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20240827130017</lastUpdated>
+  </versioning>
+</metadata>

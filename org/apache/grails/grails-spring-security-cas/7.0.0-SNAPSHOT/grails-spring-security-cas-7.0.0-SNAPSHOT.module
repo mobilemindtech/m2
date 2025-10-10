@@ -1,0 +1,203 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.grails",
+    "module": "grails-spring-security-cas",
+    "version": "7.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-spring-security",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.apereo.cas.client",
+          "module": "cas-client-core",
+          "version": {
+            "requires": "4.0.4"
+          }
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-cas",
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-beans"
+            },
+            {
+              "group": "*",
+              "module": "spring-core"
+            },
+            {
+              "group": "*",
+              "module": "spring-security-web"
+            },
+            {
+              "group": "*",
+              "module": "spring-security-core"
+            },
+            {
+              "group": "*",
+              "module": "spring-web"
+            },
+            {
+              "group": "*",
+              "module": "spring-context"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-spring-security-cas-7.0.0-SNAPSHOT.jar",
+          "url": "grails-spring-security-cas-7.0.0-SNAPSHOT.jar",
+          "size": 19458,
+          "sha512": "bc66ba3be70e8cb6dc0c56a2a0b505a424876d429a737a27720f837533ad833d87b8bc8fefe984d24245ece133ddfd985ed0fe73f0ca962fabadf0a16c7a4a59",
+          "sha256": "1d6da4cf91d8f6c3954089ca717fa7f98b5d7bfab07d59ec2f97c0dc13256871",
+          "sha1": "37ba9353b46e959aae7e7cae25eea7188945bd0f",
+          "md5": "bb588ea306343c9532fbbcc04219c260"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-bom",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-spring-security",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.apereo.cas.client",
+          "module": "cas-client-core",
+          "version": {
+            "requires": "4.0.4"
+          }
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-cas",
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-beans"
+            },
+            {
+              "group": "*",
+              "module": "spring-core"
+            },
+            {
+              "group": "*",
+              "module": "spring-security-web"
+            },
+            {
+              "group": "*",
+              "module": "spring-security-core"
+            },
+            {
+              "group": "*",
+              "module": "spring-web"
+            },
+            {
+              "group": "*",
+              "module": "spring-context"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-spring-security-cas-7.0.0-SNAPSHOT.jar",
+          "url": "grails-spring-security-cas-7.0.0-SNAPSHOT.jar",
+          "size": 19458,
+          "sha512": "bc66ba3be70e8cb6dc0c56a2a0b505a424876d429a737a27720f837533ad833d87b8bc8fefe984d24245ece133ddfd985ed0fe73f0ca962fabadf0a16c7a4a59",
+          "sha256": "1d6da4cf91d8f6c3954089ca717fa7f98b5d7bfab07d59ec2f97c0dc13256871",
+          "sha1": "37ba9353b46e959aae7e7cae25eea7188945bd0f",
+          "md5": "bb588ea306343c9532fbbcc04219c260"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-spring-security-cas-7.0.0-SNAPSHOT-javadoc.jar",
+          "url": "grails-spring-security-cas-7.0.0-SNAPSHOT-javadoc.jar",
+          "size": 32515,
+          "sha512": "d2342c550f181a05beaeea3e68661c0b47d67d907517dadf913f4a7e2b32aaca20fe5a93a331cf7d3389ca6e115ea4c13fa68536dbb525cee77c32bb73617d1e",
+          "sha256": "9ec61e7f37bbec286b839308485b6290077cdba7ac34353f1dd1952d4114ca95",
+          "sha1": "c4514204cb56bf586b2e9b1f09fc5db41014a587",
+          "md5": "856d5eda2cd8a2ec01cc615a7229fa28"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-spring-security-cas-7.0.0-SNAPSHOT-sources.jar",
+          "url": "grails-spring-security-cas-7.0.0-SNAPSHOT-sources.jar",
+          "size": 6313,
+          "sha512": "7098019f3cb68ba1b153b5deb9c7180778492c7d8d3aed7e66a6c2f25111a83bf54ec276e74e44d1ab2918cd45c093ed201cbb2e4d5b22c9487ed3689623ead0",
+          "sha256": "94b50c217cfd102c5d198743351ae74e3c063f9bff2e3eba1aaa455df19b0f4f",
+          "sha1": "1f3b522064f0dd586a17ae9705b81b7e392d3db1",
+          "md5": "4d1604a0d4b5a4371972a1ed8b85ef79"
+        }
+      ]
+    }
+  ]
+}

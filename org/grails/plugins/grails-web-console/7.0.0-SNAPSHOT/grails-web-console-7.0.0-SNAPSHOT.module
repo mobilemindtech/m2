@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails.plugins",
+    "module": "grails-web-console",
+    "version": "7.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "grails-web-console-7.0.0-SNAPSHOT.jar",
+          "url": "grails-web-console-7.0.0-SNAPSHOT.jar",
+          "size": 1150193,
+          "sha512": "0b86436541f36a6eb40ff27af7ef67e41c9027646a2e0cfbe4aa53db13150ae64ff65162024448b69df88bcccafb99edbe8d6ad7453f4f5bcaf839e41a0a4fa8",
+          "sha256": "667aaa08281ea7eebd2a06b9c402c546a70381a72dc7145d31e943fbd6a14b7b",
+          "sha1": "a36d61b906036bac2bb039cd6430e525e90fd070",
+          "md5": "689c32a14d4b7fe086c9909ca55aa0f8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-web-console-7.0.0-SNAPSHOT.jar",
+          "url": "grails-web-console-7.0.0-SNAPSHOT.jar",
+          "size": 1150193,
+          "sha512": "0b86436541f36a6eb40ff27af7ef67e41c9027646a2e0cfbe4aa53db13150ae64ff65162024448b69df88bcccafb99edbe8d6ad7453f4f5bcaf839e41a0a4fa8",
+          "sha256": "667aaa08281ea7eebd2a06b9c402c546a70381a72dc7145d31e943fbd6a14b7b",
+          "sha1": "a36d61b906036bac2bb039cd6430e525e90fd070",
+          "md5": "689c32a14d4b7fe086c9909ca55aa0f8"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-web-console-7.0.0-SNAPSHOT-javadoc.jar",
+          "url": "grails-web-console-7.0.0-SNAPSHOT-javadoc.jar",
+          "size": 66085,
+          "sha512": "a4d6424c7f00f34a2704cda405484ab9c966a6814bbcee8554ec7bc9f08338a822a814225d5cd6aafff8bda169920c2d735e54652661b1e63505f95093fee799",
+          "sha256": "1267cd2101d16e15ad66c8e3306778b4e2a2e6cf69e3f33cead5b97f25b85b13",
+          "sha1": "2878c314a477a16c7850d6017751a8edc089ca55",
+          "md5": "31759e8d4a3b515cc68a08a245bc0020"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-web-console-7.0.0-SNAPSHOT-sources.jar",
+          "url": "grails-web-console-7.0.0-SNAPSHOT-sources.jar",
+          "size": 1058758,
+          "sha512": "dfa2fad864710c79d16fe19714c051511be19ce22e8c37ea3a10b69d04902ede5c08b5b8636b2b2b1ae1ced5f17f47295eef9fdf9e07c7055abf77fb9a4024af",
+          "sha256": "1141079f68e939e202515f5295c38cb05cbb42616651891361370136d4150f04",
+          "sha1": "ecfa78bbd7b2c9dbf5652878608182d77e1d4145",
+          "md5": "4c0ecdf0239afbed15b044a66200a736"
+        }
+      ]
+    }
+  ]
+}

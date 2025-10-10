@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xmlns='http://maven.apache.org/POM/4.0.0' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xsi:schemaLocation='http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd'>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>qrcode</artifactId>
+  <packaging>zip</packaging>
+  <version>0.7</version>
+  <name>QR Code plugin</name>
+  <description>\
+This plugin allows you to create QR codes as part of your Grails
+application without the need for an external service.</description>
+  <url>https://github.com/goeh/grails-qrcode</url>
+  <licenses>
+    <license>
+      <name>Apache License 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Goran Ehrsson</name>
+      <email>goran@technipelago.se</email>
+    </developer>
+    <developer>
+      <name>Shawn Hartsock</name>
+      <email>hartsock@acm.org</email>
+    </developer>
+  </developers>
+  <issueManagement>
+    <system>github</system>
+    <url>https://github.com/goeh/grails-qrcode/issues</url>
+  </issueManagement>
+  <scm>
+    <url>https://github.com/goeh/grails-qrcode</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>ar.com.hjg</groupId>
+      <artifactId>pngj</artifactId>
+      <version>2.1.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>3.2.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>

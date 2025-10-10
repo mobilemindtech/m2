@@ -1,0 +1,206 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.grails",
+    "module": "grails-spring-security-oauth2",
+    "version": "7.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-spring-security",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "8.3.3"
+          }
+        },
+        {
+          "group": "org.apache.grails.bootstrap",
+          "module": "grails-bootstrap"
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-core"
+        },
+        {
+          "group": "org.apache.grails.views",
+          "module": "grails-taglib"
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-spring-security-oauth2-7.0.0-SNAPSHOT.jar",
+          "url": "grails-spring-security-oauth2-7.0.0-SNAPSHOT.jar",
+          "size": 138713,
+          "sha512": "b0a9057e43d9c1c46d0211c936171c1f7b6e2b8557bcd2f22d9cc17bc57feadd904db10307ca44a38a5cea6d57f8b3a84fa86c1ce2b68e282ed43e66615e5fc7",
+          "sha256": "3f041082ddcb4362fef8e1f93f8e82e35a04f32d52f9fd955de207f64b21ab4e",
+          "sha1": "4894a20f67b81526763f37ac91247af641edfb10",
+          "md5": "72131b12ff185024636bb932b57413e2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-bom",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "commons-validator",
+          "module": "commons-validator"
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "jline",
+          "module": "jline"
+        },
+        {
+          "group": "org.apache.grails.data",
+          "module": "grails-datamapping-core"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-controllers"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-converters"
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-webmvc"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-spring-security",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "8.3.3"
+          }
+        },
+        {
+          "group": "org.apache.grails.bootstrap",
+          "module": "grails-bootstrap"
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-core"
+        },
+        {
+          "group": "org.apache.grails.views",
+          "module": "grails-taglib"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-i18n"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-services"
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-spring-security-oauth2-7.0.0-SNAPSHOT.jar",
+          "url": "grails-spring-security-oauth2-7.0.0-SNAPSHOT.jar",
+          "size": 138713,
+          "sha512": "b0a9057e43d9c1c46d0211c936171c1f7b6e2b8557bcd2f22d9cc17bc57feadd904db10307ca44a38a5cea6d57f8b3a84fa86c1ce2b68e282ed43e66615e5fc7",
+          "sha256": "3f041082ddcb4362fef8e1f93f8e82e35a04f32d52f9fd955de207f64b21ab4e",
+          "sha1": "4894a20f67b81526763f37ac91247af641edfb10",
+          "md5": "72131b12ff185024636bb932b57413e2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-spring-security-oauth2-7.0.0-SNAPSHOT-javadoc.jar",
+          "url": "grails-spring-security-oauth2-7.0.0-SNAPSHOT-javadoc.jar",
+          "size": 90587,
+          "sha512": "e002a8e1b09193977af423c8b21b36a9ee51cf364018ca6919ca77190d50d652fffc828deec4c392a3e4ffeb45556b3fa2b17e670ce3491176696a1702273cf0",
+          "sha256": "dc74fb328742d4ef475935955b852fa1133e6cfb1bf8a1cca353c8548a3a6cc1",
+          "sha1": "f894524c46d6e458dea17aa931f796b7c17b8e3e",
+          "md5": "5b035eab38a5e3e6434e7e42ae16147d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-spring-security-oauth2-7.0.0-SNAPSHOT-sources.jar",
+          "url": "grails-spring-security-oauth2-7.0.0-SNAPSHOT-sources.jar",
+          "size": 31779,
+          "sha512": "f0ac71c89a222875b6e7b3d66fe0ac6ffe7b8358e6b39f2cec67eacdd1268141b2577161caa5a937c9f6a185c44e17da39c70a5307a59f6ad8763c0f800ec032",
+          "sha256": "a01940114e97a3cdc53d470d2869e5f89e269093e47ec16f00dc746a8088b6a4",
+          "sha1": "00bf1ae3fb32d516d96204b3a891ae503c1cda78",
+          "md5": "5bacdc5198956b7ea5a212e06008ad82"
+        }
+      ]
+    }
+  ]
+}

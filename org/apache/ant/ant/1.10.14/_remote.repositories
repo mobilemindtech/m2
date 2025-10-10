@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Sep 17 11:26:23 BRT 2025
+ant-1.10.14.jar>central=
+ant-1.10.14.pom>central=
+ant-1.10.14.pom>grailsCentral=
+ant-1.10.14.jar>grailsCentral=

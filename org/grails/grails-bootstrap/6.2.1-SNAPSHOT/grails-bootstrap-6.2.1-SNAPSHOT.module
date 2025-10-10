@@ -1,0 +1,296 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails",
+    "module": "grails-bootstrap",
+    "version": "6.2.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.21"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "commons-cli"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-xml",
+          "version": {
+            "requires": "3.0.21"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-templates",
+          "version": {
+            "requires": "3.0.21"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.10.4"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-bootstrap-6.2.1-SNAPSHOT.jar",
+          "url": "grails-bootstrap-6.2.1-SNAPSHOT.jar",
+          "size": 266614,
+          "sha512": "1162dd70f8a040d6b956d7046e49d90d00ce0c41e67f42263ec632e1edfe2aa9c5c18ddb69bb51da4fa6f6083e4db1bf1dddd47bbdcd0bba68005d70036940e1",
+          "sha256": "f2a92ad04f884142a33965b93e57762a6d8b780585411ab550bacb8f3bc22d91",
+          "sha1": "0d07340fa8bfaa82b1e5da613094cc296b480e21",
+          "md5": "26fd9cb2e5e63f1b9e6e4ea497c26a05"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "3.0.21"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "commons-cli"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.36"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-xml",
+          "version": {
+            "requires": "3.0.21"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy-templates",
+          "version": {
+            "requires": "3.0.21"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "io.micronaut",
+          "module": "micronaut-inject",
+          "version": {
+            "requires": "3.10.4"
+          },
+          "excludes": [
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-bootstrap-6.2.1-SNAPSHOT.jar",
+          "url": "grails-bootstrap-6.2.1-SNAPSHOT.jar",
+          "size": 266614,
+          "sha512": "1162dd70f8a040d6b956d7046e49d90d00ce0c41e67f42263ec632e1edfe2aa9c5c18ddb69bb51da4fa6f6083e4db1bf1dddd47bbdcd0bba68005d70036940e1",
+          "sha256": "f2a92ad04f884142a33965b93e57762a6d8b780585411ab550bacb8f3bc22d91",
+          "sha1": "0d07340fa8bfaa82b1e5da613094cc296b480e21",
+          "md5": "26fd9cb2e5e63f1b9e6e4ea497c26a05"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-bootstrap-6.2.1-SNAPSHOT-javadoc.jar",
+          "url": "grails-bootstrap-6.2.1-SNAPSHOT-javadoc.jar",
+          "size": 305267,
+          "sha512": "7a387811fc4551610f7bdce4728a08bc84308ea334c466ff8fe619e19fd2344b0039c02771ca5add7a2a3139e563d45eff581c216c08cf92a6e410e5124161c1",
+          "sha256": "eb5d817ef293a29bde00dfb56d042ef48cb1e9c50678b6c0cfd6df29d7c5a723",
+          "sha1": "93a0080cfdd19186dc82d768f87b86edba9053ff",
+          "md5": "9439e88b6c90c27dd25307d53eb04c54"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-bootstrap-6.2.1-SNAPSHOT-sources.jar",
+          "url": "grails-bootstrap-6.2.1-SNAPSHOT-sources.jar",
+          "size": 143256,
+          "sha512": "68f38b130fc734f9b13712bfddb761b90c2a2939771ebe084ed3c7c02f0ef03882dbc1c744a13d2c36adaa4e0e299889f85ffdaa02a6859f08b0ec57e98c964f",
+          "sha256": "801127a3d0c6a1775759a88caf7d9e3ebd13cfab48d1171b50b9e3f389a2c002",
+          "sha1": "57e9e50e5c45c84c972ad7afe7102c0bead8daef",
+          "md5": "799be4290b13d4d6b03c6d6243b88987"
+        }
+      ]
+    }
+  ]
+}

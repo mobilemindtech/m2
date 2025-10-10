@@ -1,0 +1,35 @@
+<plugin name='springSecurityUi' version='7.0.0-SNAPSHOT' grailsVersion='7.0.0-SNAPSHOT &gt; *'>
+  <type>grails.plugin.springsecurity.ui.SpringSecurityUiGrailsPlugin</type>
+  <authorEmail></authorEmail>
+  <author>Burt Beckwith</author>
+  <documentation>https://apache.github.io/grails-spring-security</documentation>
+  <profiles>[web]</profiles>
+  <description>User interface extensions for the Spring Security plugin</description>
+  <title>Spring Security UI plugin</title>
+  <version />
+  <grailsVersion>7.0.0-SNAPSHOT &gt; *</grailsVersion>
+  <loadAfter>[springSecurityCore, springSecurityAcl]</loadAfter>
+  <license>APACHE</license>
+  <issueManagement url='https://github.com/apache/grails-spring-security/issues' />
+  <organization name='Grails' url='https://www.grails.org' />
+  <name>spring-security-ui</name>
+  <scm url='https://github.com/apache/grails-spring-security' />
+  <resources>
+    <resource>grails.plugin.springsecurity.ui.AbstractS2UiController</resource>
+    <resource>grails.plugin.springsecurity.ui.AbstractS2UiDomainController</resource>
+    <resource>grails.plugin.springsecurity.ui.AclClassController</resource>
+    <resource>grails.plugin.springsecurity.ui.AclEntryController</resource>
+    <resource>grails.plugin.springsecurity.ui.AclObjectIdentityController</resource>
+    <resource>grails.plugin.springsecurity.ui.AclSidController</resource>
+    <resource>grails.plugin.springsecurity.ui.PersistentLoginController</resource>
+    <resource>grails.plugin.springsecurity.ui.RegisterController</resource>
+    <resource>grails.plugin.springsecurity.ui.RegistrationCodeController</resource>
+    <resource>grails.plugin.springsecurity.ui.RequestmapController</resource>
+    <resource>grails.plugin.springsecurity.ui.RoleController</resource>
+    <resource>grails.plugin.springsecurity.ui.SecurityInfoController</resource>
+    <resource>grails.plugin.springsecurity.ui.UserController</resource>
+    <resource>grails.plugin.springsecurity.ui.RegistrationCode</resource>
+    <resource>grails.plugin.springsecurity.ui.SpringSecurityUiService</resource>
+    <resource>grails.plugin.springsecurity.ui.SecurityUiTagLib</resource>
+  </resources>
+</plugin>

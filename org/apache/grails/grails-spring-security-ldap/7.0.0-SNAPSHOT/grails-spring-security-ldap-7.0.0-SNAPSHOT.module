@@ -1,0 +1,453 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.grails",
+    "module": "grails-spring-security-ldap",
+    "version": "7.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-spring-security",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-ldap",
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-beans"
+            },
+            {
+              "group": "*",
+              "module": "spring-test"
+            },
+            {
+              "group": "*",
+              "module": "apacheds-core-entry"
+            },
+            {
+              "group": "*",
+              "module": "junit"
+            },
+            {
+              "group": "*",
+              "module": "ldapsdk"
+            },
+            {
+              "group": "*",
+              "module": "shared-ldap"
+            },
+            {
+              "group": "*",
+              "module": "logback-classic"
+            },
+            {
+              "group": "*",
+              "module": "apacheds-protocol-ldap"
+            },
+            {
+              "group": "*",
+              "module": "spring-ldap-core"
+            },
+            {
+              "group": "*",
+              "module": "apacheds-protocol-shared"
+            },
+            {
+              "group": "*",
+              "module": "apacheds-server-jndi"
+            },
+            {
+              "group": "*",
+              "module": "apacheds-core"
+            },
+            {
+              "group": "*",
+              "module": "spring-context"
+            },
+            {
+              "group": "*",
+              "module": "slf4j-api"
+            },
+            {
+              "group": "*",
+              "module": "jcl-over-slf4j"
+            },
+            {
+              "group": "*",
+              "module": "spring-core"
+            },
+            {
+              "group": "*",
+              "module": "fest-assert"
+            },
+            {
+              "group": "*",
+              "module": "spring-tx"
+            },
+            {
+              "group": "*",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "mockito-core"
+            },
+            {
+              "group": "*",
+              "module": "spring-security-core"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.ldap",
+          "module": "spring-ldap-core",
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-beans"
+            },
+            {
+              "group": "*",
+              "module": "spring-test"
+            },
+            {
+              "group": "*",
+              "module": "junit"
+            },
+            {
+              "group": "*",
+              "module": "slf4j-log4j12"
+            },
+            {
+              "group": "*",
+              "module": "powermock-module-junit4"
+            },
+            {
+              "group": "*",
+              "module": "powermock-reflect"
+            },
+            {
+              "group": "*",
+              "module": "powermock-api-mockito"
+            },
+            {
+              "group": "*",
+              "module": "commons-lang"
+            },
+            {
+              "group": "*",
+              "module": "spring-core"
+            },
+            {
+              "group": "*",
+              "module": "powermock-module-junit4-common"
+            },
+            {
+              "group": "*",
+              "module": "powermock-core"
+            },
+            {
+              "group": "*",
+              "module": "spring-tx"
+            },
+            {
+              "group": "*",
+              "module": "gsbase"
+            },
+            {
+              "group": "*",
+              "module": "spring-data-commons"
+            },
+            {
+              "group": "*",
+              "module": "mockito-core"
+            },
+            {
+              "group": "*",
+              "module": "powermock-api-support"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-spring-security-ldap-7.0.0-SNAPSHOT.jar",
+          "url": "grails-spring-security-ldap-7.0.0-SNAPSHOT.jar",
+          "size": 45364,
+          "sha512": "749757ddbe66c93358ef26200e47aeb8e3f073e204216547afc61f1005543630486241b49a2cca33f7d32e2b8e3c559bc53a2624410b3ea25fe339fd1b05f373",
+          "sha256": "73352fdfcaf7a3b40b7b549a36c67925456456b140359599371696d4db914540",
+          "sha1": "7d75ae28bf8f9e8dac1799a6d9dc2d4cdf9bd69e",
+          "md5": "4cb4fcae483f7e2baa48573e82827ec3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-bom",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-spring-security",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-ldap",
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-beans"
+            },
+            {
+              "group": "*",
+              "module": "spring-test"
+            },
+            {
+              "group": "*",
+              "module": "apacheds-core-entry"
+            },
+            {
+              "group": "*",
+              "module": "junit"
+            },
+            {
+              "group": "*",
+              "module": "ldapsdk"
+            },
+            {
+              "group": "*",
+              "module": "shared-ldap"
+            },
+            {
+              "group": "*",
+              "module": "logback-classic"
+            },
+            {
+              "group": "*",
+              "module": "apacheds-protocol-ldap"
+            },
+            {
+              "group": "*",
+              "module": "spring-ldap-core"
+            },
+            {
+              "group": "*",
+              "module": "apacheds-protocol-shared"
+            },
+            {
+              "group": "*",
+              "module": "apacheds-server-jndi"
+            },
+            {
+              "group": "*",
+              "module": "apacheds-core"
+            },
+            {
+              "group": "*",
+              "module": "spring-context"
+            },
+            {
+              "group": "*",
+              "module": "slf4j-api"
+            },
+            {
+              "group": "*",
+              "module": "jcl-over-slf4j"
+            },
+            {
+              "group": "*",
+              "module": "spring-core"
+            },
+            {
+              "group": "*",
+              "module": "fest-assert"
+            },
+            {
+              "group": "*",
+              "module": "spring-tx"
+            },
+            {
+              "group": "*",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "mockito-core"
+            },
+            {
+              "group": "*",
+              "module": "spring-security-core"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.ldap",
+          "module": "spring-ldap-core",
+          "excludes": [
+            {
+              "group": "*",
+              "module": "spring-beans"
+            },
+            {
+              "group": "*",
+              "module": "spring-test"
+            },
+            {
+              "group": "*",
+              "module": "junit"
+            },
+            {
+              "group": "*",
+              "module": "slf4j-log4j12"
+            },
+            {
+              "group": "*",
+              "module": "powermock-module-junit4"
+            },
+            {
+              "group": "*",
+              "module": "powermock-reflect"
+            },
+            {
+              "group": "*",
+              "module": "powermock-api-mockito"
+            },
+            {
+              "group": "*",
+              "module": "commons-lang"
+            },
+            {
+              "group": "*",
+              "module": "spring-core"
+            },
+            {
+              "group": "*",
+              "module": "powermock-module-junit4-common"
+            },
+            {
+              "group": "*",
+              "module": "powermock-core"
+            },
+            {
+              "group": "*",
+              "module": "spring-tx"
+            },
+            {
+              "group": "*",
+              "module": "gsbase"
+            },
+            {
+              "group": "*",
+              "module": "spring-data-commons"
+            },
+            {
+              "group": "*",
+              "module": "mockito-core"
+            },
+            {
+              "group": "*",
+              "module": "powermock-api-support"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-web-boot"
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-spring-security-ldap-7.0.0-SNAPSHOT.jar",
+          "url": "grails-spring-security-ldap-7.0.0-SNAPSHOT.jar",
+          "size": 45364,
+          "sha512": "749757ddbe66c93358ef26200e47aeb8e3f073e204216547afc61f1005543630486241b49a2cca33f7d32e2b8e3c559bc53a2624410b3ea25fe339fd1b05f373",
+          "sha256": "73352fdfcaf7a3b40b7b549a36c67925456456b140359599371696d4db914540",
+          "sha1": "7d75ae28bf8f9e8dac1799a6d9dc2d4cdf9bd69e",
+          "md5": "4cb4fcae483f7e2baa48573e82827ec3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-spring-security-ldap-7.0.0-SNAPSHOT-javadoc.jar",
+          "url": "grails-spring-security-ldap-7.0.0-SNAPSHOT-javadoc.jar",
+          "size": 58528,
+          "sha512": "df7f0c9695b8124cd99c8d9b15e16e65bf192df02e9b8447add82080bf2846c295929362b8f75cc9ae0328f8595738390fa0a56d237a7656550ec12dca99e345",
+          "sha256": "c892c653f850582abffd5b0071c562f5afb2e1ea6e32bc61ba8aa3c86a2d67a4",
+          "sha1": "baf335aab38eee48785b6b508dae52822e4444a1",
+          "md5": "20eefd51a23e95d4135f74463b3a0af9"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-spring-security-ldap-7.0.0-SNAPSHOT-sources.jar",
+          "url": "grails-spring-security-ldap-7.0.0-SNAPSHOT-sources.jar",
+          "size": 17019,
+          "sha512": "b1a16111c622beaa72dbdee16ecd95a84381ed40fd92fdad2517022cd950d047b89968d69090b3d72a5b3fa2845049ba702dd70bf4911b9c08d6ab00a0890951",
+          "sha256": "0d1fcf903028bfafb6bd68b7daac98ee467f3acb78ef873ec1637592d284aa09",
+          "sha1": "3f8817fa933a25de81fdd0cb603a1b5ae6a28be7",
+          "md5": "f89cfcf5c8fcfff977324ccde99c4f59"
+        }
+      ]
+    }
+  ]
+}

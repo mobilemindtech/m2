@@ -1,0 +1,251 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.grails",
+    "module": "grails-spring-security-rest",
+    "version": "7.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-spring-security",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.nimbusds",
+          "module": "nimbus-jose-jwt",
+          "version": {
+            "requires": "9.42"
+          }
+        },
+        {
+          "group": "org.apache.grails.web",
+          "module": "grails-web-url-mappings"
+        },
+        {
+          "group": "org.pac4j",
+          "module": "pac4j-core",
+          "version": {
+            "requires": "6.0.6"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-beans"
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context"
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web"
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-core"
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-crypto"
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-web"
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-spring-security-rest-7.0.0-SNAPSHOT.jar",
+          "url": "grails-spring-security-rest-7.0.0-SNAPSHOT.jar",
+          "size": 179237,
+          "sha512": "5754613e1548506ee4ee1be20d7264dc1db119bf85c3251ed93bb64f60074c2ef6a6aeffe87b1e790c45668e6a1f9d7b2d46a12046a425a4556927eb81e31f4d",
+          "sha256": "89470c616998937e84f70946a19da2b4d5c1e0b18fa45745881de5a9f6fa2009",
+          "sha1": "ab14a303e23490d3e817baba07cd97f8d6d3b254",
+          "md5": "1bf58486b480496dddafc408e9c7930b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-bom",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          },
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3"
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.3.1-jre"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-codecs"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-converters"
+        },
+        {
+          "group": "org.pac4j",
+          "module": "pac4j-jakartaee",
+          "version": {
+            "requires": "6.0.6"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-spring-security",
+          "version": {
+            "requires": "7.0.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.nimbusds",
+          "module": "nimbus-jose-jwt",
+          "version": {
+            "requires": "9.42"
+          }
+        },
+        {
+          "group": "org.apache.grails.web",
+          "module": "grails-web-url-mappings"
+        },
+        {
+          "group": "org.pac4j",
+          "module": "pac4j-core",
+          "version": {
+            "requires": "6.0.6"
+          }
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-beans"
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context"
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-web"
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-core"
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-crypto"
+        },
+        {
+          "group": "org.springframework.security",
+          "module": "spring-security-web"
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-services"
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-spring-security-rest-7.0.0-SNAPSHOT.jar",
+          "url": "grails-spring-security-rest-7.0.0-SNAPSHOT.jar",
+          "size": 179237,
+          "sha512": "5754613e1548506ee4ee1be20d7264dc1db119bf85c3251ed93bb64f60074c2ef6a6aeffe87b1e790c45668e6a1f9d7b2d46a12046a425a4556927eb81e31f4d",
+          "sha256": "89470c616998937e84f70946a19da2b4d5c1e0b18fa45745881de5a9f6fa2009",
+          "sha1": "ab14a303e23490d3e817baba07cd97f8d6d3b254",
+          "md5": "1bf58486b480496dddafc408e9c7930b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-spring-security-rest-7.0.0-SNAPSHOT-javadoc.jar",
+          "url": "grails-spring-security-rest-7.0.0-SNAPSHOT-javadoc.jar",
+          "size": 233927,
+          "sha512": "ed92ccca56aa3663aeffd566db75b779d749f2d6487b0499dabe6a0f38b52c0cfef64c414a523a9d78738e3e113bb2d6682d8013b2bcd99bc318c4d2913269f2",
+          "sha256": "50c274c951c4864aa7e4a8963286d14cf998d12ece92fc51f02adceb83f8b0a9",
+          "sha1": "546f1459a022d6d0b49d8e8048b462a58674e2c9",
+          "md5": "23098a746b6bab54f7f969756aeb7f36"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "grails-spring-security-rest-7.0.0-SNAPSHOT-sources.jar",
+          "url": "grails-spring-security-rest-7.0.0-SNAPSHOT-sources.jar",
+          "size": 98007,
+          "sha512": "960ef00c93fd46efbcf14a670ea6d726f57c9508a68da4d65b0d27f9b620ddb654c3670898a0be80fea3b2db68670911158188e25b3ef810de67ad318cf770c3",
+          "sha256": "86b64ceea75bac4a1632e02dccfadfbe1557152b6ad671083b43c56d0f3bb7aa",
+          "sha1": "e9875abe42f64ee9737cbeca5b131bff59f69983",
+          "md5": "78b5741ed601f02e80c6a8eaad73f74f"
+        }
+      ]
+    }
+  ]
+}

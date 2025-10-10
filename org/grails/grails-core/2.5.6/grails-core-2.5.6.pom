@@ -84,6 +84,30 @@
       </exclusions>
     </dependency>
     <dependency>
+      <groupId>org.grails</groupId>
+      <artifactId>grails-spring</artifactId>
+      <version>2.5.6</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>spring-web</artifactId>
+          <groupId>org.springframework</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>spring-tx</artifactId>
+          <groupId>org.springframework</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>commons-logging</artifactId>
+          <groupId>commons-logging</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>grails-bootstrap</artifactId>
+          <groupId>org.grails</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
       <groupId>xalan</groupId>
       <artifactId>serializer</artifactId>
       <version>2.7.2</version>
@@ -132,54 +156,6 @@
         <exclusion>
           <artifactId>commons-logging</artifactId>
           <groupId>commons-logging</groupId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <dependency>
-      <groupId>org.grails</groupId>
-      <artifactId>grails-bootstrap</artifactId>
-      <version>2.5.6</version>
-      <scope>compile</scope>
-      <exclusions>
-        <exclusion>
-          <artifactId>ant-junit</artifactId>
-          <groupId>org.apache.ant</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>jansi</artifactId>
-          <groupId>org.fusesource.jansi</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>ivy</artifactId>
-          <groupId>org.apache.ivy</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>ant-trax</artifactId>
-          <groupId>org.apache.ant</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>ant</artifactId>
-          <groupId>org.apache.ant</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>jna</artifactId>
-          <groupId>net.java.dev.jna</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>ant-launcher</artifactId>
-          <groupId>org.apache.ant</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>gant_groovy1.8</artifactId>
-          <groupId>org.codehaus.gant</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>commons-logging</artifactId>
-          <groupId>commons-logging</groupId>
-        </exclusion>
-        <exclusion>
-          <artifactId>jline</artifactId>
-          <groupId>jline</groupId>
         </exclusion>
       </exclusions>
     </dependency>
@@ -277,25 +253,49 @@
     </dependency>
     <dependency>
       <groupId>org.grails</groupId>
-      <artifactId>grails-spring</artifactId>
+      <artifactId>grails-bootstrap</artifactId>
       <version>2.5.6</version>
       <scope>compile</scope>
       <exclusions>
         <exclusion>
-          <artifactId>spring-web</artifactId>
-          <groupId>org.springframework</groupId>
+          <artifactId>ant-junit</artifactId>
+          <groupId>org.apache.ant</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>spring-tx</artifactId>
-          <groupId>org.springframework</groupId>
+          <artifactId>jansi</artifactId>
+          <groupId>org.fusesource.jansi</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>ivy</artifactId>
+          <groupId>org.apache.ivy</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>ant-trax</artifactId>
+          <groupId>org.apache.ant</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>ant</artifactId>
+          <groupId>org.apache.ant</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>jna</artifactId>
+          <groupId>net.java.dev.jna</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>ant-launcher</artifactId>
+          <groupId>org.apache.ant</groupId>
+        </exclusion>
+        <exclusion>
+          <artifactId>gant_groovy1.8</artifactId>
+          <groupId>org.codehaus.gant</groupId>
         </exclusion>
         <exclusion>
           <artifactId>commons-logging</artifactId>
           <groupId>commons-logging</groupId>
         </exclusion>
         <exclusion>
-          <artifactId>grails-bootstrap</artifactId>
-          <groupId>org.grails</groupId>
+          <artifactId>jline</artifactId>
+          <groupId>jline</groupId>
         </exclusion>
       </exclusions>
     </dependency>
