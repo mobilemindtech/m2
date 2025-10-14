@@ -1,0 +1,29 @@
+<plugin name='rendering' version='7.0.0-SNAPSHOT' grailsVersion='7.0 &gt; *'>
+  <type>grails.plugins.rendering.RenderingGrailsPlugin</type>
+  <authorEmail>grails.plugin.collective@gmail.com</authorEmail>
+  <author>Grails Plugin Collective</author>
+  <documentation>http://gpc.github.com/grails-rendering</documentation>
+  <description>Render GSPs as PDFs, JPEGs, GIFs and PNGs</description>
+  <title>Grails Rendering</title>
+  <version />
+  <observe>[controllers]</observe>
+  <grailsVersion>7.0 &gt; *</grailsVersion>
+  <loadAfter>[controllers]</loadAfter>
+  <license>APACHE</license>
+  <pluginExcludes>[grails-app/views/**, example/**]</pluginExcludes>
+  <issueManagement system='JIRA' url='https://github.com/gpc/rendering/issues' />
+  <organization name='Grails Plugin Collective' url='https://github.com/gpc' />
+  <name>rendering</name>
+  <scm url='https://github.com/gpc/rendering.git' />
+  <resources>
+    <resource>grails.plugins.rendering.Application</resource>
+    <resource>grails.plugins.rendering.RenderingService</resource>
+    <resource>grails.plugins.rendering.document.XhtmlDocumentService</resource>
+    <resource>grails.plugins.rendering.image.GifRenderingService</resource>
+    <resource>grails.plugins.rendering.image.ImageRenderingService</resource>
+    <resource>grails.plugins.rendering.image.JpegRenderingService</resource>
+    <resource>grails.plugins.rendering.image.PngRenderingService</resource>
+    <resource>grails.plugins.rendering.pdf.PdfRenderingService</resource>
+    <resource>grails.plugins.rendering.RenderingTagLib</resource>
+  </resources>
+</plugin>

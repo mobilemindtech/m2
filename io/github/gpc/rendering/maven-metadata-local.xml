@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.github.gpc</groupId>
+  <artifactId>rendering</artifactId>
+  <versioning>
+    <latest>7.0.0-SNAPSHOT</latest>
+    <versions>
+      <version>7.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20251014194035</lastUpdated>
+  </versioning>
+</metadata>

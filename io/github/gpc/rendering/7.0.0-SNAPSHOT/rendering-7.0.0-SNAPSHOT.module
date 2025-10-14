@@ -1,0 +1,156 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gpc",
+    "module": "rendering",
+    "version": "7.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.xhtmlrenderer",
+          "module": "flying-saucer-pdf-openpdf",
+          "version": {
+            "requires": "9.4.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.pdfbox",
+          "module": "pdfbox",
+          "version": {
+            "requires": "3.0.5"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "rendering-7.0.0-SNAPSHOT.jar",
+          "url": "rendering-7.0.0-SNAPSHOT.jar",
+          "size": 55855,
+          "sha512": "3141494052d07d57ad261b5d607bf893ceca1d97d57f406ca3ccd3c5e2847a8a5c19070d7365de62fb53157fa63c3da0af0821ab6786d5f00db7f14b11c53937",
+          "sha256": "eac03c8d03894ed8045c2d6b5cb0988a10f4e98d9b7c8e89507b07511680d60d",
+          "sha1": "5d3a9c3fe7f6c1904e2768a01ab979f85d708a08",
+          "md5": "8ec60332f176d184655f1b5f24f99c38"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.xhtmlrenderer",
+          "module": "flying-saucer-pdf-openpdf",
+          "version": {
+            "requires": "9.4.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.pdfbox",
+          "module": "pdfbox",
+          "version": {
+            "requires": "3.0.5"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "rendering-7.0.0-SNAPSHOT.jar",
+          "url": "rendering-7.0.0-SNAPSHOT.jar",
+          "size": 55855,
+          "sha512": "3141494052d07d57ad261b5d607bf893ceca1d97d57f406ca3ccd3c5e2847a8a5c19070d7365de62fb53157fa63c3da0af0821ab6786d5f00db7f14b11c53937",
+          "sha256": "eac03c8d03894ed8045c2d6b5cb0988a10f4e98d9b7c8e89507b07511680d60d",
+          "sha1": "5d3a9c3fe7f6c1904e2768a01ab979f85d708a08",
+          "md5": "8ec60332f176d184655f1b5f24f99c38"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rendering-7.0.0-SNAPSHOT-javadoc.jar",
+          "url": "rendering-7.0.0-SNAPSHOT-javadoc.jar",
+          "size": 89028,
+          "sha512": "b533fa5de14337839c10bd0763a76de4c94dbd81982a7e85c487a13f1bfeae4d15fdcd35b00d8fab17882a83487a6e74136a6e0eb92818885975129ae36b211a",
+          "sha256": "51e7d2c093ebc7d19fb70caf74d4a4a21b902a8db21e6dc01d968ad4e7bcf4dc",
+          "sha1": "5c956190dd3493dfcb1d7500082c8f96b220c84e",
+          "md5": "7dfe3ef6ba2301ad3260093db9667648"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rendering-7.0.0-SNAPSHOT-sources.jar",
+          "url": "rendering-7.0.0-SNAPSHOT-sources.jar",
+          "size": 20592,
+          "sha512": "253069b1e22b3a756fed534baa793be2f12c7f275cc6c4be772fd14f007ab70c17ed9ba6de8313474c9e562bfbff691262d4818fb50214a6380ee22dc236c8c3",
+          "sha256": "f652c03fda269b87e9bc2f2943b66401feafea6333b58978a8229678b6f75613",
+          "sha1": "32d76bdda864a7ec6399eada6829d3f806373dab",
+          "md5": "5c9a698d3b9094bb9446e288100db6fc"
+        }
+      ]
+    }
+  ]
+}
