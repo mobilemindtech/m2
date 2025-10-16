@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache.grails</groupId>
+  <artifactId>hibernate-filter-plugin</artifactId>
+  <versioning>
+    <latest>7.0.0-RC</latest>
+    <release>7.0.0-RC</release>
+    <versions>
+      <version>7.0.0-RC</version>
+    </versions>
+    <lastUpdated>20251016200303</lastUpdated>
+  </versioning>
+</metadata>
