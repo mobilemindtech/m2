@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.gpc</groupId>
+  <artifactId>rendering</artifactId>
+  <version>7.0.1-SNAPSHOT</version>
+  <name>Rendering Plugin</name>
+  <description>Render GSPs as PDFs, JPEGs, GIFs and PNGs</description>
+  <url>https://github.com/gpc/rendering</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>ldaley</id>
+      <name>Luke Daley</name>
+    </developer>
+    <developer>
+      <id>graemerocher</id>
+      <name>Graeme Rocher</name>
+    </developer>
+    <developer>
+      <id>burtbeckwith</id>
+      <name>Burt Beckwith</name>
+    </developer>
+    <developer>
+      <id>sbglasius</id>
+      <name>Søren Berg Glasius</name>
+    </developer>
+    <developer>
+      <id>magx2</id>
+      <name>Martin</name>
+    </developer>
+    <developer>
+      <id>Ari651</id>
+      <name>Ari Bustamante</name>
+    </developer>
+    <developer>
+      <id>billgonemad</id>
+      <name>William Malinowski</name>
+    </developer>
+    <developer>
+      <id>ZacharyKlein</id>
+      <name>Zachary Klein</name>
+    </developer>
+    <developer>
+      <id>halfbaked</id>
+      <name>Eamonn O'Connell</name>
+    </developer>
+    <developer>
+      <id>codeconsole</id>
+      <name>Scott Murphy</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git@github.com:gpc/rendering.git</connection>
+    <developerConnection>scm:git@github.com:gpc/rendering.git</developerConnection>
+    <url>https://github.com/gpc/rendering</url>
+  </scm>
+  <issueManagement>
+    <system>GitHub Issues</system>
+    <url>https://github.com/gpc/rendering/issues</url>
+  </issueManagement>
+  <dependencies>
+    <dependency>
+      <groupId>org.xhtmlrenderer</groupId>
+      <artifactId>flying-saucer-pdf</artifactId>
+      <version>9.9.5</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-simple</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.pdfbox</groupId>
+      <artifactId>pdfbox</artifactId>
+      <version>3.0.6</version>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-simple</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+  </dependencies>
+</project>

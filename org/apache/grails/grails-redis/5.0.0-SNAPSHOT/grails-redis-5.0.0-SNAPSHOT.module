@@ -10,7 +10,7 @@
   },
   "createdBy": {
     "gradle": {
-      "version": "8.14.2"
+      "version": "8.14.3"
     }
   },
   "variants": [
@@ -37,11 +37,11 @@
         {
           "name": "grails-redis-5.0.0-SNAPSHOT.jar",
           "url": "grails-redis-5.0.0-SNAPSHOT.jar",
-          "size": 138728,
-          "sha512": "0e2e555a700b8caba4f721bb66564fa050c7cefee28093e5e40ad32fbf45ede2a219ee37f4af475317c9d30d6cf0439bae676a88808a7ebaa5ac8cc99cfe92f4",
-          "sha256": "dca810d47287507b8c8a02d4ba5630de1476a65e1b8048d507392136e411bd44",
-          "sha1": "c593d245deaa2108bbb90e86413efe9dc77e7c0b",
-          "md5": "096f380b1d3338acaa30118be58b5258"
+          "size": 138842,
+          "sha512": "983c610b18b488a0fba0ccddda547391d5f7fef02c81623fa514742b093d98b3c88f785164be5f12057b1230c3e9b21a0bccc125bfbbad97a4b9852bb24fe35c",
+          "sha256": "c2707b1e3530396fdf0bfd2dab5f6a6f489fe8fd7205e525fa7e6afb58696762",
+          "sha1": "62ebe184bc39357bbfdea3c5c983419f6f358413",
+          "md5": "c027776f7b98ec9e0510bdb65b1dde23"
         }
       ]
     },
@@ -59,7 +59,7 @@
           "group": "org.apache.grails",
           "module": "grails-bom",
           "version": {
-            "requires": "7.0.0-RC2"
+            "requires": "7.0.0"
           },
           "attributes": {
             "org.gradle.category": "platform"
@@ -79,11 +79,11 @@
         {
           "name": "grails-redis-5.0.0-SNAPSHOT.jar",
           "url": "grails-redis-5.0.0-SNAPSHOT.jar",
-          "size": 138728,
-          "sha512": "0e2e555a700b8caba4f721bb66564fa050c7cefee28093e5e40ad32fbf45ede2a219ee37f4af475317c9d30d6cf0439bae676a88808a7ebaa5ac8cc99cfe92f4",
-          "sha256": "dca810d47287507b8c8a02d4ba5630de1476a65e1b8048d507392136e411bd44",
-          "sha1": "c593d245deaa2108bbb90e86413efe9dc77e7c0b",
-          "md5": "096f380b1d3338acaa30118be58b5258"
+          "size": 138842,
+          "sha512": "983c610b18b488a0fba0ccddda547391d5f7fef02c81623fa514742b093d98b3c88f785164be5f12057b1230c3e9b21a0bccc125bfbbad97a4b9852bb24fe35c",
+          "sha256": "c2707b1e3530396fdf0bfd2dab5f6a6f489fe8fd7205e525fa7e6afb58696762",
+          "sha1": "62ebe184bc39357bbfdea3c5c983419f6f358413",
+          "md5": "c027776f7b98ec9e0510bdb65b1dde23"
         }
       ]
     },
@@ -120,10 +120,10 @@
           "name": "grails-redis-5.0.0-SNAPSHOT-sources.jar",
           "url": "grails-redis-5.0.0-SNAPSHOT-sources.jar",
           "size": 36981,
-          "sha512": "28765f9c0eef5886647e9ac15fc0d379a0fdf50e60b720a326e802db921c0bdda9a6261333b1671effd5e4a4bce0c76c0218396bfbf7ed3293c0f3d84873dca9",
-          "sha256": "4ef106ebdceb78aa8b74907776c6bd13a8b7f2fc00f4d2f883fd7d50e5906857",
-          "sha1": "99622b24964696029faa6c8216758c2233c9a254",
-          "md5": "73f925e31825a1dc4516bacb01c7113f"
+          "sha512": "d1bf4115843f6314d783ad5c1d6bc36b0fa75dc8c0a32ccca9f257f63acab40e2050fa7d7b1522c8b5133135e43bc5a587d710f9c07412d5809a5882db3c8f78",
+          "sha256": "3ff797d169cf0929e0c693dc8ab78fb338081885fc4e430d369f3c96453c7a59",
+          "sha1": "727ff9465e7c50873b0f7900ebf0236095d34383",
+          "md5": "737007f71486595d34680ce19344e499"
         }
       ]
     }

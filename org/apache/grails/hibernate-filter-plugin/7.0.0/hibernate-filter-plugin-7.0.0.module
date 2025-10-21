@@ -1,0 +1,199 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.grails",
+    "module": "hibernate-filter-plugin",
+    "version": "7.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "hibernate-filter-plugin-7.0.0.jar",
+          "url": "hibernate-filter-plugin-7.0.0.jar",
+          "size": 54577,
+          "sha512": "380f43435e0db3d785df44810237cb480d556bb17e9d64d81ea10b1fe9534a5e3f0bcfe56a14c444cb02f4059ce793af4a9e9f13ceee395ad20a27b00cfb54d4",
+          "sha256": "fb28824592280ca1bbb075306e530fc36f84afd6e963f4919b7c6e7394f62ba1",
+          "sha1": "0eb5e869211f5d005187a5348e22a2f60340ffaa",
+          "md5": "e03c5ee29d6e7b356685c65fc52fd4c6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-bom",
+          "version": {
+            "requires": "7.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-cache",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-core",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-data-hibernate5",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-databinding",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-events",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-interceptors",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-logging",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-rest-transforms",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-services",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-logging",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "hibernate-filter-plugin-7.0.0.jar",
+          "url": "hibernate-filter-plugin-7.0.0.jar",
+          "size": 54577,
+          "sha512": "380f43435e0db3d785df44810237cb480d556bb17e9d64d81ea10b1fe9534a5e3f0bcfe56a14c444cb02f4059ce793af4a9e9f13ceee395ad20a27b00cfb54d4",
+          "sha256": "fb28824592280ca1bbb075306e530fc36f84afd6e963f4919b7c6e7394f62ba1",
+          "sha1": "0eb5e869211f5d005187a5348e22a2f60340ffaa",
+          "md5": "e03c5ee29d6e7b356685c65fc52fd4c6"
+        }
+      ]
+    }
+  ]
+}

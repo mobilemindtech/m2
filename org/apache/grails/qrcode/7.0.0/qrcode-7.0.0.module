@@ -1,0 +1,225 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.grails",
+    "module": "qrcode",
+    "version": "7.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "qrcode-7.0.0.jar",
+          "url": "qrcode-7.0.0.jar",
+          "size": 36984,
+          "sha512": "34e3f5a45cf7a1c79d5d2f82541369fc01163eec2f0230a919dbe5a92f9c126232c84baf00610448308c1ad4c047ea2a63c8b1fbd5ce98e5f57b4c59a5335a82",
+          "sha256": "d8fbc6181c0d925b5b54acf2a70e57511620ca6a0cb46b8f7aaf14d7335f48da",
+          "sha1": "6d2d01e091e79c36a0a52340ee4b10294607d879",
+          "md5": "a92b1fa7fdcf9740c9da457f51ee5184"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-bom",
+          "version": {
+            "requires": "7.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-cache",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-core",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-data-hibernate5",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-databinding",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-events",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-interceptors",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-logging",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-rest-transforms",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-services",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-logging",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "ar.com.hjg",
+          "module": "pngj",
+          "version": {
+            "requires": "2.1.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "com.google.zxing",
+          "module": "core",
+          "version": {
+            "requires": "3.2.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "qrcode-7.0.0.jar",
+          "url": "qrcode-7.0.0.jar",
+          "size": 36984,
+          "sha512": "34e3f5a45cf7a1c79d5d2f82541369fc01163eec2f0230a919dbe5a92f9c126232c84baf00610448308c1ad4c047ea2a63c8b1fbd5ce98e5f57b4c59a5335a82",
+          "sha256": "d8fbc6181c0d925b5b54acf2a70e57511620ca6a0cb46b8f7aaf14d7335f48da",
+          "sha1": "6d2d01e091e79c36a0a52340ee4b10294607d879",
+          "md5": "a92b1fa7fdcf9740c9da457f51ee5184"
+        }
+      ]
+    }
+  ]
+}

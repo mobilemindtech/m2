@@ -3,43 +3,43 @@
   <groupId>org.apache.grails</groupId>
   <artifactId>grails-redis</artifactId>
   <versioning>
-    <lastUpdated>20250924182913</lastUpdated>
+    <lastUpdated>20251021200052</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
         <extension>jar</extension>
         <value>5.0.0-SNAPSHOT</value>
-        <updated>20250924182913</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>5.0.0-SNAPSHOT</value>
-        <updated>20250924182913</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>5.0.0-SNAPSHOT</value>
-        <updated>20250924182913</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>plugin</classifier>
-        <extension>xml</extension>
-        <value>5.0.0-SNAPSHOT</value>
-        <updated>20250924182913</updated>
+        <updated>20251021200052</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
         <value>5.0.0-SNAPSHOT</value>
-        <updated>20250924182913</updated>
+        <updated>20251021200052</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>5.0.0-SNAPSHOT</value>
+        <updated>20251021200052</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
         <value>5.0.0-SNAPSHOT</value>
-        <updated>20250924182913</updated>
+        <updated>20251021200052</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>plugin</classifier>
+        <extension>xml</extension>
+        <value>5.0.0-SNAPSHOT</value>
+        <updated>20251021200052</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>5.0.0-SNAPSHOT</value>
+        <updated>20251021200052</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

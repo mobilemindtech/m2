@@ -1,0 +1,238 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.grails",
+    "module": "rabbitmq-native",
+    "version": "7.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "rabbitmq-native-7.0.0.jar",
+          "url": "rabbitmq-native-7.0.0.jar",
+          "size": 283347,
+          "sha512": "6e2b8be8466ea992cdb61cb9a1dcecef074c583bd6081c26d7509becb542566d0e017e38b2558b34d5d0294326bb2db3a4b503543c7f43645e214af742474542",
+          "sha256": "55cabfbaa91f276f4b220bd2e7f4388253ef6e84d75b58cd0a783e5ea91e1255",
+          "sha1": "3ba13f47eb1996afa8a808eeabd12f6ebdf250cb",
+          "md5": "999a5a750d8a4e3d1dc726c846df137c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-bom",
+          "version": {
+            "requires": "7.0.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-cache",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-core",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-data-hibernate5",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-databinding",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-events",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-interceptors",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-logging",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-rest-transforms",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-services",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-logging",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.gpars",
+          "module": "gpars",
+          "version": {
+            "requires": "1.2.1"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "com.rabbitmq",
+          "module": "amqp-client",
+          "version": {
+            "requires": "5.18.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "io.dropwizard.metrics",
+          "module": "metrics-core",
+          "version": {
+            "requires": "3.2.3"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "rabbitmq-native-7.0.0.jar",
+          "url": "rabbitmq-native-7.0.0.jar",
+          "size": 283347,
+          "sha512": "6e2b8be8466ea992cdb61cb9a1dcecef074c583bd6081c26d7509becb542566d0e017e38b2558b34d5d0294326bb2db3a4b503543c7f43645e214af742474542",
+          "sha256": "55cabfbaa91f276f4b220bd2e7f4388253ef6e84d75b58cd0a783e5ea91e1255",
+          "sha1": "3ba13f47eb1996afa8a808eeabd12f6ebdf250cb",
+          "md5": "999a5a750d8a4e3d1dc726c846df137c"
+        }
+      ]
+    }
+  ]
+}
