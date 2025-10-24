@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.codehaus.groovy.modules.http-builder</groupId>
+  <artifactId>http-builder</artifactId>
+  <versioning>
+    <lastUpdated>20251024030507</lastUpdated>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.8.0-SNAPSHOT</value>
+        <updated>20251024030507</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.8.0-SNAPSHOT</value>
+        <updated>20251024030507</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>all</classifier>
+        <extension>tar.gz</extension>
+        <value>0.8.0-SNAPSHOT</value>
+        <updated>20251024030507</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>all</classifier>
+        <extension>zip</extension>
+        <value>0.8.0-SNAPSHOT</value>
+        <updated>20251024030507</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>0.8.0-SNAPSHOT</version>
+</metadata>
