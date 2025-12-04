@@ -1,0 +1,83 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.codehaus.gant",
+    "module": "gant",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 24,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "gant-2.0.0.jar",
+          "url": "gant-2.0.0.jar",
+          "size": 240719,
+          "sha512": "9478cbf47132ff61b5bce2d65a3bbf4bd09d800933eeb76b1e7636c6c6603daeb9a4431015502e257cf0ac6fa40d73c59e6f28a84144b7c46990d5c81b00fe04",
+          "sha256": "94aaa273cf85520f78f6feca93796c005af37cc83dfc2d3042a44bc64041a779",
+          "sha1": "c6877fd3343c76a1fc96c4a7bf3fc4c1c841ee4f",
+          "md5": "051bf73053401c06c7de76d3353ac578"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 24,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-all",
+          "version": {
+            "requires": "4.0.29"
+          }
+        },
+        {
+          "group": "commons-cli",
+          "module": "commons-cli",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.15"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "gant-2.0.0.jar",
+          "url": "gant-2.0.0.jar",
+          "size": 240719,
+          "sha512": "9478cbf47132ff61b5bce2d65a3bbf4bd09d800933eeb76b1e7636c6c6603daeb9a4431015502e257cf0ac6fa40d73c59e6f28a84144b7c46990d5c81b00fe04",
+          "sha256": "94aaa273cf85520f78f6feca93796c005af37cc83dfc2d3042a44bc64041a779",
+          "sha1": "c6877fd3343c76a1fc96c4a7bf3fc4c1c841ee4f",
+          "md5": "051bf73053401c06c7de76d3353ac578"
+        }
+      ]
+    }
+  ]
+}

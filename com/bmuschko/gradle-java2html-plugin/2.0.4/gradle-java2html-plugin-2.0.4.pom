@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bmuschko</groupId>
+  <artifactId>gradle-java2html-plugin</artifactId>
+  <version>2.0.4</version>
+  <name>Gradle Java2HTML plugin</name>
+  <description>Gradle plugin for turning source code into HTML, RTF, TeX and XHTML using Java2HTML.</description>
+  <url>https://github.com/bmuschko/gradle-java2html-plugin</url>
+  <inceptionYear>2012</inceptionYear>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>bmuschko</id>
+      <name>Benjamin Muschko</name>
+      <email>benjamin.muschko@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:https://bmuschko@github.com/bmuschko/gradle-java2html-plugin.git</connection>
+    <developerConnection>scm:git://github.com/bmuschko/gradle-java2html-plugin.git</developerConnection>
+    <url>https://github.com/bmuschko/gradle-java2html-plugin</url>
+  </scm>
+</project>
