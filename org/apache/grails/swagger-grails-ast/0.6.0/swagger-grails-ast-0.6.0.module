@@ -1,0 +1,76 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.grails",
+    "module": "swagger-grails-ast",
+    "version": "0.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 24,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "swagger-grails-ast-0.6.0.jar",
+          "url": "swagger-grails-ast-0.6.0.jar",
+          "size": 7800,
+          "sha512": "e5264e7b0395caf0b7b69e8ea44d514ab6cd4d53843f744f506e5c8fa27a54eaf7264cdcafd84871d568dc0788ff940c20d5588afae2f450dd3a7be40bb85f6d",
+          "sha256": "edfdbcca9c2c38fd5492fcda7fab6940ef9259c903acd1d362faeb6ae3bb7b67",
+          "sha1": "16b38012eff8f4d0b836432bacfb5e908b3ffcc1",
+          "md5": "f221ca890aadd5be252ef92a179dc8ce"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 24,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "4.0.28"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "swagger-grails-ast-0.6.0.jar",
+          "url": "swagger-grails-ast-0.6.0.jar",
+          "size": 7800,
+          "sha512": "e5264e7b0395caf0b7b69e8ea44d514ab6cd4d53843f744f506e5c8fa27a54eaf7264cdcafd84871d568dc0788ff940c20d5588afae2f450dd3a7be40bb85f6d",
+          "sha256": "edfdbcca9c2c38fd5492fcda7fab6940ef9259c903acd1d362faeb6ae3bb7b67",
+          "sha1": "16b38012eff8f4d0b836432bacfb5e908b3ffcc1",
+          "md5": "f221ca890aadd5be252ef92a179dc8ce"
+        }
+      ]
+    }
+  ]
+}

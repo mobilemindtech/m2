@@ -2,8 +2,8 @@
   "formatVersion": "1.1",
   "component": {
     "group": "org.apache.grails",
-    "module": "qrcode",
-    "version": "7.0.0",
+    "module": "swagger-grails",
+    "version": "0.6.0",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -25,13 +25,13 @@
       },
       "files": [
         {
-          "name": "qrcode-7.0.0.jar",
-          "url": "qrcode-7.0.0.jar",
-          "size": 36915,
-          "sha512": "35a251ac082d79a6b36a2e332714e99aa9136a3944803b3ae52129bd87d868f6c2c30a13a8ec84ba5e41d1c9d211c4d335035d1c233ecb2e9a7eb4862734d0c7",
-          "sha256": "27749abdc7a0c98633d090a7be8e5420170640a7d67100a5a40240adad80688c",
-          "sha1": "a871e7ae2877544c85414a6d401b53cbe1604943",
-          "md5": "c02dc0ba500c4c7477b64f822e0c8666"
+          "name": "swagger-grails-0.6.0.jar",
+          "url": "swagger-grails-0.6.0.jar",
+          "size": 641960,
+          "sha512": "d0e94dd0e67b9db5e40805f96ac493cb7c6d6e2d0cdbb0034cecd32b16fb79c31c9acb4c55ff5d4c7cd5141544e20800d3416c074697680c31001c2ae36239c6",
+          "sha256": "92b193c68ff6f9a46aa1863cda74f800b97b76cc8e27dd2959baf89c11c93075",
+          "sha1": "e60c832b3ad028106cf9cc2671dd460f4dfa2dfb",
+          "md5": "927686f93a495e7b03e1b04a999a2bbd"
         }
       ]
     },
@@ -49,7 +49,7 @@
           "group": "org.apache.grails",
           "module": "grails-bom",
           "version": {
-            "requires": "7.0.0"
+            "requires": "7.0.4"
           },
           "excludes": [
             {
@@ -183,10 +183,10 @@
           ]
         },
         {
-          "group": "ar.com.hjg",
-          "module": "pngj",
+          "group": "com.thoughtworks.paranamer",
+          "module": "paranamer",
           "version": {
-            "requires": "2.1.0"
+            "requires": "2.8"
           },
           "excludes": [
             {
@@ -196,10 +196,75 @@
           ]
         },
         {
-          "group": "com.google.zxing",
-          "module": "core",
+          "group": "io.swagger.core.v3",
+          "module": "swagger-core-jakarta",
           "version": {
-            "requires": "3.2.0"
+            "requires": "2.2.22"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-annotations-jakarta",
+          "version": {
+            "requires": "2.2.22"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-models-jakarta",
+          "version": {
+            "requires": "2.2.22"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "io.swagger.core.v3",
+          "module": "swagger-jaxrs2-jakarta",
+          "version": {
+            "requires": "2.2.22"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "jakarta.ws.rs",
+          "module": "jakarta.ws.rs-api",
+          "version": {
+            "requires": "3.1.0"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "swagger-grails-ast",
+          "version": {
+            "requires": "0.6.0"
           },
           "excludes": [
             {
@@ -211,13 +276,13 @@
       ],
       "files": [
         {
-          "name": "qrcode-7.0.0.jar",
-          "url": "qrcode-7.0.0.jar",
-          "size": 36915,
-          "sha512": "35a251ac082d79a6b36a2e332714e99aa9136a3944803b3ae52129bd87d868f6c2c30a13a8ec84ba5e41d1c9d211c4d335035d1c233ecb2e9a7eb4862734d0c7",
-          "sha256": "27749abdc7a0c98633d090a7be8e5420170640a7d67100a5a40240adad80688c",
-          "sha1": "a871e7ae2877544c85414a6d401b53cbe1604943",
-          "md5": "c02dc0ba500c4c7477b64f822e0c8666"
+          "name": "swagger-grails-0.6.0.jar",
+          "url": "swagger-grails-0.6.0.jar",
+          "size": 641960,
+          "sha512": "d0e94dd0e67b9db5e40805f96ac493cb7c6d6e2d0cdbb0034cecd32b16fb79c31c9acb4c55ff5d4c7cd5141544e20800d3416c074697680c31001c2ae36239c6",
+          "sha256": "92b193c68ff6f9a46aa1863cda74f800b97b76cc8e27dd2959baf89c11c93075",
+          "sha1": "e60c832b3ad028106cf9cc2671dd460f4dfa2dfb",
+          "md5": "927686f93a495e7b03e1b04a999a2bbd"
         }
       ]
     }
