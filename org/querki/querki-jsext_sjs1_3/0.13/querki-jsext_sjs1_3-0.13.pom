@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.querki</groupId>
+    <artifactId>querki-jsext_sjs1_3</artifactId>
+    <packaging>jar</packaging>
+    <description>jsext Library for Scala.js</description>
+    <version>0.13</version>
+    <name>jsext Library for Scala.js</name>
+    <organization>
+        <name>org.querki</name>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala3-library_sjs1_3</artifactId>
+            <version>3.7.4</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-js</groupId>
+            <artifactId>scalajs-library_2.13</artifactId>
+            <version>1.20.2</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-js</groupId>
+            <artifactId>scalajs-test-bridge_2.13</artifactId>
+            <version>1.20.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>
