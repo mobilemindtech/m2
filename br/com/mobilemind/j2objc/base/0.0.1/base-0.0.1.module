@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.mobilemind.j2objc",
+    "module": "base",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "base-0.0.1.jar",
+          "url": "base-0.0.1.jar",
+          "size": 55422,
+          "sha512": "3d7f7c256450b84cf152024389bdc040e2982443c9237a4c86b697f1e931f0a878163347e065886b7a35d50c5ab6c8264f53c0f38d32782c45e72ec0f9b73a99",
+          "sha256": "c1cf783837c4b35772fc077aedf258d4d57e5ef962ea39db3d76a18f9f38e18c",
+          "sha1": "072e4077716ed1200df7a7d4d38e1e612681dbe2",
+          "md5": "5537b85c1a6c87f3369bc8f5eb617ee6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.j2objc",
+          "module": "j2objc-annotations",
+          "version": {
+            "requires": "3.1"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.5.0-android"
+          }
+        },
+        {
+          "group": "javax.inject",
+          "module": "javax.inject",
+          "version": {
+            "requires": "1"
+          }
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "br.com.mobilemind.j2objc",
+          "module": "json",
+          "version": {
+            "requires": "0.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "base-0.0.1.jar",
+          "url": "base-0.0.1.jar",
+          "size": 55422,
+          "sha512": "3d7f7c256450b84cf152024389bdc040e2982443c9237a4c86b697f1e931f0a878163347e065886b7a35d50c5ab6c8264f53c0f38d32782c45e72ec0f9b73a99",
+          "sha256": "c1cf783837c4b35772fc077aedf258d4d57e5ef962ea39db3d76a18f9f38e18c",
+          "sha1": "072e4077716ed1200df7a7d4d38e1e612681dbe2",
+          "md5": "5537b85c1a6c87f3369bc8f5eb617ee6"
+        }
+      ]
+    }
+  ]
+}

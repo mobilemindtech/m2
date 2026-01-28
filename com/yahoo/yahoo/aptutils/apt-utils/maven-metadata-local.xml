@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.yahoo.aptutils</groupId>
+  <artifactId>apt-utils</artifactId>
+  <versioning>
+    <release>1.0.4</release>
+    <versions>
+      <version>1.0.4</version>
+    </versions>
+    <lastUpdated>20260127171655</lastUpdated>
+  </versioning>
+</metadata>

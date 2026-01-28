@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.yahoo.squidb",
+    "module": "squidb-ios",
+    "version": "3.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "squidb-ios-3.3.0.jar",
+          "url": "squidb-ios-3.3.0.jar",
+          "size": 118311,
+          "sha512": "81641988fc15fadb0438eb3db95a36a48b3de0d119eb0414ea07af629f25f02ef7c3d61c83be0a417ab239a3aa5f4352e3caf6a56cc43b8b039ff528c4619363",
+          "sha256": "ce0e1d6dbf7ad99ed42b94608e38b1ef1310d40e94af45d89dccc3f30c2e5316",
+          "sha1": "17e909d9d7c80f3651b7cde3570cbfde1492ab67",
+          "md5": "61c8cc137b0a1b41e3e554085b8a4346"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.yahoo.squidb",
+          "module": "squidb",
+          "version": {
+            "requires": "3.3.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "squidb-ios-3.3.0.jar",
+          "url": "squidb-ios-3.3.0.jar",
+          "size": 118311,
+          "sha512": "81641988fc15fadb0438eb3db95a36a48b3de0d119eb0414ea07af629f25f02ef7c3d61c83be0a417ab239a3aa5f4352e3caf6a56cc43b8b039ff528c4619363",
+          "sha256": "ce0e1d6dbf7ad99ed42b94608e38b1ef1310d40e94af45d89dccc3f30c2e5316",
+          "sha1": "17e909d9d7c80f3651b7cde3570cbfde1492ab67",
+          "md5": "61c8cc137b0a1b41e3e554085b8a4346"
+        }
+      ]
+    }
+  ]
+}

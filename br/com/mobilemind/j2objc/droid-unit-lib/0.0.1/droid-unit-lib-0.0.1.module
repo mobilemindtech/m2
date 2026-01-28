@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "br.com.mobilemind.j2objc",
+    "module": "droid-unit-lib",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "droid-unit-lib-0.0.1.jar",
+          "url": "droid-unit-lib-0.0.1.jar",
+          "size": 15967,
+          "sha512": "b8475d43b7ec87bd345b60893f854949d770de32510d5aa6e742f504190a9b5a4181c7eec3519bd7957631a6c654c7b6e5851957d9bbd9ba43c5e40cf9b88d82",
+          "sha256": "516ba2ebd6c91ee4268806879bc2e558ed21030dda0827a8dcba10343ef5dcea",
+          "sha1": "a05bf5f0c1b7a00af701b8b21fb17772da5b4cb4",
+          "md5": "4757121b279ce3f33eee00d71d44546b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.j2objc",
+          "module": "j2objc-annotations",
+          "version": {
+            "requires": "3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "droid-unit-lib-0.0.1.jar",
+          "url": "droid-unit-lib-0.0.1.jar",
+          "size": 15967,
+          "sha512": "b8475d43b7ec87bd345b60893f854949d770de32510d5aa6e742f504190a9b5a4181c7eec3519bd7957631a6c654c7b6e5851957d9bbd9ba43c5e40cf9b88d82",
+          "sha256": "516ba2ebd6c91ee4268806879bc2e558ed21030dda0827a8dcba10343ef5dcea",
+          "sha1": "a05bf5f0c1b7a00af701b8b21fb17772da5b4cb4",
+          "md5": "4757121b279ce3f33eee00d71d44546b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.yahoo.squidb",
+    "module": "squidb-annotations",
+    "version": "3.3.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "squidb-annotations-3.3.0.jar",
+          "url": "squidb-annotations-3.3.0.jar",
+          "size": 6795,
+          "sha512": "d9b84919329ff4a088401ff108b1938cb8f763ade860815e9d0f11f45a60f07e19ff89b344cb2ded67046ca136f06bdb741dea169db5c6a3f5efc108bf4d09c9",
+          "sha256": "c054e4f7cce0ae0db49980e002fca278e2fbcdc57057d931603fadb2bd759298",
+          "sha1": "3e58008c0771ea5444aa3195e394ec975e1e4221",
+          "md5": "ae6fcb47828face64de3a75c032e4fd1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "squidb-annotations-3.3.0.jar",
+          "url": "squidb-annotations-3.3.0.jar",
+          "size": 6795,
+          "sha512": "d9b84919329ff4a088401ff108b1938cb8f763ade860815e9d0f11f45a60f07e19ff89b344cb2ded67046ca136f06bdb741dea169db5c6a3f5efc108bf4d09c9",
+          "sha256": "c054e4f7cce0ae0db49980e002fca278e2fbcdc57057d931603fadb2bd759298",
+          "sha1": "3e58008c0771ea5444aa3195e394ec975e1e4221",
+          "md5": "ae6fcb47828face64de3a75c032e4fd1"
+        }
+      ]
+    }
+  ]
+}
