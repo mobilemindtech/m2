@@ -3,7 +3,7 @@
   <groupId>org.codehaus.groovy.modules.http-builder</groupId>
   <artifactId>http-builder</artifactId>
   <versioning>
-    <lastUpdated>20251024030507</lastUpdated>
+    <lastUpdated>20260130013242</lastUpdated>
     <snapshot>
       <localCopy>true</localCopy>
     </snapshot>
@@ -11,24 +11,12 @@
       <snapshotVersion>
         <extension>pom</extension>
         <value>0.8.0-SNAPSHOT</value>
-        <updated>20251024030507</updated>
+        <updated>20260130013242</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
         <value>0.8.0-SNAPSHOT</value>
-        <updated>20251024030507</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>all</classifier>
-        <extension>tar.gz</extension>
-        <value>0.8.0-SNAPSHOT</value>
-        <updated>20251024030507</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>all</classifier>
-        <extension>zip</extension>
-        <value>0.8.0-SNAPSHOT</value>
-        <updated>20251024030507</updated>
+        <updated>20260130013242</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

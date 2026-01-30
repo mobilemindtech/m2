@@ -1,6 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Oct 24 00:05:13 BRT 2025
+#Thu Jan 29 22:32:53 GMT-03:00 2026
 http-builder-0.8.0-SNAPSHOT.jar>=
-http-builder-0.8.0-SNAPSHOT-all.zip>=
 http-builder-0.8.0-SNAPSHOT.pom>=
-http-builder-0.8.0-SNAPSHOT-all.tar.gz>=
