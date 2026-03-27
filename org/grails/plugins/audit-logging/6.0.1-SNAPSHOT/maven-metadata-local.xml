@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>org.grails.plugins</groupId>
+  <artifactId>audit-logging</artifactId>
+  <versioning>
+    <lastUpdated>20260327211351</lastUpdated>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>6.0.1-SNAPSHOT</value>
+        <updated>20260327211351</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>6.0.1-SNAPSHOT</value>
+        <updated>20260327211351</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>6.0.1-SNAPSHOT</value>
+        <updated>20260327211351</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>6.0.1-SNAPSHOT</version>
+</metadata>

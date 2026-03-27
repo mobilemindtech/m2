@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.grails.plugins",
+    "module": "audit-logging",
+    "version": "6.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "audit-logging-6.0.1-SNAPSHOT.jar",
+          "url": "audit-logging-6.0.1-SNAPSHOT.jar",
+          "size": 121894,
+          "sha512": "94433e24de1d7e2a610ee4d11d51e6bdf71565f8b507b9a49053bc4c1c109c3feefbc6d9dc3f9311d1fe4622fadf2d43953e8f00106056735e8d4541d708a685",
+          "sha256": "64ed9e2dc5fef5e984261d6831d88c8a3b212af101daab2fadaf81afc02b3e45",
+          "sha1": "13d17d990d1d3482f5c0855058b99e5c88d7a7a3",
+          "md5": "5df752f2b30431bc3f0de0125b7b7558"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "audit-logging-6.0.1-SNAPSHOT.jar",
+          "url": "audit-logging-6.0.1-SNAPSHOT.jar",
+          "size": 121894,
+          "sha512": "94433e24de1d7e2a610ee4d11d51e6bdf71565f8b507b9a49053bc4c1c109c3feefbc6d9dc3f9311d1fe4622fadf2d43953e8f00106056735e8d4541d708a685",
+          "sha256": "64ed9e2dc5fef5e984261d6831d88c8a3b212af101daab2fadaf81afc02b3e45",
+          "sha1": "13d17d990d1d3482f5c0855058b99e5c88d7a7a3",
+          "md5": "5df752f2b30431bc3f0de0125b7b7558"
+        }
+      ]
+    }
+  ]
+}
