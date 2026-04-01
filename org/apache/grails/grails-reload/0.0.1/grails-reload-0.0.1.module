@@ -1,0 +1,242 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.apache.grails",
+    "module": "grails-reload",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "grails-reload-0.0.1.jar",
+          "url": "grails-reload-0.0.1.jar",
+          "size": 55567,
+          "sha512": "9634246267c29487a94ad561e34936c0269c76fc248fa1d0753bf6d418193b46a65ba10e7dc9700e019e3bd94a371ad801cbe411c3cf1592ea0f5d6411aca2dc",
+          "sha256": "694270abd6091bade4eedec0323df7500d404092afb9e37360742d5356bd2adf",
+          "sha1": "9e2655ef2aa0d6d5ce2a78417a855f0aeb7a40c8",
+          "md5": "d984458d8b8418c57962024c5cead855"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-bom",
+          "version": {
+            "requires": "7.0.9"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-core",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-data-hibernate5",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-databinding",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-events",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-interceptors",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-logging",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-rest-transforms",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-services",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-url-mappings",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-web-boot",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-logging",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.agent",
+          "module": "reload-agent",
+          "version": {
+            "requires": "0.0.1"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "com.h2database",
+          "module": "h2",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "grails-reload-0.0.1.jar",
+          "url": "grails-reload-0.0.1.jar",
+          "size": 55567,
+          "sha512": "9634246267c29487a94ad561e34936c0269c76fc248fa1d0753bf6d418193b46a65ba10e7dc9700e019e3bd94a371ad801cbe411c3cf1592ea0f5d6411aca2dc",
+          "sha256": "694270abd6091bade4eedec0323df7500d404092afb9e37360742d5356bd2adf",
+          "sha1": "9e2655ef2aa0d6d5ce2a78417a855f0aeb7a40c8",
+          "md5": "d984458d8b8418c57962024c5cead855"
+        }
+      ]
+    }
+  ]
+}

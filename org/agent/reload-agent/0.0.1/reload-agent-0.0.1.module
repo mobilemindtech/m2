@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.agent",
+    "module": "reload-agent",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.0.0"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "reload-agent-0.0.1.jar",
+          "url": "reload-agent-0.0.1.jar",
+          "size": 1774,
+          "sha512": "25d172ddf35363c3e101810a32109d6bcd2b6d9892b8bfdc6a916356dcaee23214301057f9590fe1ff42abbe52a2dafde2c24fdef8d435d85ea064d616430744",
+          "sha256": "efc257ae10ca35bef1ed678a6d778905b392eea73fd22b0ea0705c0cc35a3de1",
+          "sha1": "0b5235a9044af0b6f425e3e616637d1823ad3201",
+          "md5": "5b20af10a61d8c499a0f41167dbbbcce"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "reload-agent-0.0.1.jar",
+          "url": "reload-agent-0.0.1.jar",
+          "size": 1774,
+          "sha512": "25d172ddf35363c3e101810a32109d6bcd2b6d9892b8bfdc6a916356dcaee23214301057f9590fe1ff42abbe52a2dafde2c24fdef8d435d85ea064d616430744",
+          "sha256": "efc257ae10ca35bef1ed678a6d778905b392eea73fd22b0ea0705c0cc35a3de1",
+          "sha1": "0b5235a9044af0b6f425e3e616637d1823ad3201",
+          "md5": "5b20af10a61d8c499a0f41167dbbbcce"
+        }
+      ]
+    }
+  ]
+}
