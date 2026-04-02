@@ -27,11 +27,11 @@
         {
           "name": "grails-reload-0.0.1.jar",
           "url": "grails-reload-0.0.1.jar",
-          "size": 55567,
-          "sha512": "9634246267c29487a94ad561e34936c0269c76fc248fa1d0753bf6d418193b46a65ba10e7dc9700e019e3bd94a371ad801cbe411c3cf1592ea0f5d6411aca2dc",
-          "sha256": "694270abd6091bade4eedec0323df7500d404092afb9e37360742d5356bd2adf",
-          "sha1": "9e2655ef2aa0d6d5ce2a78417a855f0aeb7a40c8",
-          "md5": "d984458d8b8418c57962024c5cead855"
+          "size": 77475,
+          "sha512": "ecaf9c7063d4d5e5015c7f822cef51182f10843dd46b77c30534f2848dba3d672496bbacdd5507e74f24cf76ee43c6b2eb9fad654b0fe7e322ea38812a6d2a6b",
+          "sha256": "5ca7abbc70a9eee35993118b31ea54d5747dd420b7dc72ad191118c8ee52c6d5",
+          "sha1": "5095b76983a94fd6713b3eb0ed0871274632f185",
+          "md5": "e72843a5caa0c1a32c250c3bc0e83af8"
         }
       ]
     },
@@ -230,11 +230,11 @@
         {
           "name": "grails-reload-0.0.1.jar",
           "url": "grails-reload-0.0.1.jar",
-          "size": 55567,
-          "sha512": "9634246267c29487a94ad561e34936c0269c76fc248fa1d0753bf6d418193b46a65ba10e7dc9700e019e3bd94a371ad801cbe411c3cf1592ea0f5d6411aca2dc",
-          "sha256": "694270abd6091bade4eedec0323df7500d404092afb9e37360742d5356bd2adf",
-          "sha1": "9e2655ef2aa0d6d5ce2a78417a855f0aeb7a40c8",
-          "md5": "d984458d8b8418c57962024c5cead855"
+          "size": 77475,
+          "sha512": "ecaf9c7063d4d5e5015c7f822cef51182f10843dd46b77c30534f2848dba3d672496bbacdd5507e74f24cf76ee43c6b2eb9fad654b0fe7e322ea38812a6d2a6b",
+          "sha256": "5ca7abbc70a9eee35993118b31ea54d5747dd420b7dc72ad191118c8ee52c6d5",
+          "sha1": "5095b76983a94fd6713b3eb0ed0871274632f185",
+          "md5": "e72843a5caa0c1a32c250c3bc0e83af8"
         }
       ]
     }
