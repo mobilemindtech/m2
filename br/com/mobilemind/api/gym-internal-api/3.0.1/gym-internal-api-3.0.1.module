@@ -19,7 +19,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 24,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
@@ -28,7 +28,7 @@
           "group": "org.apache.groovy",
           "module": "groovy",
           "version": {
-            "requires": "4.0.28"
+            "requires": "4.0.32"
           }
         }
       ],
@@ -36,11 +36,11 @@
         {
           "name": "gym-internal-api-3.0.1.jar",
           "url": "gym-internal-api-3.0.1.jar",
-          "size": 23937,
-          "sha512": "095008a0709f7ed5fa201fe62fe53cc450e431e4206cf17737559dbd023091a6bbed5f69be82018b4fe43dfab60d3de65a7bf4fef4a52f0c85d1014072d3fc65",
-          "sha256": "4b86f1ecb2b8325376728165b5a446efaa02b6892711bbe705f899fe0fb0894c",
-          "sha1": "483a9befec53a9d510a7bc2fb5515a023cd3769d",
-          "md5": "1890ca1f39b068bd7ffa429a59d1949a"
+          "size": 23704,
+          "sha512": "01ee601aff034418d099cf090970571ce6a55d0997392ef20414f676f4b47197a29bbe294c978a3bc8b52f265fba3ff0134e5235df8422bf5695bcfde6591222",
+          "sha256": "1885d96d9fa8a0a4ee8d1264eab330fb80c8acb9ed83d11d7fd992f33760ea7b",
+          "sha1": "e2d35a7ecf65bae73a3298d3d92d08a2b1cc87c0",
+          "md5": "45d0bb302ba165838c5d596969ae1515"
         }
       ]
     },
@@ -49,7 +49,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 24,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -58,7 +58,7 @@
           "group": "org.apache.groovy",
           "module": "groovy",
           "version": {
-            "requires": "4.0.28"
+            "requires": "4.0.32"
           }
         }
       ],
@@ -66,11 +66,11 @@
         {
           "name": "gym-internal-api-3.0.1.jar",
           "url": "gym-internal-api-3.0.1.jar",
-          "size": 23937,
-          "sha512": "095008a0709f7ed5fa201fe62fe53cc450e431e4206cf17737559dbd023091a6bbed5f69be82018b4fe43dfab60d3de65a7bf4fef4a52f0c85d1014072d3fc65",
-          "sha256": "4b86f1ecb2b8325376728165b5a446efaa02b6892711bbe705f899fe0fb0894c",
-          "sha1": "483a9befec53a9d510a7bc2fb5515a023cd3769d",
-          "md5": "1890ca1f39b068bd7ffa429a59d1949a"
+          "size": 23704,
+          "sha512": "01ee601aff034418d099cf090970571ce6a55d0997392ef20414f676f4b47197a29bbe294c978a3bc8b52f265fba3ff0134e5235df8422bf5695bcfde6591222",
+          "sha256": "1885d96d9fa8a0a4ee8d1264eab330fb80c8acb9ed83d11d7fd992f33760ea7b",
+          "sha1": "e2d35a7ecf65bae73a3298d3d92d08a2b1cc87c0",
+          "md5": "45d0bb302ba165838c5d596969ae1515"
         }
       ]
     }

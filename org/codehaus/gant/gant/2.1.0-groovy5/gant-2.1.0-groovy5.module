@@ -19,7 +19,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 25,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-api"
       },
@@ -27,11 +27,11 @@
         {
           "name": "gant-2.1.0-groovy5.jar",
           "url": "gant-2.1.0-groovy5.jar",
-          "size": 247539,
-          "sha512": "0f26316a28b5ac4a16b4e50fe0ec3fd5a3a9905777687dbce36d2ecfec6424aaa468bd6ff5bbe798bf79a740c7a7cec4ec5e6e34efa0ac82881c1e6461a2ba91",
-          "sha256": "ed0a5b59effae1427a7e0d902e2837820592a2476774b6fb1ff46b7e3920e89d",
-          "sha1": "aec440c6e8e79635d113ccb52d0170d81692bf65",
-          "md5": "524b283fa059a47eaec3fa13f212c823"
+          "size": 245874,
+          "sha512": "19151730326ea52cdcdd35bfb4a17f29711e61c2d898d7dd0ebdf667e8ab4328a1f0401ad8a2f0d3767e4650b26f188846f95cf479b09d3965000cea59028664",
+          "sha256": "9c2460b70ec75bab0a44439498439146aad2c879fc406b28d178a1392cbc3a81",
+          "sha1": "98b0259a7c5c1e7af207b4e07b8ee5b193f561c2",
+          "md5": "627632b9869c515f83a2492ce63b06bb"
         }
       ]
     },
@@ -40,7 +40,7 @@
       "attributes": {
         "org.gradle.category": "library",
         "org.gradle.dependency.bundling": "external",
-        "org.gradle.jvm.version": 25,
+        "org.gradle.jvm.version": 17,
         "org.gradle.libraryelements": "jar",
         "org.gradle.usage": "java-runtime"
       },
@@ -49,21 +49,21 @@
           "group": "org.apache.groovy",
           "module": "groovy-all",
           "version": {
-            "requires": "5.0.2"
+            "requires": "5.0.6"
           }
         },
         {
           "group": "commons-cli",
           "module": "commons-cli",
           "version": {
-            "requires": "1.10.0"
+            "requires": "1.11.0"
           }
         },
         {
           "group": "org.apache.ant",
           "module": "ant",
           "version": {
-            "requires": "1.10.15"
+            "requires": "1.10.17"
           }
         }
       ],
@@ -71,11 +71,11 @@
         {
           "name": "gant-2.1.0-groovy5.jar",
           "url": "gant-2.1.0-groovy5.jar",
-          "size": 247539,
-          "sha512": "0f26316a28b5ac4a16b4e50fe0ec3fd5a3a9905777687dbce36d2ecfec6424aaa468bd6ff5bbe798bf79a740c7a7cec4ec5e6e34efa0ac82881c1e6461a2ba91",
-          "sha256": "ed0a5b59effae1427a7e0d902e2837820592a2476774b6fb1ff46b7e3920e89d",
-          "sha1": "aec440c6e8e79635d113ccb52d0170d81692bf65",
-          "md5": "524b283fa059a47eaec3fa13f212c823"
+          "size": 245874,
+          "sha512": "19151730326ea52cdcdd35bfb4a17f29711e61c2d898d7dd0ebdf667e8ab4328a1f0401ad8a2f0d3767e4650b26f188846f95cf479b09d3965000cea59028664",
+          "sha256": "9c2460b70ec75bab0a44439498439146aad2c879fc406b28d178a1392cbc3a81",
+          "sha1": "98b0259a7c5c1e7af207b4e07b8ee5b193f561c2",
+          "md5": "627632b9869c515f83a2492ce63b06bb"
         }
       ]
     }
