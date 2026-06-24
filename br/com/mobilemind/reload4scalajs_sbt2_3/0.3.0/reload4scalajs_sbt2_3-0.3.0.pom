@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>br.com.mobilemind</groupId>
+    <artifactId>reload4scalajs_sbt2_3</artifactId>
+    <packaging>jar</packaging>
+    <description>Live Reload for ScalaJS</description>
+    <version>0.3.0</version>
+    <name>reload4scalajs</name>
+    <organization>
+        <name>Mobild Mind</name>
+        <url>https://www.mobilemind.com.br</url>
+    </organization>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-sbt</groupId>
+            <artifactId>sbt</artifactId>
+            <version>2.0.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala3-library_3</artifactId>
+            <version>3.8.4</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lihaoyi</groupId>
+            <artifactId>cask_3</artifactId>
+            <version>0.11.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.lihaoyi</groupId>
+            <artifactId>upickle_3</artifactId>
+            <version>4.4.3</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-js</groupId>
+            <artifactId>sbt-scalajs_sbt2_3</artifactId>
+            <version>1.22.0</version>
+        </dependency>
+    </dependencies>
+</project>
