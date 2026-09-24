@@ -1,0 +1,20 @@
+<plugin name='cacheEhcache' version='6.0.0-SNAPSHOT' grailsVersion='7.0.0 &gt; *'>
+  <type>grails.plugin.cache.ehcache.CacheEhcacheGrailsPlugin</type>
+  <dependsOn cache='7.0.0 &gt; *' />
+  <developers>[[name:James Kleeh, email:james.kleeh@gmail.com]]</developers>
+  <documentation>https://grails.org/plugin/cache-ehcache</documentation>
+  <profiles>[web]</profiles>
+  <description>An Ehcache-based implementation of the Cache plugin.
+</description>
+  <title>Cache Ehcache</title>
+  <version />
+  <grailsVersion>7.0.0 &gt; *</grailsVersion>
+  <loadAfter>[cache]</loadAfter>
+  <license>APACHE</license>
+  <issueManagement system='Github' url='https://github.com/grails-plugins/grails-cache-ehcache/issues' />
+  <name>cache-ehcache</name>
+  <scm url='https://github.com/grails-plugins/grails-cache-ehcache/' />
+  <resources>
+    <resource>grails.plugin.cache.ehcache.Application</resource>
+  </resources>
+</plugin>

@@ -1,0 +1,190 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.gpc",
+    "module": "rendering",
+    "version": "8.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.xhtmlrenderer",
+          "module": "flying-saucer-pdf",
+          "version": {
+            "requires": "9.9.5"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.pdfbox",
+          "module": "pdfbox",
+          "version": {
+            "requires": "3.0.6"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-bom",
+          "version": {
+            "requires": "8.0.0-M6"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "rendering-8.0.0-SNAPSHOT.jar",
+          "url": "rendering-8.0.0-SNAPSHOT.jar",
+          "size": 61073,
+          "sha512": "a8a5fb5a10212633f24b2fff18d7471d99386f760835c271eb3bbe990123703819beefbdf24be89ce1c1852c87d280d8d4dee76ecd1bef7f8f89bb2a0dfea81a",
+          "sha256": "312422d95f92ecf8d8fdf87dbf4063422e8084be4246ba39c546912e1312f00d",
+          "sha1": "2069e2eb81f6d64f926fb6d00dbed653f7d282c5",
+          "md5": "5385f67cfe7c5ea66a4ee10d24e5f3a9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-bom",
+          "version": {
+            "requires": "8.0.0-M6"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.xhtmlrenderer",
+          "module": "flying-saucer-pdf",
+          "version": {
+            "requires": "9.9.5"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.pdfbox",
+          "module": "pdfbox",
+          "version": {
+            "requires": "3.0.6"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "rendering-8.0.0-SNAPSHOT.jar",
+          "url": "rendering-8.0.0-SNAPSHOT.jar",
+          "size": 61073,
+          "sha512": "a8a5fb5a10212633f24b2fff18d7471d99386f760835c271eb3bbe990123703819beefbdf24be89ce1c1852c87d280d8d4dee76ecd1bef7f8f89bb2a0dfea81a",
+          "sha256": "312422d95f92ecf8d8fdf87dbf4063422e8084be4246ba39c546912e1312f00d",
+          "sha1": "2069e2eb81f6d64f926fb6d00dbed653f7d282c5",
+          "md5": "5385f67cfe7c5ea66a4ee10d24e5f3a9"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rendering-8.0.0-SNAPSHOT-javadoc.jar",
+          "url": "rendering-8.0.0-SNAPSHOT-javadoc.jar",
+          "size": 89042,
+          "sha512": "d19fc4b7be3d6b646c5b2651357038648aa56323359db512e35a321d6b80990645b2429645f0fbc3a94a92b327c07f63abd4f5e381fce8b0c518d68b0a829101",
+          "sha256": "f11dcadb79c47690560c2ee6656b776ad64543f0f45187516a0620a90f85bd1f",
+          "sha1": "b3b8c543856c22105ad36c7af351b719dc0eeb47",
+          "md5": "180c449931a0139f029786f897c1ad2f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "rendering-8.0.0-SNAPSHOT-sources.jar",
+          "url": "rendering-8.0.0-SNAPSHOT-sources.jar",
+          "size": 20588,
+          "sha512": "a66c187781d5183adc3e7ec657d5eb8adb36e26ab696ae81f38480825287c771c4cc2dba0c07a987e6659e4afb49a1e13b31b50a23c08c67df9a65c194d4c3fd",
+          "sha256": "e463baa9317bff38377af05ec06beb64680d01053200ff831feb6a648ae0ad65",
+          "sha1": "f7aa5a1c16cf4a101d31eed7474b86fff7c4485b",
+          "md5": "79ea8bd84461a60c0490addfd9d1bf02"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,786 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.jellycat.plugins",
+    "module": "jasper",
+    "version": "8.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-hibernate7-bom",
+          "version": {
+            "requires": "8.0.0-M6"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        }
+      ],
+      "files": [
+        {
+          "name": "jasper-8.0.0.jar",
+          "url": "jasper-8.0.0.jar",
+          "size": 2902955,
+          "sha512": "83141589383b3df04add5652c7760fa5c2bcbdda7540dc8419e5ac6487efce9b0ec0c47403eadf6b8c547924bda55e780afcdf4bb08ae5478bdeffe2239e9296",
+          "sha256": "0f985e251e6e72d737dfa157f74fc654c6b133237ff68f6e9ae419e8e9883172",
+          "sha1": "2abe2d328ef2499f302a8e4341e8351f0da4b7e4",
+          "md5": "ea448661374dee7a55a09eca23c58818"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.grails",
+          "module": "grails-hibernate7-bom",
+          "version": {
+            "requires": "8.0.0-M6"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ],
+          "attributes": {
+            "org.gradle.category": "platform"
+          },
+          "endorseStrictVersions": true
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-core",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-databinding",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-events",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-interceptors",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-logging",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-rest-transforms",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-services",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-url-mappings",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.grails",
+          "module": "grails-web-boot",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-autoconfigure",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-logging",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework.boot",
+          "module": "spring-boot-starter-validation",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "com.lowagie",
+          "module": "itext",
+          "version": {
+            "requires": "2.1.7"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "net.sf.jasperreports",
+          "module": "jasperreports",
+          "version": {
+            "requires": "7.0.3"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            },
+            {
+              "group": "*",
+              "module": "xercesImpl"
+            },
+            {
+              "group": "*",
+              "module": "batik-svggen"
+            },
+            {
+              "group": "*",
+              "module": "xml-apis"
+            },
+            {
+              "group": "*",
+              "module": "jaxen"
+            },
+            {
+              "group": "*",
+              "module": "batik-awt-util"
+            },
+            {
+              "group": "*",
+              "module": "olap4j"
+            },
+            {
+              "group": "*",
+              "module": "hibernate"
+            },
+            {
+              "group": "*",
+              "module": "javax.persistence-api"
+            },
+            {
+              "group": "*",
+              "module": "bcmail-jdk14"
+            },
+            {
+              "group": "*",
+              "module": "batik-css"
+            },
+            {
+              "group": "*",
+              "module": "barbecue"
+            },
+            {
+              "group": "*",
+              "module": "saaj-api"
+            },
+            {
+              "group": "*",
+              "module": "batik-dom"
+            },
+            {
+              "group": "*",
+              "module": "batik-util"
+            },
+            {
+              "group": "*",
+              "module": "bctsp-jdk14"
+            },
+            {
+              "group": "*",
+              "module": "xmlParserAPIs"
+            },
+            {
+              "group": "*",
+              "module": "spring-core"
+            },
+            {
+              "group": "*",
+              "module": "jdtcore"
+            },
+            {
+              "group": "*",
+              "module": "batik-bridge"
+            },
+            {
+              "group": "*",
+              "module": "xalan"
+            },
+            {
+              "group": "*",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "batik-script"
+            },
+            {
+              "group": "*",
+              "module": "bctsp-jdk16"
+            },
+            {
+              "group": "*",
+              "module": "spring-beans"
+            },
+            {
+              "group": "*",
+              "module": "mondrian"
+            },
+            {
+              "group": "*",
+              "module": "commons-javaflow"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            },
+            {
+              "group": "*",
+              "module": "antlr"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk14"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk16"
+            },
+            {
+              "group": "*",
+              "module": "xml-apis-ext"
+            },
+            {
+              "group": "*",
+              "module": "batik-gvt"
+            },
+            {
+              "group": "*",
+              "module": "bcmail-jdk16"
+            },
+            {
+              "group": "*",
+              "module": "batik-svg-dom"
+            },
+            {
+              "group": "*",
+              "module": "barcode4j"
+            },
+            {
+              "group": "*",
+              "module": "groovy-all"
+            },
+            {
+              "group": "*",
+              "module": "bsh"
+            },
+            {
+              "group": "*",
+              "module": "xmlbeans"
+            },
+            {
+              "group": "*",
+              "module": "servlet-api"
+            },
+            {
+              "group": "*",
+              "module": "batik-xml"
+            }
+          ]
+        },
+        {
+          "group": "net.sf.jasperreports",
+          "module": "jasperreports-servlets",
+          "version": {
+            "requires": "7.0.3"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            },
+            {
+              "group": "*",
+              "module": "xercesImpl"
+            },
+            {
+              "group": "*",
+              "module": "batik-svggen"
+            },
+            {
+              "group": "*",
+              "module": "xml-apis"
+            },
+            {
+              "group": "*",
+              "module": "jaxen"
+            },
+            {
+              "group": "*",
+              "module": "batik-awt-util"
+            },
+            {
+              "group": "*",
+              "module": "olap4j"
+            },
+            {
+              "group": "*",
+              "module": "hibernate"
+            },
+            {
+              "group": "*",
+              "module": "javax.persistence-api"
+            },
+            {
+              "group": "*",
+              "module": "bcmail-jdk14"
+            },
+            {
+              "group": "*",
+              "module": "batik-css"
+            },
+            {
+              "group": "*",
+              "module": "barbecue"
+            },
+            {
+              "group": "*",
+              "module": "saaj-api"
+            },
+            {
+              "group": "*",
+              "module": "batik-dom"
+            },
+            {
+              "group": "*",
+              "module": "batik-util"
+            },
+            {
+              "group": "*",
+              "module": "bctsp-jdk14"
+            },
+            {
+              "group": "*",
+              "module": "xmlParserAPIs"
+            },
+            {
+              "group": "*",
+              "module": "spring-core"
+            },
+            {
+              "group": "*",
+              "module": "jdtcore"
+            },
+            {
+              "group": "*",
+              "module": "batik-bridge"
+            },
+            {
+              "group": "*",
+              "module": "xalan"
+            },
+            {
+              "group": "*",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "batik-script"
+            },
+            {
+              "group": "*",
+              "module": "bctsp-jdk16"
+            },
+            {
+              "group": "*",
+              "module": "spring-beans"
+            },
+            {
+              "group": "*",
+              "module": "mondrian"
+            },
+            {
+              "group": "*",
+              "module": "commons-javaflow"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            },
+            {
+              "group": "*",
+              "module": "antlr"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk14"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk16"
+            },
+            {
+              "group": "*",
+              "module": "xml-apis-ext"
+            },
+            {
+              "group": "*",
+              "module": "batik-gvt"
+            },
+            {
+              "group": "*",
+              "module": "bcmail-jdk16"
+            },
+            {
+              "group": "*",
+              "module": "batik-svg-dom"
+            },
+            {
+              "group": "*",
+              "module": "barcode4j"
+            },
+            {
+              "group": "*",
+              "module": "groovy-all"
+            },
+            {
+              "group": "*",
+              "module": "bsh"
+            },
+            {
+              "group": "*",
+              "module": "xmlbeans"
+            },
+            {
+              "group": "*",
+              "module": "servlet-api"
+            },
+            {
+              "group": "*",
+              "module": "batik-xml"
+            }
+          ]
+        },
+        {
+          "group": "net.sf.jasperreports",
+          "module": "jasperreports-pdf",
+          "version": {
+            "requires": "7.0.3"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            },
+            {
+              "group": "*",
+              "module": "xercesImpl"
+            },
+            {
+              "group": "*",
+              "module": "batik-svggen"
+            },
+            {
+              "group": "*",
+              "module": "xml-apis"
+            },
+            {
+              "group": "*",
+              "module": "jaxen"
+            },
+            {
+              "group": "*",
+              "module": "batik-awt-util"
+            },
+            {
+              "group": "*",
+              "module": "olap4j"
+            },
+            {
+              "group": "*",
+              "module": "hibernate"
+            },
+            {
+              "group": "*",
+              "module": "javax.persistence-api"
+            },
+            {
+              "group": "*",
+              "module": "bcmail-jdk14"
+            },
+            {
+              "group": "*",
+              "module": "batik-css"
+            },
+            {
+              "group": "*",
+              "module": "barbecue"
+            },
+            {
+              "group": "*",
+              "module": "saaj-api"
+            },
+            {
+              "group": "*",
+              "module": "batik-dom"
+            },
+            {
+              "group": "*",
+              "module": "batik-util"
+            },
+            {
+              "group": "*",
+              "module": "bctsp-jdk14"
+            },
+            {
+              "group": "*",
+              "module": "xmlParserAPIs"
+            },
+            {
+              "group": "*",
+              "module": "spring-core"
+            },
+            {
+              "group": "*",
+              "module": "jdtcore"
+            },
+            {
+              "group": "*",
+              "module": "batik-bridge"
+            },
+            {
+              "group": "*",
+              "module": "xalan"
+            },
+            {
+              "group": "*",
+              "module": "commons-logging"
+            },
+            {
+              "group": "*",
+              "module": "batik-script"
+            },
+            {
+              "group": "*",
+              "module": "bctsp-jdk16"
+            },
+            {
+              "group": "*",
+              "module": "spring-beans"
+            },
+            {
+              "group": "*",
+              "module": "mondrian"
+            },
+            {
+              "group": "*",
+              "module": "commons-javaflow"
+            },
+            {
+              "group": "*",
+              "module": "ant"
+            },
+            {
+              "group": "*",
+              "module": "antlr"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk14"
+            },
+            {
+              "group": "*",
+              "module": "bcprov-jdk16"
+            },
+            {
+              "group": "*",
+              "module": "xml-apis-ext"
+            },
+            {
+              "group": "*",
+              "module": "batik-gvt"
+            },
+            {
+              "group": "*",
+              "module": "bcmail-jdk16"
+            },
+            {
+              "group": "*",
+              "module": "batik-svg-dom"
+            },
+            {
+              "group": "*",
+              "module": "barcode4j"
+            },
+            {
+              "group": "*",
+              "module": "groovy-all"
+            },
+            {
+              "group": "*",
+              "module": "bsh"
+            },
+            {
+              "group": "*",
+              "module": "xmlbeans"
+            },
+            {
+              "group": "*",
+              "module": "servlet-api"
+            },
+            {
+              "group": "*",
+              "module": "batik-xml"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.poi",
+          "module": "poi",
+          "version": {
+            "requires": "3.10-FINAL"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.2"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        },
+        {
+          "group": "com.zaxxer",
+          "module": "HikariCP",
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-simple"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "jasper-8.0.0.jar",
+          "url": "jasper-8.0.0.jar",
+          "size": 2902955,
+          "sha512": "83141589383b3df04add5652c7760fa5c2bcbdda7540dc8419e5ac6487efce9b0ec0c47403eadf6b8c547924bda55e780afcdf4bb08ae5478bdeffe2239e9296",
+          "sha256": "0f985e251e6e72d737dfa157f74fc654c6b133237ff68f6e9ae419e8e9883172",
+          "sha1": "2abe2d328ef2499f302a8e4341e8351f0da4b7e4",
+          "md5": "ea448661374dee7a55a09eca23c58818"
+        }
+      ]
+    }
+  ]
+}
