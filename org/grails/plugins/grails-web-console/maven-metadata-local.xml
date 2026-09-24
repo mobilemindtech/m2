@@ -3,13 +3,12 @@
   <groupId>org.grails.plugins</groupId>
   <artifactId>grails-web-console</artifactId>
   <versioning>
-    <latest>8.0.0-SNAPSHOT</latest>
+    <latest>7.0.0-SNAPSHOT</latest>
     <release>7.0.0-M4</release>
     <versions>
       <version>7.0.0-SNAPSHOT</version>
       <version>7.0.0-M4</version>
-      <version>8.0.0-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20260924195933</lastUpdated>
+    <lastUpdated>20260924202426</lastUpdated>
   </versioning>
 </metadata>
