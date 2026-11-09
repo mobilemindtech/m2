@@ -1,0 +1,208 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.codehaus.griffon",
+    "module": "griffon-scripts",
+    "version": "1.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "griffon-scripts-1.6.1.jar",
+          "url": "griffon-scripts-1.6.1.jar",
+          "size": 1164820,
+          "sha512": "799193ad822e885ae8dddeedc2f700aeae7883767de3123888873c9a6f8d2e12ae303f967b84efde7d1081332193aa6dd0bd0de28be2de9b75f776333f5d93f7",
+          "sha256": "1c1ed039def9511bdfb59f5aed0ca5f88766bbff1cee9c0cad4eec544043517d",
+          "sha1": "e65c492f9227740610235b45bba254b4e7aebad7",
+          "md5": "6a8bc5f9d28d2a820dbce096e390cd8e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "asm",
+          "module": "asm",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.5"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.5"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-api"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jul-to-slf4j",
+          "version": {
+            "requires": "1.7.5"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-api"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "3.2.7.RELEASE"
+          },
+          "excludes": [
+            {
+              "group": "org.aspectj",
+              "module": "com.springsource.org.aspectj.weaver"
+            },
+            {
+              "group": "org.apache.commons",
+              "module": "com.springsource.org.apache.commons.logging"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-asm"
+            },
+            {
+              "group": "org.apache.log4",
+              "module": "com.springsource.org.apache.log4j"
+            }
+          ]
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-docs",
+          "version": {
+            "requires": "2.5.6"
+          },
+          "excludes": [
+            {
+              "group": "org.xhtmlrenderer",
+              "module": "core-renderer"
+            },
+            {
+              "group": "org.codehaus.groovy",
+              "module": "groovy-all"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant"
+            },
+            {
+              "group": "radeox",
+              "module": "radeox"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.griffon",
+          "module": "griffon-rt",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.codehaus.griffon",
+          "module": "griffon-cli",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.codehaus.griffon",
+          "module": "griffon-resources",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-all",
+          "version": {
+            "requires": "6.0.0-alpha-1"
+          },
+          "excludes": [
+            {
+              "group": "junit",
+              "module": "junit"
+            },
+            {
+              "group": "org.apache.ivy",
+              "module": "ivy"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-dateutil",
+          "version": {
+            "requires": "6.0.0-alpha-1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "griffon-scripts-1.6.1.jar",
+          "url": "griffon-scripts-1.6.1.jar",
+          "size": 1164820,
+          "sha512": "799193ad822e885ae8dddeedc2f700aeae7883767de3123888873c9a6f8d2e12ae303f967b84efde7d1081332193aa6dd0bd0de28be2de9b75f776333f5d93f7",
+          "sha256": "1c1ed039def9511bdfb59f5aed0ca5f88766bbff1cee9c0cad4eec544043517d",
+          "sha1": "e65c492f9227740610235b45bba254b4e7aebad7",
+          "md5": "6a8bc5f9d28d2a820dbce096e390cd8e"
+        }
+      ]
+    }
+  ]
+}

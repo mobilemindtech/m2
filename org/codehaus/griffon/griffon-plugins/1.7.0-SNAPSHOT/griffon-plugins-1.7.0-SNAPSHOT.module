@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.codehaus.griffon",
+    "module": "griffon-plugins",
+    "version": "1.7.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.griffon",
+          "module": "griffon-rt",
+          "version": {
+            "requires": "1.7.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "griffon-plugins-1.7.0-SNAPSHOT.jar",
+          "url": "griffon-plugins-1.7.0-SNAPSHOT.jar",
+          "size": 309334,
+          "sha512": "66efbdc605df12f6099bd10a250cbb0e4cbc1750ad3c4105082f288bb940d137ea9c936d8a0627452d00bfd35106593c6bd33c56e3a3d3d3752120866b6c5f75",
+          "sha256": "6434ff2c8a0857390bd7888936a2905bb9a41a09b53d7d1f465a563864f82cb9",
+          "sha1": "6abf1261245ee73c6757018a92b10fafd14e74f7",
+          "md5": "46ea8bdc541357f6833a2b7fbfc414c5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.griffon",
+          "module": "griffon-rt",
+          "version": {
+            "requires": "1.7.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "griffon-plugins-1.7.0-SNAPSHOT.jar",
+          "url": "griffon-plugins-1.7.0-SNAPSHOT.jar",
+          "size": 309334,
+          "sha512": "66efbdc605df12f6099bd10a250cbb0e4cbc1750ad3c4105082f288bb940d137ea9c936d8a0627452d00bfd35106593c6bd33c56e3a3d3d3752120866b6c5f75",
+          "sha256": "6434ff2c8a0857390bd7888936a2905bb9a41a09b53d7d1f465a563864f82cb9",
+          "sha1": "6abf1261245ee73c6757018a92b10fafd14e74f7",
+          "md5": "46ea8bdc541357f6833a2b7fbfc414c5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "griffon-plugins-1.7.0-SNAPSHOT-sources.jar",
+          "url": "griffon-plugins-1.7.0-SNAPSHOT-sources.jar",
+          "size": 156771,
+          "sha512": "7e602d3d741d3dd35287d436c64c3c60da7d88089fc487c819b64f0aa29c16d6e2637d31c7af1cee6995e8a8f228131fe583be8ffcf0d6c1bfe24d94c70ca0f8",
+          "sha256": "381049b826b48de97833390d91b2a033ef85f096c14639e60b9d2456c8f4ba9e",
+          "sha1": "908a07291537c12e5c2324c797ba183752d3b944",
+          "md5": "a4bc5a0f3f77011aab15765e6cfbd7a9"
+        }
+      ]
+    }
+  ]
+}

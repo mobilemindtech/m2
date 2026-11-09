@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.codehaus.griffon.gradle.plugin</groupId>
+  <artifactId>org.codehaus.griffon.gradle.plugin.gradle.plugin</artifactId>
+  <version>1.6.1</version>
+  <packaging>pom</packaging>
+  <name>Griffon Gradle Plugin</name>
+  <description>Run griffon 1.x apps using java 25+, groovy 6+ and gradle</description>
+  <dependencies>
+    <dependency>
+      <groupId>org.codehaus.griffon</groupId>
+      <artifactId>griffon-gradle-plugin</artifactId>
+      <version>1.6.1</version>
+    </dependency>
+  </dependencies>
+</project>

@@ -1,0 +1,882 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.codehaus.griffon",
+    "module": "griffon-cli",
+    "version": "1.6.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "griffon-cli-1.6.0-SNAPSHOT.jar",
+          "url": "griffon-cli-1.6.0-SNAPSHOT.jar",
+          "size": 977351,
+          "sha512": "76e0cdf765ae88964e55aa573142d1e2bc8443ca34204cd46c0d111a70bce28ffa3973ebad12bb2a06ef9ffddff2fc4273ba9b54075bc087f6f731ced227a4ee",
+          "sha256": "dbfd3177e601c87d59917b03259c06f0419152dd6385f40fcbacc3a375efcaf4",
+          "sha1": "08b7239ec144fad45e8c53e05154663373a412a9",
+          "md5": "ad936c98857c4b6f17efccbb4790d430"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.griffon",
+          "module": "griffon-rt",
+          "version": {
+            "requires": "1.6.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.codehaus.griffon",
+          "module": "griffon-resources",
+          "version": {
+            "requires": "1.6.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "log4j",
+          "module": "log4j",
+          "version": {
+            "requires": "1.2.17"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.11"
+          }
+        },
+        {
+          "group": "asm",
+          "module": "asm",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "commons-cli",
+          "module": "commons-cli",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.4"
+          }
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "commons-collections",
+          "module": "commons-collections",
+          "version": {
+            "requires": "3.2.1"
+          }
+        },
+        {
+          "group": "commons-codec",
+          "module": "commons-codec",
+          "version": {
+            "requires": "1.6"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpcore",
+          "version": {
+            "requires": "4.1.2"
+          }
+        },
+        {
+          "group": "com.jcraft",
+          "module": "jzlib",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "xml-resolver",
+          "module": "xml-resolver",
+          "version": {
+            "requires": "1.2"
+          }
+        },
+        {
+          "group": "org.fusesource.jansi",
+          "module": "jansi",
+          "version": {
+            "requires": "1.9"
+          }
+        },
+        {
+          "group": "jline",
+          "module": "jline",
+          "version": {
+            "requires": "2.14.6"
+          }
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.9"
+          }
+        },
+        {
+          "group": "radeox",
+          "module": "radeox",
+          "version": {
+            "requires": "1.0-b2"
+          }
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant-launcher",
+          "version": {
+            "requires": "1.10.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-reload4j",
+          "version": {
+            "requires": "2.0.18"
+          }
+        },
+        {
+          "group": "ch.qos.reload4j",
+          "module": "reload4j",
+          "version": {
+            "requires": "1.2.26"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.5"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.5"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-api"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jul-to-slf4j",
+          "version": {
+            "requires": "1.7.5"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-api"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.17"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.ant",
+              "module": "ant-launcher"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant-junit",
+          "version": {
+            "requires": "1.10.17"
+          },
+          "excludes": [
+            {
+              "group": "junit",
+              "module": "junit"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "3.2.7.RELEASE"
+          },
+          "excludes": [
+            {
+              "group": "org.aspectj",
+              "module": "com.springsource.org.aspectj.weaver"
+            },
+            {
+              "group": "org.apache.commons",
+              "module": "com.springsource.org.apache.commons.logging"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-asm"
+            },
+            {
+              "group": "org.apache.log4",
+              "module": "com.springsource.org.apache.log4j"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-beans",
+          "version": {
+            "requires": "3.2.7.RELEASE"
+          },
+          "excludes": [
+            {
+              "group": "javax.el",
+              "module": "com.springsource.javax.el"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-core"
+            },
+            {
+              "group": "org.apache.commons",
+              "module": "com.springsource.org.apache.commons.logging"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-asm"
+            },
+            {
+              "group": "javax.inject",
+              "module": "com.springsource.javax.inject"
+            },
+            {
+              "group": "net.sourceforge.cglib",
+              "module": "com.springsource.net.sf.cglib"
+            },
+            {
+              "group": "org.apache.log4",
+              "module": "com.springsource.org.apache.log4j"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context",
+          "version": {
+            "requires": "3.2.7.RELEASE"
+          },
+          "excludes": [
+            {
+              "group": "org.aspectj",
+              "module": "com.springsource.org.aspectj.weaver"
+            },
+            {
+              "group": "org.joda",
+              "module": "com.springsource.org.joda.time"
+            },
+            {
+              "group": "javax.jms",
+              "module": "com.springsource.javax.jms"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-expression"
+            },
+            {
+              "group": "javax.ejb",
+              "module": "com.springsource.javax.ejb"
+            },
+            {
+              "group": "org.codehaus.groovy",
+              "module": "com.springsource.org.codehaus.groovy"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-core"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-instrument"
+            },
+            {
+              "group": "org.apache.commons",
+              "module": "com.springsource.org.apache.commons.logging"
+            },
+            {
+              "group": "org.beanshell",
+              "module": "com.springsource.bsh"
+            },
+            {
+              "group": "org.jruby",
+              "module": "com.springsource.org.jruby"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-beans"
+            },
+            {
+              "group": "net.sourceforge.cglib",
+              "module": "com.springsource.net.sf.cglib"
+            },
+            {
+              "group": "edu.emory.mathcs.backport",
+              "module": "com.springsource.edu.emory.mathcs.backport"
+            },
+            {
+              "group": "javax.xml.ws",
+              "module": "com.springsource.javax.xml.ws"
+            },
+            {
+              "group": "javax.validation",
+              "module": "com.springsource.javax.validation"
+            },
+            {
+              "group": "org.aopalliance",
+              "module": "com.springsource.org.aopalliance"
+            },
+            {
+              "group": "javax.annotation",
+              "module": "com.springsource.javax.annotation"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-aop"
+            },
+            {
+              "group": "javax.persistence",
+              "module": "com.springsource.javax.persistence"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-asm"
+            },
+            {
+              "group": "javax.inject",
+              "module": "com.springsource.javax.inject"
+            },
+            {
+              "group": "org.hibernate",
+              "module": "com.springsource.org.hibernate.validator"
+            },
+            {
+              "group": "javax.inject",
+              "module": "com.springsource.org.atinject.tck"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-context-support",
+          "version": {
+            "requires": "3.2.7.RELEASE"
+          },
+          "excludes": [
+            {
+              "group": "javax.activation",
+              "module": "com.springsource.javax.activation"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-core"
+            },
+            {
+              "group": "org.apache.commons",
+              "module": "com.springsource.org.apache.commons.logging"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-transaction"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-beans"
+            },
+            {
+              "group": "net.sourceforge.ehcache",
+              "module": "com.springsource.net.sf.ehcache"
+            },
+            {
+              "group": "org.apache.velocity",
+              "module": "com.springsource.org.apache.velocity"
+            },
+            {
+              "group": "org.freemarker",
+              "module": "com.springsource.freemarker"
+            },
+            {
+              "group": "javax.mail",
+              "module": "com.springsource.javax.mail"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-jdbc"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-asm"
+            },
+            {
+              "group": "org.apache.commons",
+              "module": "com.springsource.org.apache.commons.collections"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-context"
+            },
+            {
+              "group": "com.bea.commonj",
+              "module": "com.springsource.commonj"
+            },
+            {
+              "group": "net.sourceforge.jasperreports",
+              "module": "com.springsource.net.sf.jasperreports"
+            },
+            {
+              "group": "com.opensymphony.quartz",
+              "module": "com.springsource.org.quartz"
+            }
+          ]
+        },
+        {
+          "group": "org.xhtmlrenderer",
+          "module": "core-renderer",
+          "version": {
+            "requires": "R8"
+          },
+          "excludes": [
+            {
+              "group": "com.lowagie",
+              "module": "itext"
+            }
+          ]
+        },
+        {
+          "group": "com.lowagie",
+          "module": "itext",
+          "version": {
+            "requires": "2.0.8"
+          },
+          "excludes": [
+            {
+              "group": "bouncycastle",
+              "module": "bcmail-jdk14"
+            },
+            {
+              "group": "bouncycastle",
+              "module": "bcprov-jdk14"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-docs",
+          "version": {
+            "requires": "2.5.6"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "jcl-over-slf4j"
+            },
+            {
+              "group": "org.xhtmlrenderer",
+              "module": "core-renderer"
+            },
+            {
+              "group": "org.grails:grails-gdoc",
+              "module": "engine"
+            },
+            {
+              "group": "org.codehaus.groovy",
+              "module": "groovy-all"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant"
+            },
+            {
+              "group": "commons-lang",
+              "module": "commons-lang"
+            },
+            {
+              "group": "radeox",
+              "module": "radeox"
+            }
+          ]
+        },
+        {
+          "group": "org.grails",
+          "module": "grails-gdoc-engine",
+          "version": {
+            "requires": "1.0.1"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "jcl-over-slf4j"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.ivy",
+          "module": "ivy",
+          "version": {
+            "requires": "2.2.0"
+          },
+          "excludes": [
+            {
+              "group": "commons-vfs",
+              "module": "commons-vfs"
+            },
+            {
+              "group": "oro",
+              "module": "oro"
+            },
+            {
+              "group": "com.jcraft",
+              "module": "jsch"
+            },
+            {
+              "group": "org.bouncycastle",
+              "module": "bcpg-jdk14"
+            },
+            {
+              "group": "commons-httpclient",
+              "module": "commons-httpclient"
+            },
+            {
+              "group": "ant",
+              "module": "ant-trax"
+            },
+            {
+              "group": "org.bouncycastle",
+              "module": "bcprov-jdk14"
+            },
+            {
+              "group": "ant",
+              "module": "ant-nodeps"
+            },
+            {
+              "group": "ant",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.gant",
+          "module": "gant",
+          "version": {
+            "requires": "2.1.0-groovy5"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.groovy",
+              "module": "groovy-all"
+            },
+            {
+              "group": "org.apache.ivy",
+              "module": "ivy"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant"
+            },
+            {
+              "group": "commons-cli",
+              "module": "commons-cli"
+            },
+            {
+              "group": "org.groovy.groovy",
+              "module": "groovy-all"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.groovy.modules.http-builder",
+          "module": "http-builder",
+          "version": {
+            "requires": "0.8.0-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "xml-resolver",
+              "module": "xml-resolver"
+            },
+            {
+              "group": "com.google.appengine",
+              "module": "appengine-api-1.0-sdk"
+            },
+            {
+              "group": "oauth.signpost",
+              "module": "signpost-commonshttp4"
+            },
+            {
+              "group": "xerces",
+              "module": "xercesImpl"
+            },
+            {
+              "group": "net.sf.json-lib",
+              "module": "json-lib"
+            },
+            {
+              "group": "oauth.signpost",
+              "module": "signpost-core"
+            },
+            {
+              "group": "org.apache.httpcomponents",
+              "module": "httpclient"
+            },
+            {
+              "group": "net.sourceforge.nekohtml",
+              "module": "nekohtml"
+            },
+            {
+              "group": "log4j",
+              "module": "log4j"
+            },
+            {
+              "group": "org.apache.groovy",
+              "module": "groovy"
+            }
+          ]
+        },
+        {
+          "group": "net.sf.json-lib",
+          "module": "json-lib",
+          "version": {
+            "requires": "2.4"
+          },
+          "excludes": [
+            {
+              "group": "commons-collections",
+              "module": "commons-collections"
+            },
+            {
+              "group": "oro",
+              "module": "oro"
+            },
+            {
+              "group": "org.codehaus.groovy",
+              "module": "groovy-all"
+            },
+            {
+              "group": "commons-lang",
+              "module": "commons-lang"
+            },
+            {
+              "group": "xom",
+              "module": "xom"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "net.sf.ezmorph",
+              "module": "ezmorph"
+            },
+            {
+              "group": "log4j",
+              "module": "log4j"
+            },
+            {
+              "group": "commons-beanutils",
+              "module": "commons-beanutils"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "json-lib",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "jdk15"
+            }
+          }
+        },
+        {
+          "group": "net.sf.ezmorph",
+          "module": "ezmorph",
+          "version": {
+            "requires": "1.0.6"
+          },
+          "excludes": [
+            {
+              "group": "commons-lang",
+              "module": "commons-lang"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            },
+            {
+              "group": "log4j",
+              "module": "log4j"
+            },
+            {
+              "group": "commons-beanutils",
+              "module": "commons-beanutils"
+            }
+          ]
+        },
+        {
+          "group": "commons-beanutils",
+          "module": "commons-beanutils",
+          "version": {
+            "requires": "1.8.3"
+          },
+          "excludes": [
+            {
+              "group": "commons-collections",
+              "module": "commons-collections"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.httpcomponents",
+          "module": "httpclient",
+          "version": {
+            "requires": "4.1.2"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.httpcomponents",
+              "module": "httpcore"
+            },
+            {
+              "group": "commons-codec",
+              "module": "commons-codec"
+            },
+            {
+              "group": "commons-logging",
+              "module": "commons-logging"
+            }
+          ]
+        },
+        {
+          "group": "com.jcraft",
+          "module": "jsch",
+          "version": {
+            "requires": "0.1.48"
+          },
+          "excludes": [
+            {
+              "group": "com.jcraft",
+              "module": "jzlib"
+            }
+          ]
+        },
+        {
+          "group": "xerces",
+          "module": "xercesImpl",
+          "version": {
+            "requires": "2.9.1"
+          },
+          "excludes": [
+            {
+              "group": "xml-apis",
+              "module": "xml-apis"
+            },
+            {
+              "group": "xml-resolver",
+              "module": "xml-resolver"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-all",
+          "version": {
+            "requires": "6.0.0-alpha-1"
+          },
+          "excludes": [
+            {
+              "group": "junit",
+              "module": "junit"
+            },
+            {
+              "group": "org.apache.ivy",
+              "module": "ivy"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-dateutil",
+          "version": {
+            "requires": "6.0.0-alpha-1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "griffon-cli-1.6.0-SNAPSHOT.jar",
+          "url": "griffon-cli-1.6.0-SNAPSHOT.jar",
+          "size": 977351,
+          "sha512": "76e0cdf765ae88964e55aa573142d1e2bc8443ca34204cd46c0d111a70bce28ffa3973ebad12bb2a06ef9ffddff2fc4273ba9b54075bc087f6f731ced227a4ee",
+          "sha256": "dbfd3177e601c87d59917b03259c06f0419152dd6385f40fcbacc3a375efcaf4",
+          "sha1": "08b7239ec144fad45e8c53e05154663373a412a9",
+          "md5": "ad936c98857c4b6f17efccbb4790d430"
+        }
+      ]
+    }
+  ]
+}

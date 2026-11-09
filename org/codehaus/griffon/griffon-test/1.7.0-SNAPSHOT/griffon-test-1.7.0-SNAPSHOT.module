@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.codehaus.griffon",
+    "module": "griffon-test",
+    "version": "1.7.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.griffon",
+          "module": "griffon-rt",
+          "version": {
+            "requires": "1.7.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-test",
+          "version": {
+            "requires": "6.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "griffon-test-1.7.0-SNAPSHOT.jar",
+          "url": "griffon-test-1.7.0-SNAPSHOT.jar",
+          "size": 57653,
+          "sha512": "630480d6554973e9f29cdaa2b692528936c269d9f8ec38a905fa7a275287d51c6126bd2c12d670ad18f4a25e9812f338816d1e22b4b0b1302adfe747ed461dbe",
+          "sha256": "974537353fd56031f5801f489bf4f3772e7b4489b966ed899c4a128a994dfcf2",
+          "sha1": "ad45d6ed6bb32ea5ce639608c917b11db4eec48e",
+          "md5": "945794a91cd7b2f0fd2b3db44422bdec"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.griffon",
+          "module": "griffon-rt",
+          "version": {
+            "requires": "1.7.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "junit",
+          "module": "junit",
+          "version": {
+            "requires": "4.13.2"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-test",
+          "version": {
+            "requires": "6.0.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "griffon-test-1.7.0-SNAPSHOT.jar",
+          "url": "griffon-test-1.7.0-SNAPSHOT.jar",
+          "size": 57653,
+          "sha512": "630480d6554973e9f29cdaa2b692528936c269d9f8ec38a905fa7a275287d51c6126bd2c12d670ad18f4a25e9812f338816d1e22b4b0b1302adfe747ed461dbe",
+          "sha256": "974537353fd56031f5801f489bf4f3772e7b4489b966ed899c4a128a994dfcf2",
+          "sha1": "ad45d6ed6bb32ea5ce639608c917b11db4eec48e",
+          "md5": "945794a91cd7b2f0fd2b3db44422bdec"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "griffon-test-1.7.0-SNAPSHOT-sources.jar",
+          "url": "griffon-test-1.7.0-SNAPSHOT-sources.jar",
+          "size": 28115,
+          "sha512": "c75199fc633afb1230ead35dac575a3787bc5c87e6cbab020a44ae52f654a1e0f8c4a7c917ac534716e87c9fa8266c0e2f3468275bb75420ab2b03c2ee458f44",
+          "sha256": "ef77ee8445d313dc70f6e35973ad0ac843e7941d98c603921f1550c4c2120042",
+          "sha1": "83802d797709a9b4ed734576f61c0f3f9f9a2fa3",
+          "md5": "99eb3b2d3c813a542976f454a961d8a3"
+        }
+      ]
+    }
+  ]
+}

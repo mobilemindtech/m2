@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.codehaus.griffon",
+    "module": "griffon-resources",
+    "version": "1.6.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "griffon-resources-1.6.1.jar",
+          "url": "griffon-resources-1.6.1.jar",
+          "size": 886653,
+          "sha512": "7c3473429ef683f43b3ef506c47f69cdfc843e1f6df4543f4d54ba3cdf0eef004002705bb2c489a4aeb41ba0816a6133faa8e78ed73a921ec9c5559d1002c41b",
+          "sha256": "f6cb87e2c05a5f910ba2ddd53bc3ab5ea6348ca9980b0fe013d1db5c9b6a0fd9",
+          "sha1": "f49e29939a3ce62d414897532fc525bd35c14724",
+          "md5": "6b0e8cecea34214f76e18af514044d22"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-all",
+          "version": {
+            "requires": "6.0.0-alpha-1"
+          },
+          "excludes": [
+            {
+              "group": "junit",
+              "module": "junit"
+            },
+            {
+              "group": "org.apache.ivy",
+              "module": "ivy"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-dateutil",
+          "version": {
+            "requires": "6.0.0-alpha-1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "griffon-resources-1.6.1.jar",
+          "url": "griffon-resources-1.6.1.jar",
+          "size": 886653,
+          "sha512": "7c3473429ef683f43b3ef506c47f69cdfc843e1f6df4543f4d54ba3cdf0eef004002705bb2c489a4aeb41ba0816a6133faa8e78ed73a921ec9c5559d1002c41b",
+          "sha256": "f6cb87e2c05a5f910ba2ddd53bc3ab5ea6348ca9980b0fe013d1db5c9b6a0fd9",
+          "sha1": "f49e29939a3ce62d414897532fc525bd35c14724",
+          "md5": "6b0e8cecea34214f76e18af514044d22"
+        }
+      ]
+    }
+  ]
+}

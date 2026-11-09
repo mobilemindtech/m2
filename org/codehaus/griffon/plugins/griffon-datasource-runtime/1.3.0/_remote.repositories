@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 21 18:38:54 GMT-03:00 2026
+griffon-datasource-runtime-1.3.0-javadoc.jar>=
+griffon-datasource-runtime-1.3.0-sources.jar>=
+griffon-datasource-runtime-1.3.0.jar>=
+griffon-datasource-runtime-1.3.0.pom>=

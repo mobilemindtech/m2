@@ -1,0 +1,253 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.codehaus.griffon",
+    "module": "griffon-shell",
+    "version": "1.6.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "griffon-shell-1.6.0-SNAPSHOT.jar",
+          "url": "griffon-shell-1.6.0-SNAPSHOT.jar",
+          "size": 70522,
+          "sha512": "696558d0aee1f8231c204be800353f1d57982d3fdbb79858ec4630d17db0563f9d55ca8d74a281372db7c1a1194973ae2eb1646991151b766d41170fae183c64",
+          "sha256": "ce5125737ab6a6c3946394b2b82823d4a78669f5d958ba7037f63b8e54e84f63",
+          "sha1": "512fbf930843fafe1ea7aa454db5022b415d2206",
+          "md5": "7aa4e6e07ff82c5c014d7ee589821970"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.griffon",
+          "module": "griffon-cli",
+          "version": {
+            "requires": "1.6.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.codehaus.griffon",
+          "module": "griffon-rt",
+          "version": {
+            "requires": "1.6.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "asm",
+          "module": "asm",
+          "version": {
+            "requires": "3.3.1"
+          }
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "log4j",
+          "module": "log4j",
+          "version": {
+            "requires": "1.2.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-reload4j",
+          "version": {
+            "requires": "2.0.18"
+          }
+        },
+        {
+          "group": "ch.qos.reload4j",
+          "module": "reload4j",
+          "version": {
+            "requires": "1.2.26"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.5"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.5"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-api"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jul-to-slf4j",
+          "version": {
+            "requires": "1.7.5"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-api"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.ant",
+          "module": "ant",
+          "version": {
+            "requires": "1.10.17"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.ant",
+              "module": "ant-launcher"
+            }
+          ]
+        },
+        {
+          "group": "org.codehaus.gant",
+          "module": "gant",
+          "version": {
+            "requires": "2.1.0-groovy5"
+          },
+          "excludes": [
+            {
+              "group": "org.apache.groovy",
+              "module": "groovy-all"
+            },
+            {
+              "group": "org.apache.ivy",
+              "module": "ivy"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant"
+            },
+            {
+              "group": "org.codehaus.groovy",
+              "module": "groovy-all"
+            },
+            {
+              "group": "commons-cli",
+              "module": "commons-cli"
+            }
+          ]
+        },
+        {
+          "group": "org.springframework",
+          "module": "spring-core",
+          "version": {
+            "requires": "3.2.7.RELEASE"
+          },
+          "excludes": [
+            {
+              "group": "org.aspectj",
+              "module": "com.springsource.org.aspectj.weaver"
+            },
+            {
+              "group": "org.apache.commons",
+              "module": "com.springsource.org.apache.commons.logging"
+            },
+            {
+              "group": "org.springframework",
+              "module": "spring-asm"
+            },
+            {
+              "group": "org.apache.log4",
+              "module": "com.springsource.org.apache.log4j"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.karaf.shell",
+          "module": "org.apache.karaf.shell.console",
+          "version": {
+            "requires": "2.2.5"
+          }
+        },
+        {
+          "group": "org.apache.karaf.shell",
+          "module": "org.apache.karaf.shell.commands",
+          "version": {
+            "requires": "2.2.5"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-all",
+          "version": {
+            "requires": "6.0.0-alpha-1"
+          },
+          "excludes": [
+            {
+              "group": "junit",
+              "module": "junit"
+            },
+            {
+              "group": "org.apache.ivy",
+              "module": "ivy"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-dateutil",
+          "version": {
+            "requires": "6.0.0-alpha-1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "griffon-shell-1.6.0-SNAPSHOT.jar",
+          "url": "griffon-shell-1.6.0-SNAPSHOT.jar",
+          "size": 70522,
+          "sha512": "696558d0aee1f8231c204be800353f1d57982d3fdbb79858ec4630d17db0563f9d55ca8d74a281372db7c1a1194973ae2eb1646991151b766d41170fae183c64",
+          "sha256": "ce5125737ab6a6c3946394b2b82823d4a78669f5d958ba7037f63b8e54e84f63",
+          "sha1": "512fbf930843fafe1ea7aa454db5022b415d2206",
+          "md5": "7aa4e6e07ff82c5c014d7ee589821970"
+        }
+      ]
+    }
+  ]
+}

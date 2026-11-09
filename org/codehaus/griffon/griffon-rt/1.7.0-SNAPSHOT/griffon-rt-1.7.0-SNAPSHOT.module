@@ -1,0 +1,182 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.codehaus.griffon",
+    "module": "griffon-rt",
+    "version": "1.7.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-swing",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-xml",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-dateutil",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "griffon-rt-1.7.0-SNAPSHOT.jar",
+          "url": "griffon-rt-1.7.0-SNAPSHOT.jar",
+          "size": 686750,
+          "sha512": "eec03f5378b79b248c5aeddb450a310527fa3f2362d3ca08147225113023175aedc1df37c52938531aaf833c07ceed61cd839d11ba71cb969f47e89a20780275",
+          "sha256": "35ac22cf220b4a3ba29282f51b76484e86f79823d37941176f348b47378766d9",
+          "sha1": "288d6953e58caf0064d7e67b80b56b5b337da9ec",
+          "md5": "f942333ff60db6f3c60c1074b43f5039"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "ch.qos.reload4j",
+          "module": "reload4j",
+          "version": {
+            "requires": "1.2.26"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-swing",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-xml",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-dateutil",
+          "version": {
+            "requires": "6.0.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-reload4j",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "2.0.20"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jul-to-slf4j",
+          "version": {
+            "requires": "2.0.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "griffon-rt-1.7.0-SNAPSHOT.jar",
+          "url": "griffon-rt-1.7.0-SNAPSHOT.jar",
+          "size": 686750,
+          "sha512": "eec03f5378b79b248c5aeddb450a310527fa3f2362d3ca08147225113023175aedc1df37c52938531aaf833c07ceed61cd839d11ba71cb969f47e89a20780275",
+          "sha256": "35ac22cf220b4a3ba29282f51b76484e86f79823d37941176f348b47378766d9",
+          "sha1": "288d6953e58caf0064d7e67b80b56b5b337da9ec",
+          "md5": "f942333ff60db6f3c60c1074b43f5039"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "griffon-rt-1.7.0-SNAPSHOT-sources.jar",
+          "url": "griffon-rt-1.7.0-SNAPSHOT-sources.jar",
+          "size": 439803,
+          "sha512": "022e1cf75997cf3db8478866a235094e524f2c161325563a5c9b4578561b1fcfed88330863024f3e3185d0ee23d47374dfd1a1cda0c7afebdfd37c66ba3d5163",
+          "sha256": "c19fb3722434d3e4aa89193bc47b0b7c04c10f87731b7e29ae536db66881224d",
+          "sha1": "1d02158dc909b296b0748ca4760641c8c1a8c81c",
+          "md5": "76a72a511469bafdac86fd1a3d6a0851"
+        }
+      ]
+    }
+  ]
+}

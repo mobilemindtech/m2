@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 21 18:39:20 GMT-03:00 2026
+griffon-gsql-runtime-1.2.1-javadoc.jar>=
+griffon-gsql-runtime-1.2.1-sources.jar>=
+griffon-gsql-runtime-1.2.1.jar>=
+griffon-gsql-runtime-1.2.1.pom>=

@@ -1,0 +1,158 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.codehaus.griffon",
+    "module": "griffon-rt",
+    "version": "1.6.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "griffon-rt-1.6.0-SNAPSHOT.jar",
+          "url": "griffon-rt-1.6.0-SNAPSHOT.jar",
+          "size": 484331,
+          "sha512": "5221e42a36c9e2c2069b9ffc4ea2a95713341051176b6f0b3cd68f67a56a618203bbf8a3c30ac1e86033a81bb21167615215a348f2865538f550819ad459e6aa",
+          "sha256": "a998c9badb1bb18da9ccf6382ad56fc1cc66a7161b97a84de19f6e090b7f05f3",
+          "sha1": "e440fd345c2c229603c4df834f5e49ab2a2f5a8a",
+          "md5": "d422ec684db7c35a78bb0f0fb21e3d31"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "log4j",
+          "module": "log4j",
+          "version": {
+            "requires": "1.2.17"
+          },
+          "excludes": [
+            {
+              "group": "ant",
+              "module": "ant-junit"
+            },
+            {
+              "group": "ant-contrib",
+              "module": "ant-contrib"
+            },
+            {
+              "group": "ant",
+              "module": "ant-nodeps"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-reload4j",
+          "version": {
+            "requires": "2.0.18"
+          }
+        },
+        {
+          "group": "ch.qos.reload4j",
+          "module": "reload4j",
+          "version": {
+            "requires": "1.2.26"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.5"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jcl-over-slf4j",
+          "version": {
+            "requires": "1.7.5"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-api"
+            }
+          ]
+        },
+        {
+          "group": "org.slf4j",
+          "module": "jul-to-slf4j",
+          "version": {
+            "requires": "1.7.5"
+          },
+          "excludes": [
+            {
+              "group": "org.slf4j",
+              "module": "slf4j-api"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-all",
+          "version": {
+            "requires": "6.0.0-alpha-1"
+          },
+          "excludes": [
+            {
+              "group": "junit",
+              "module": "junit"
+            },
+            {
+              "group": "org.apache.ivy",
+              "module": "ivy"
+            },
+            {
+              "group": "org.apache.ant",
+              "module": "ant"
+            }
+          ]
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-dateutil",
+          "version": {
+            "requires": "6.0.0-alpha-1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "griffon-rt-1.6.0-SNAPSHOT.jar",
+          "url": "griffon-rt-1.6.0-SNAPSHOT.jar",
+          "size": 484331,
+          "sha512": "5221e42a36c9e2c2069b9ffc4ea2a95713341051176b6f0b3cd68f67a56a618203bbf8a3c30ac1e86033a81bb21167615215a348f2865538f550819ad459e6aa",
+          "sha256": "a998c9badb1bb18da9ccf6382ad56fc1cc66a7161b97a84de19f6e090b7f05f3",
+          "sha1": "e440fd345c2c229603c4df834f5e49ab2a2f5a8a",
+          "md5": "d422ec684db7c35a78bb0f0fb21e3d31"
+        }
+      ]
+    }
+  ]
+}

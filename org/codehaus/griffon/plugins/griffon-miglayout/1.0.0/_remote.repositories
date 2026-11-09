@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 21 18:38:12 GMT-03:00 2026
+griffon-miglayout-1.0.0-sources.jar>=
+griffon-miglayout-1.0.0.jar>=
+griffon-miglayout-1.0.0.pom>=

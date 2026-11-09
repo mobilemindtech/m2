@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.codehaus.griffon.plugins",
+    "module": "griffon-swing-runtime",
+    "version": "1.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "griffon-swing-runtime-1.5.0.jar",
+          "url": "griffon-swing-runtime-1.5.0.jar",
+          "size": 114435,
+          "sha512": "515013259eaf01b1aba5eb603be2d72b3ce63d3277b7a502e3a23fb286b79d616f09138e378a2254c03688138e5ed47a09bc6144d8a363973d685e42a8c790c1",
+          "sha256": "2d200c0f516dc3ebf992ff061a1f1c674b3c81c19604a3242aa5ce5e421e4310",
+          "sha1": "40ffda0970073f9f493eb6cc4a0339d537796b36",
+          "md5": "c2a05beb0e52b694675f43feb64b3d89"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "6.0.0-alpha-1"
+          }
+        },
+        {
+          "group": "org.apache.groovy",
+          "module": "groovy-swing",
+          "version": {
+            "requires": "6.0.0-alpha-1"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.5"
+          }
+        },
+        {
+          "group": "commons-lang",
+          "module": "commons-lang",
+          "version": {
+            "requires": "2.6"
+          }
+        },
+        {
+          "group": "org.codehaus.griffon",
+          "module": "griffon-rt",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "griffon-swing-runtime-1.5.0.jar",
+          "url": "griffon-swing-runtime-1.5.0.jar",
+          "size": 114435,
+          "sha512": "515013259eaf01b1aba5eb603be2d72b3ce63d3277b7a502e3a23fb286b79d616f09138e378a2254c03688138e5ed47a09bc6144d8a363973d685e42a8c790c1",
+          "sha256": "2d200c0f516dc3ebf992ff061a1f1c674b3c81c19604a3242aa5ce5e421e4310",
+          "sha1": "40ffda0970073f9f493eb6cc4a0339d537796b36",
+          "md5": "c2a05beb0e52b694675f43feb64b3d89"
+        }
+      ]
+    }
+  ]
+}
